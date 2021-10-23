@@ -22,7 +22,8 @@
 <body>
 
     <!-- MAIN NAVBAR ======================= -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <?php include 'navbar-main.php'; ?>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid px-md-5">
             <button class="col-md-1 navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarToggleMain" aria-controls="navbarToggleMain" aria-expanded="true"
@@ -48,13 +49,16 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> -->
 
     <div class="m-5">
         <h1 class="m-5">Content</h1>
     </div>
+
+    
     <!-- MAIN FOOTER ======================= -->
-    <footer class="page-footer font-small py-3 px-1 bg-light">
+    <?php include 'footer-main.php' ?>
+    <!-- <footer class="page-footer font-small py-3 px-1 bg-light">
         <div class="container-fluid row">
             <div class="col-lg-4 row">
                 <a class="col-lg-6" href="index.html">
@@ -143,7 +147,7 @@
             </div>
         </div>
 
-    </footer>
+    </footer> -->
 
     <!-- JS BOOTSTRAP 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
