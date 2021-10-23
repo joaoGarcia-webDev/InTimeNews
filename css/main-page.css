@@ -1,9 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* ========================================
+MAIN CSS FILE
+CREATED: 2021-10-23
+
+PROJECT: Portal informativo sobre a pandemia de COVID-19 e formas de prevenção
+BY: Los Fofuritos 
+===========================================
+
+version: 0.1
+last-update: 2021-10-23
+*/
+
+
+/* MAIN CLASSES TO COLORS BACKGROUND */
+.bg-dark-blue { background-color: #0B3954;}
+.bg-light-blue { background-color: #087E8B;}
+.bg-light { background-color: #BFD7EA;}
+.bg-light-red { background-color: #FF5A5F;}
+.bg-dark-red { background-color: #C81D25;}
 
 nav .container-fluid a img.logo-img{
-    max-height: 70px;
+    max-height: 75px;
 }
+nav .container-fluid .collapse .banner{
+    max-height: 100px;
+    object-fit: cover;
+}
+
