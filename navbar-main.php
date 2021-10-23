@@ -5,7 +5,7 @@
             aria-label="Menu de navegação">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="col-8 col-md-4 navbar-brand" href="index.html">
+        <a class="col-8 col-md-4 navbar-brand" href="index.php">
             <img class="img-fluid logo-img" src="img/svg/main_logo_v0.svg"
                 alt="Logo principal do portal de notícias InTimeNews">
         </a>
