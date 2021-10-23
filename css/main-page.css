@@ -26,3 +26,9 @@ nav .container-fluid .collapse .banner{
     object-fit: cover;
 }
 
+ul.icons li a i{
+    font-size: 3em;
+}
+ul.icons li{
+    justify-content: center;
+}
