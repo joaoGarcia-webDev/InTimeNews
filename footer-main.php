@@ -1,6 +1,6 @@
 <footer class="page-footer container-fluid font-small py-3 px-1 bg-light">
-    <div class="row justify-content-center">
-        <div class="col-12 col-md-4 row">
+    <div class="row justify-content-center me-0">
+        <div class="col-11 col-md-4 row">
             <a class="col-md-12 col-lg-8" href="index.php">
                 <img class="img-fluid logo-img" src="img/svg/relogio_logo.svg"
                     alt="Logo principal do portal de notícias InTimeNews">
@@ -10,7 +10,7 @@
                 <p>Notícias</p>
             </div>
         </div>
-        <div class="col-md-4 row">
+        <div class="col-11 col-md-4 row">
             <div class="col-md-12">
                 <h5 class="font-weight-bold text-uppercase mb-2">Notícias</h5>
 
@@ -45,7 +45,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-4 row">
+        <div class="col-11 col-md-4 row">
             <div class="col-md-12">
                 <h5 class="font-weight-bold text-uppercase mb-2">Nossa area social</h5>
 
