@@ -26,65 +26,69 @@
     <?php include 'navbar-main.php'; ?>
 
     <!-- PAGE CONTENT -->
-    <main class="container-fluid">
+    <main class="container-xxl">
         <!-- ================
         section-news -->
-        <section class="section-news-content row">
-            <article class="article-news col-sm-12 col-md-12 col-lg-6">
-                <header class="news-header">
-                    <h1>Notícia principal da pag</h1>
-                    <div class="news-img row">
-                        <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
-                        <span class="under-img-text col">25/10/2021</span>
-                        <span class="under-img-text col">tempo de leitura: 5 minutos</span>
-                    </div>
-                </header>
-                <p class="news-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
-                </p>
-            </article>
+        <section class="section-news-content mx-auto row">
+            <div class="initial-news col-sm-12 col-md-12 col-lg-6">
+                <article class="article-news">
+                    <header class="news-header">
+                        <h1>Notícia principal da pag</h1>
+                        <div class="news-img row">
+                            <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
+                            <span class="under-img-text col">25/10/2021</span>
+                            <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                        </div>
+                    </header>
+                    <p class="news-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                    </p>
+                </article>
+            </div>
+            
+            <div class="aside-news col-sm-12 col-md-12 col-lg-6 row">
+                <article class="article-news col-12">
+                    <header class="news-header">
+                        <h2>Notícia principal da pag</h2>
+                        <div class="news-img row">
+                            <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
+                            <span class="under-img-text col">25/10/2021</span>
+                            <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                        </div>
+                    </header>
+                    <p class="news-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                    </p>
+                </article>
 
-            <article class="article-news col-sm-12 col-md-12 col-lg-6">
-                <header class="news-header">
-                    <h2>Notícia principal da pag</h2>
-                    <div class="news-img row">
-                        <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
-                        <span class="under-img-text col">25/10/2021</span>
-                        <span class="under-img-text col">tempo de leitura: 5 minutos</span>
-                    </div>
-                </header>
-                <p class="news-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
-                </p>
-            </article>
+                <article class="article-news col-sm-12 col-md-6 col-lg-6">
+                    <header class="news-header">
+                        <h2>Notícia principal da pag</h2>
+                        <div class="news-img row">
+                            <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
+                            <span class="under-img-text col">25/10/2021</span>
+                            <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                        </div>
+                    </header>
+                    <p class="news-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                    </p>
+                </article>
 
-            <article class="article-news col-sm-12 col-md-12 col-lg-6">
-                <header class="news-header">
-                    <h2>Notícia principal da pag</h2>
-                    <div class="news-img row">
-                        <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
-                        <span class="under-img-text col">25/10/2021</span>
-                        <span class="under-img-text col">tempo de leitura: 5 minutos</span>
-                    </div>
-                </header>
-                <p class="news-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
-                </p>
-            </article>
-
-            <article class="article-news col-sm-12 col-md-12 col-lg-6">
-                <header class="news-header">
-                    <h2>Notícia principal da pag</h2>
-                    <div class="news-img row">
-                        <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
-                        <span class="under-img-text col">25/10/2021</span>
-                        <span class="under-img-text col">tempo de leitura: 5 minutos</span>
-                    </div>
-                </header>
-                <p class="news-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
-                </p>
-            </article>
+                <article class="article-news col-sm-12 col-md-6 col-lg-6">
+                    <header class="news-header">
+                        <h2>Notícia principal da pag</h2>
+                        <div class="news-img row">
+                            <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
+                            <span class="under-img-text col">25/10/2021</span>
+                            <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                        </div>
+                    </header>
+                    <p class="news-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                    </p>
+                </article>
+            </div>
         </section>
         <!-- section-news
         ================ -->

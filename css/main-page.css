@@ -45,6 +45,9 @@ ul.icons li{
 .section-news-content .article-news{
     margin: 1em 0;
 }
+.section-news-content .initial-news .article-news .news-header .news-img img{
+    height: 350px;
+}
 .section-news-content .article-news .news-header .news-img img{
     height: 150px;
     object-fit: cover;
@@ -54,3 +57,20 @@ ul.icons li{
 }
 
 /* SECTION-PERSONAL-PAGES */
+
+
+/* ============================== 
+ALL MEDIA RESPONSIVE CLASSES
+================================= */
+/* MEDIA FOR - LG -  */
+/* @media only screen and (max-width:1199px){
+    
+} */
+/* MEDIA FOR - MD -  */
+/* @media only screen and (max-width:991px){
+    
+} */
+/* MEDIA FOR - SM -  */
+/* @media only screen and (max-width:767px){
+    
+} */
