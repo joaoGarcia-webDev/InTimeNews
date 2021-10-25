@@ -1,5 +1,5 @@
-<footer class="page-footer font-small py-3 px-1 bg-light">
-    <div class="container-fluid row justify-content-center">
+<footer class="page-footer container-fluid font-small py-3 px-1 bg-light">
+    <div class="row justify-content-center">
         <div class="col-12 col-md-4 row">
             <a class="col-md-12 col-lg-8" href="index.php">
                 <img class="img-fluid logo-img" src="img/svg/relogio_logo.svg"
