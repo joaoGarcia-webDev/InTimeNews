@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- FAVICON -->
+    <link rel="stylesheet" href="">
     <!-- BOOTSTRAP 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -24,11 +25,88 @@
     <!-- MAIN NAVBAR ======================= -->
     <?php include 'navbar-main.php'; ?>
 
-    <div class="m-5">
-        <h1 class="m-5">Content</h1>
-    </div>
+    <!-- PAGE CONTENT -->
+    <main class="container-fluid">
+        <!-- ================
+        section-news -->
+        <section class="section-news-content row">
+            <article class="article-news col-sm-12 col-md-12 col-lg-6">
+                <header class="news-header">
+                    <h1>Notícia principal da pag</h1>
+                    <div class="news-img row">
+                        <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
+                        <span class="under-img-text col">25/10/2021</span>
+                        <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                    </div>
+                </header>
+                <p class="news-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                </p>
+            </article>
 
+            <article class="article-news col-sm-12 col-md-12 col-lg-6">
+                <header class="news-header">
+                    <h2>Notícia principal da pag</h2>
+                    <div class="news-img row">
+                        <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
+                        <span class="under-img-text col">25/10/2021</span>
+                        <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                    </div>
+                </header>
+                <p class="news-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                </p>
+            </article>
+
+            <article class="article-news col-sm-12 col-md-12 col-lg-6">
+                <header class="news-header">
+                    <h2>Notícia principal da pag</h2>
+                    <div class="news-img row">
+                        <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
+                        <span class="under-img-text col">25/10/2021</span>
+                        <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                    </div>
+                </header>
+                <p class="news-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                </p>
+            </article>
+
+            <article class="article-news col-sm-12 col-md-12 col-lg-6">
+                <header class="news-header">
+                    <h2>Notícia principal da pag</h2>
+                    <div class="news-img row">
+                        <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
+                        <span class="under-img-text col">25/10/2021</span>
+                        <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                    </div>
+                </header>
+                <p class="news-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                </p>
+            </article>
+        </section>
+        <!-- section-news
+        ================ -->
+
+        <!-- <section class="section-personal-pages">
+            <h2>Informações gerais</h2>
+            <div class="personal-page-card row">
+                <div class="col-6">
+                    <img class="img-fluid" src="img/just_example/news-250x250.jpg" alt="Imagem das paginas pessoais">
+                </div>
+                <div class="personal-page-text col-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque nihil autem ab quod impedit velit dicta ducimus, laudantium.</p>
+                </div>
+                <div class="under-card col-12 row">
+                    <span class="col">25/10/2021</span><span class="col">João Victor Garcia</span>
+                </div>
+            </div>
+        </section> -->
+
+    </main>
     
+
     <!-- MAIN FOOTER ======================= -->
     <?php include 'footer-main.php' ?>
 
