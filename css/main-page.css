@@ -7,9 +7,17 @@ PROJECT: Portal informativo sobre a pandemia de COVID-19 e formas de prevenção
 BY: Los Fofuritos 
 ===========================================
 
-version: 0.1
-last-update: 2021-10-23
+version: 0.0.2
+last-update: 2021-11-08
 =========================================== */
+
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Lora:wght@400;600&display=swap');
+/* ===================================
+USAGE: 
+font-family: 'Cabin', sans-serif;
+font-family: 'Roboto Mono', monospace;
+======================================= */
 
 /* MAIN CLASSES TO COLORS BACKGROUND */
 .bg-dark-blue { background-color: #0B3954;}
@@ -17,6 +25,7 @@ last-update: 2021-10-23
 .bg-light { background-color: #BFD7EA;}
 .bg-light-red { background-color: #FF5A5F;}
 .bg-dark-red { background-color: #C81D25;}
+
 
 /* NAV CUSTOMIZE CLASS */
 nav{
@@ -41,20 +50,62 @@ ul.icons li{
     justify-content: center;
 }
 
-/* SECTION-NEWS-CONTENT */
-.section-news-content .article-news{
+/* ARTICLE-NEWS-CONTENT */
+.article-news-content .section-news{
     margin: 1em 0;
 }
-.section-news-content .initial-news .article-news .news-header .news-img img{
+.article-news-content .initial-news .section-news .news-header .news-img img{
     height: 350px;
 }
-.section-news-content .article-news .news-header .news-img img{
+.article-news-content .section-news .news-header .news-img img{
     height: 150px;
     object-fit: cover;
 }
-.section-news-content .article-news .news-header .news-img .under-img-text{
+.article-news-content .section-news .news-header .news-img .small-text{
     font-size: 0.7em;
 }
+/* NEWS-STYLE-TEXT-ON-IMAGE */
+.initial-news .section-news{
+    position: relative;
+    height: 500px;
+}
+.section-news{
+    position: relative;
+}
+.initial-news .section-news img, .section-news img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.initial-news .section-news .news-header, .section-news .news-header{
+    position: absolute;
+    padding: 0.5em 1.5em;
+    bottom: 1%;
+}
+.initial-news .section-news .small-text, .section-news .small-text{
+    padding:15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em;
+}
+.section-news:nth-child(2),
+.section-news:nth-child(3){
+    font-size: .8em;
+}
+.section-news:nth-child(2) .news-header h2,
+.section-news:nth-child(3) .news-header h2{
+    font-size: 1.8em;
+}
+.initial-news .section-news .small-text span:last-child, .section-news .small-text span:last-child{
+    text-align: right;
+}
+
 
 /* SECTION-PERSONAL-PAGES */
 
@@ -67,9 +118,11 @@ ALL MEDIA RESPONSIVE CLASSES
     
 } */
 /* MEDIA FOR - MD -  */
-/* @media only screen and (max-width:991px){
-    
-} */
+@media only screen and (max-width:991px){
+    .section-news{
+        height: 250px;
+    }
+}
 /* MEDIA FOR - SM -  */
 /* @media only screen and (max-width:767px){
     
