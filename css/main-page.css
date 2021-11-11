@@ -91,12 +91,15 @@ ul.icons li{
     justify-content: space-around;
     font-size: 1em;
 }
-.section-news:nth-child(2),
-.section-news:nth-child(3){
+.last-news{
+    display: flex;
+    justify-content: space-between;
+}
+.last-news .section-news{
+    width: 47%;
     font-size: .8em;
 }
-.section-news:nth-child(2) .news-header h2,
-.section-news:nth-child(3) .news-header h2{
+.last-news .section-news .news-header h2{
     font-size: 1.8em;
 }
 .initial-news .section-news .small-text span:last-child, .section-news .small-text span:last-child{
@@ -121,6 +124,12 @@ ALL MEDIA RESPONSIVE CLASSES
     
 } */
 /* MEDIA FOR - SM -  */
-/* @media only screen and (max-width:767px){
-    
-} */
+@media only screen and (max-width:767px){
+    .last-news{
+        display: block;
+    }
+    .last-news .section-news{
+        width: 100%;
+        font-size: 1em;
+    }
+}
