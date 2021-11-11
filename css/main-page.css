@@ -65,12 +65,9 @@ ul.icons li{
     font-size: 0.7em;
 }
 /* NEWS-STYLE-TEXT-ON-IMAGE */
-.initial-news .section-news{
-    position: relative;
-    height: 500px;
-}
 .section-news{
     position: relative;
+    height: 235px;
 }
 .initial-news .section-news img, .section-news img{
     position: absolute;
@@ -114,15 +111,15 @@ ul.icons li{
 ALL MEDIA RESPONSIVE CLASSES
 ================================= */
 /* MEDIA FOR - LG -  */
-/* @media only screen and (max-width:1199px){
-    
-} */
-/* MEDIA FOR - MD -  */
-@media only screen and (max-width:991px){
-    .section-news{
-        height: 250px;
+@media only screen and (min-width:991px){
+    .initial-news .section-news{
+        height: 500px;
     }
 }
+/* MEDIA FOR - MD -  */
+/* @media only screen and (max-width:991px){
+    
+} */
 /* MEDIA FOR - SM -  */
 /* @media only screen and (max-width:767px){
     
