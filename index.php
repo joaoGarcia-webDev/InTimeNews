@@ -48,22 +48,22 @@
             </div>
             
             <div class="aside-news col-sm-12 col-md-12 col-lg-6">
-                <div class="row justify-content-between">
-                    <section class="section-news col-12">
-                        <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
-                        <div class="small-text">
-                            <span class="under-img-text col">25/10/2021</span>
-                            <span class="under-img-text col">tempo de leitura: 5 minutos</span>
-                        </div>
-                        <header class="news-header">
-                            <h2>Notícia principal da pag</h2>
-                            <p class="news-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
-                            </p>
-                        </header>
-                    </section>
+                <section class="section-news col-12">
+                    <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
+                    <div class="small-text">
+                        <span class="under-img-text col">25/10/2021</span>
+                        <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                    </div>
+                    <header class="news-header">
+                        <h2>Notícia principal da pag</h2>
+                        <p class="news-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                        </p>
+                    </header>
+                </section>
 
-                    <section class="section-news container-fluid col-sm-12 col-md-6">
+                <div class="last-news">
+                    <section class="section-news col-sm-12 col-md-6">
                         <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
                         <div class="small-text">
                             <span class="under-img-text col">25/10/2021</span>
@@ -77,7 +77,7 @@
                         </header>
                     </section>
 
-                    <section class="section-news container-fluid col-sm-12 col-md-6">
+                    <section class="section-news col-sm-12 col-md-6">
                         <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
                         <div class="small-text">
                             <span class="under-img-text col">25/10/2021</span>
@@ -95,6 +95,8 @@
         </article>
         <!-- article-news
         ================ -->
+
+        
 
     </main>
     
