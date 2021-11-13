@@ -84,11 +84,11 @@ ul.icons li{
     padding: 0.5em 1.5em;
     bottom: 1%;
 }
-.initial-news .section-news .small-text, .section-news .small-text{
+.small-text{
     padding:15px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 1em;
 }
 .last-news{
@@ -106,9 +106,17 @@ ul.icons li{
     text-align: right;
 }
 
-
 /* SECTION-PERSONAL-PAGES */
-
+.initial-page{
+    position: relative;
+    height: 350px;
+}
+.initial-page img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
 
 /* ============================== 
 ALL MEDIA RESPONSIVE CLASSES
