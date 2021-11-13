@@ -96,7 +96,48 @@
         <!-- article-news
         ================ -->
 
-        
+        <section class="pages-content mx-auto row">
+            <h1>Informações Gerais</h1>
+            <div class="col-12 col-lg-6">
+                <div class="single-page initial-page">
+                    <img src="img/just_example/news-250x250.jpg" alt="">
+                    <div class="small-text">
+                        <small>Autor</small>
+                        <small>13/11/2021</small>
+                    </div>
+                    <div class="text-content">
+                        <h2>personal page</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="single-page">
+                    <img src="img/just_example/news-250x250.jpg" alt="">
+                    <div class="text-content">
+                        <h2>personal page</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
+                    </div>
+                    <div class="small-text"><small>Autor</small><small>13/11/2021</small></div>
+                </div>
+                <div class="single-page">
+                    <img src="img/just_example/news-250x250.jpg" alt="">
+                    <div class="text-content">
+                        <h2>personal page</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
+                    </div>
+                    <div class="small-text"><small>Autor</small><small>13/11/2021</small></div>
+                </div>
+                <div class="single-page">
+                    <img src="img/just_example/news-250x250.jpg" alt="">
+                    <div class="text-content">
+                        <h2>personal page</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
+                    </div>
+                    <div class="small-text"><small>Autor</small><small>13/11/2021</small></div>
+                </div>
+            </div>
+        </section>
 
     </main>
     
