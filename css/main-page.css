@@ -155,13 +155,15 @@ section.pages-content{
     justify-content: space-between;
 }
 .card{
-    margin: 0 2.5em;
+    margin: 1em 0;
     padding: 1em 2.5em;
 }
 .card h2, .card h3{
     text-align: center;
 }
-
+button.btn{
+    width: 100%;
+}
 /* ============================== 
 ALL MEDIA RESPONSIVE CLASSES
 ================================= */
@@ -169,6 +171,9 @@ ALL MEDIA RESPONSIVE CLASSES
 @media only screen and (min-width:991px){
     .initial-news .section-news{
         height: 500px;
+    }
+    .card{
+        margin: 0;
     }
 }
 /* MEDIA FOR - MD -  */
