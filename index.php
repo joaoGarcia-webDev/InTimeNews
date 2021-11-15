@@ -166,8 +166,8 @@
                     <input type="email" class="form-control" id="nameInput" placeholder="Nome do usuário">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label for="emailInput" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
                 </div>
                     <button type="button" class="btn btn-primary">Primary</button>
                 </form>
