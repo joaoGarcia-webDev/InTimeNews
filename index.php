@@ -158,15 +158,15 @@
             </div>
             <div class="card col-sm-12 col-lg-3">
                 <h3>Receba as ultimas noticías</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet</p>
 
                 <form action="#" method="post">
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Nome</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label for="nameInput" class="form-label">Nome</label>
+                    <input type="email" class="form-control" id="nameInput" placeholder="Nome do usuário">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
                     <button type="button" class="btn btn-primary">Primary</button>
