@@ -143,6 +143,8 @@
         <!-- personal-pages
         ================ -->
 
+        <!-- ================
+        cards-content -->
         <section class="cards-content row">
             <div class="card col-sm-12 col-md-6 col-lg-3">
                 <h2>Sobre Nós</h2>
@@ -156,10 +158,23 @@
             </div>
             <div class="card col-sm-12 col-lg-3">
                 <h3>Receba as ultimas noticías</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea culpa blanditiis sapiente incidunt accusamus, dolor rem cupiditate atque optio quidem quam neque impedit esse aliquid nam modi, autem iusto. Similique!</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                <form action="#" method="post">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                    <button type="button" class="btn btn-primary">Primary</button>
+                </form>
             </div>
         </section>
+        <!-- cards-content
+        ================ -->
     </main>
     
 
