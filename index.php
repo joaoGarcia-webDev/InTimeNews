@@ -30,7 +30,7 @@
         <!-- ================
         article-news -->
         <article class="article-news-content mx-auto row">
-            <h1>Ultimas Notícias</h1>
+            <h1 class="big-title">Ultimas Notícias</h1>
             <div class="initial-news col-sm-12 col-md-12 col-lg-6">
                 <section class="section-news">
                     <img src="img/just_example/news-250x250.jpg" class="img-fluid" alt="Imagem da notícia principal">
@@ -99,7 +99,7 @@
         <!-- ================
         personal-pages -->
         <section class="pages-content mx-auto row">
-            <h1>Informações Gerais</h1>
+            <h2 class="big-title">Informações Gerais</h2>
             <div class="col-12 col-lg-6">
                 <div class="initial-page">
                     <img src="img/just_example/news-250x250.jpg" alt="">
@@ -146,32 +146,33 @@
         <!-- ================
         cards-content -->
         <section class="cards-content row">
-            <div class="card col-sm-12 col-md-6 col-lg-3">
+            <div class="card bg-light col-sm-12 col-md-6 col-lg-3">
                 <h2>Sobre Nós</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero facilis ipsa autem animi earum quod vel illum facere voluptatem mollitia. Maxime nemo nihil dolores earum possimus pariatur, atque itaque voluptatibus!</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary">Saiba mais</a>
             </div>
-            <div class="card col-sm-12 col-md-6 col-lg-3">
+            <div class="card bg-light col-sm-12 col-md-6 col-lg-3">
                 <h2>Contato</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eum excepturi necessitatibus eos ducimus sequi culpa unde odit incidunt adipisci alias perspiciatis saepe voluptas consequatur natus quis sit, impedit veniam.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary">Entrar em contato</a>
             </div>
-            <div class="card col-sm-12 col-lg-3">
+            <div class="card bg-light col-sm-12 col-lg-3">
                 <h3>Receba as ultimas noticías</h3>
                 <p>Lorem ipsum dolor sit amet</p>
 
                 <form action="#" method="post">
-                <div class="mb-3">
-                    <label for="nameInput" class="form-label">Nome</label>
-                    <input type="email" class="form-control" id="nameInput" placeholder="Nome do usuário">
-                </div>
-                <div class="mb-3">
-                    <label for="emailInput" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
-                </div>
-                    <button type="button" class="btn btn-primary">Primary</button>
+                    <div class="mb-3">
+                        <label for="nameInput" class="form-label">Nome</label>
+                        <input type="email" class="form-control" id="nameInput" placeholder="Nome do usuário">
+                    </div>
+                    <div class="mb-3">
+                        <label for="emailInput" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                    </div>
+                    <button type="button" class="btn btn-primary">Enviar</button>
                 </form>
             </div>
+
         </section>
         <!-- cards-content
         ================ -->

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ========================================
 MAIN CSS FILE
 CREATED: 2021-10-23
@@ -15,16 +16,16 @@ last-update: 2021-11-14
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Lora:wght@400;600&display=swap');
 /* ===================================
 USAGE: 
-font-family: 'Cabin', sans-serif;
-font-family: 'Roboto Mono', monospace;
+font-family: 'Cabin', sans-serif; (LOW TEXT)
+font-family: 'Lora', serif; (HIGH TEXT)
 ======================================= */
 
 /* MAIN CLASSES TO COLORS BACKGROUND */
-.bg-dark-blue { background-color: #0B3954;}
-.bg-light-blue { background-color: #087E8B;}
-.bg-light { background-color: #BFD7EA;}
-.bg-light-red { background-color: #FF5A5F;}
-.bg-dark-red { background-color: #C81D25;}
+.bg-dark-blue { background-color: #0B3954;} /* Secundary */
+.bg-light-blue { background-color: #087E8B;} /* Primary */
+.bg-light { background-color: #BFD7EA;} /* Background/light */
+.bg-light-red { background-color: #FF5A5F;} /* Primary */
+.bg-dark-red { background-color: #C81D25;} /* Secundary */
 
 
 /* NAV CUSTOMIZE CLASS */
@@ -50,9 +51,19 @@ ul.icons li{
     justify-content: center;
 }
 
+/* BIG-TITLE CLASS */
+.big-title{
+    margin-block-end: 0em;
+    color: #C81D25;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: 2.8em;
+    margin-bottom: 0.2em;
+}
+
 /* ARTICLE-NEWS-CONTENT */
 .article-news-content .section-news{
-    margin: 1em 0;
+    margin: 0 0 1em 0;
 }
 .article-news-content .initial-news .section-news .news-header .news-img img{
     height: 350px;
@@ -129,19 +140,22 @@ section.pages-content{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 .single-page{
     font-size: 0.9em;
     height: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
 }
 .single-page img{
     height: 100px;
     width: auto;
 }
 .single-page .text-content{
-    width: 80%;
+    width: 75%;
 }
 .single-page .text-content h2{
     font-size: 1.5em;
@@ -164,6 +178,17 @@ section.pages-content{
 button.btn{
     width: 100%;
 }
+.btn-primary{
+    background-color: #C81D25;
+    border-color: #ac181f;
+}
+.btn-primary:hover, .btn-primary:focus{
+    border-color: #6d0b10;
+    background-color: #b11b22;
+}
+.card a.btn-primary, .card form button.btn-primary{
+    margin: auto 0 0 0;
+}
 /* ============================== 
 ALL MEDIA RESPONSIVE CLASSES
 ================================= */
@@ -171,6 +196,12 @@ ALL MEDIA RESPONSIVE CLASSES
 @media only screen and (min-width:991px){
     .initial-news .section-news{
         height: 500px;
+    }
+    .single-page{
+        margin: 0;
+    }
+    .single-page .text-content{
+        width: 80%;
     }
     .card{
         margin: 0;
