@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* VARIANT CARDS */
+.variants-card .card{
+    position: relative;
+    margin: 3em 2em;
+    transition: all 0.2s ease-in;
+    border: 0px solid #0B3954;
+    color: black;
+    text-decoration: none;
+}
+.variants-card .card img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+.variants-card .card h2{
+    text-align: left;
+}
+.variants-card .card:hover{
+    margin: 3em 0;
+    border-width: 10px;
+}
+
+/* ASIDE CUSTOM */
+.aside-content{
+    display: flex;
+    flex-direction: column;
+}
+.aside-content .bg-dark-blue{
+    color: #fff;
+    padding: 1em 1em;
+    margin: 1.5em 0;
+}
+.aside-content .bg-dark-blue .content-news{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.75em 0;
+}
+.aside-content .bg-dark-blue .content-news img{
+    margin-right: 1.5em;
+}
