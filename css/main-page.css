@@ -57,7 +57,7 @@ ul.icons li{
     color: #C81D25;
     font-family: 'Cabin', sans-serif;
     font-weight: 600;
-    font-size: 2.8em;
+    font-size: 2.5em;
     margin-bottom: 0.2em;
 }
 
@@ -189,6 +189,7 @@ button.btn{
 .card a.btn-primary, .card form button.btn-primary{
     margin: auto 0 0 0;
 }
+
 /* ============================== 
 ALL MEDIA RESPONSIVE CLASSES
 ================================= */

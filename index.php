@@ -145,7 +145,7 @@
 
         <!-- ================
         cards-content -->
-        <section class="cards-content row">
+        <aside class="cards-content row">
             <div class="card bg-light col-sm-12 col-md-6 col-lg-3">
                 <h2>Sobre Nós</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero facilis ipsa autem animi earum quod vel illum facere voluptatem mollitia. Maxime nemo nihil dolores earum possimus pariatur, atque itaque voluptatibus!</p>
@@ -172,8 +172,7 @@
                     <button type="button" class="btn btn-primary">Enviar</button>
                 </form>
             </div>
-
-        </section>
+        </aside>
         <!-- cards-content
         ================ -->
     </main>
