@@ -16,7 +16,7 @@
                     <a class="nav-link" href="#">Noticías</a>
                 </li>
                 <li class="nav-item ms-3">
-                    <a class="nav-link" href="#">Informações gerais</a>
+                    <a class="nav-link" href="informacoes.php">Informações gerais</a>
                 </li>
                 <li class="nav-item ms-3">
                     <a class="nav-link" href="#">Area social</a>
