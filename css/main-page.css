@@ -57,23 +57,45 @@ ul.icons li{
     color: #C81D25;
     font-family: 'Cabin', sans-serif;
     font-weight: 600;
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 0.2em;
 }
-
+.text-lora{
+    font: 1.2em 'Cabin', sans-serif;
+}
 /* ARTICLE-NEWS-CONTENT */
+.article-news-content a{
+    text-decoration: none;
+}
 .article-news-content .section-news{
     margin: 0 0 1em 0;
+    overflow: hidden;
 }
-.article-news-content .initial-news .section-news .news-header .news-img img{
-    height: 350px;
+.article-news-content .initial-news .section-news{
+    font-size: 1.2em;
 }
-.article-news-content .section-news .news-header .news-img img{
-    height: 150px;
-    object-fit: cover;
+.article-news-content .section-news .news-header{
+    backdrop-filter: blur(2px);
 }
-.article-news-content .section-news .news-header .news-img .small-text{
-    font-size: 0.7em;
+.article-news-content .initial-news .section-news .news-header h2{
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 80%);
+}
+.article-news-content .section-news .news-header h2{
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 80%);
+}
+.article-news-content .section-news .news-header p{
+    color: #fff;
+}
+.article-news-content .section-news{
+    font-size: .9em;
+}
+/* SECTION-NEWS HOVER EFFECT */
+.section-news:hover img{
+    transform: scale(1.1);
 }
 /* NEWS-STYLE-TEXT-ON-IMAGE */
 .section-news{
@@ -89,6 +111,8 @@ ul.icons li{
     left: 0;
     right: 0;
     z-index: -1;
+    object-fit: cover;
+    transition: transform 0.2s ease;
 }
 .initial-news .section-news .news-header, .section-news .news-header{
     position: absolute;
@@ -102,6 +126,9 @@ ul.icons li{
     justify-content: space-between;
     font-size: 1em;
 }
+.small-text span{
+    color: #fff;
+}
 .last-news{
     display: flex;
     justify-content: space-between;
@@ -109,12 +136,14 @@ ul.icons li{
 .last-news .section-news{
     width: 47%;
     font-size: .8em;
+    margin-top: 1em;
 }
 .last-news .section-news .news-header h2{
     font-size: 1.8em;
 }
 .initial-news .section-news .small-text span:last-child, .section-news .small-text span:last-child{
     text-align: right;
+    
 }
 
 /* SECTION-PERSONAL-PAGES */

@@ -32,64 +32,70 @@
         <article class="article-news-content mx-auto row">
             <h1 class="big-title">Ultimas Notícias</h1>
             <div class="initial-news col-sm-12 col-md-12 col-lg-6">
-                <section class="section-news">
-                    <img src="img/just_example/news-250x250.jpg" class="img-fluid" alt="Imagem da notícia principal">
-                    <div class="small-text">
-                        <span class="under-img-text col">25/10/2021</span>
-                        <span class="under-img-text col">tempo de leitura: 5 minutos</span>
-                    </div>
-                    <header class="news-header">
-                        <h2>Notícia principal da pag</h2>
-                        <p class="news-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
-                        </p>
-                    </header>
-                </section>
+                <a href="#">
+                    <section class="section-news">
+                        <img src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" class="img-fluid" alt="Imagem de Renam Calheiros durante a reunião da CPI da COVID-19, notícia principal">
+                        <div class="small-text">
+                            <span class="under-img-text col">26/10/2021</span>
+                            <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                        </div>
+                        <header class="news-header">
+                            <h2 class="big-title">É aprovado relatório que pede indiciamento de Bolsonaro e outras 77 pessoas</h2>
+                            <p class="text-lora news-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                            </p>
+                        </header>
+                    </section>
+                </a>
             </div>
             
             <div class="aside-news col-sm-12 col-md-12 col-lg-6">
-                <section class="section-news col-12">
-                    <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
-                    <div class="small-text">
-                        <span class="under-img-text col">25/10/2021</span>
-                        <span class="under-img-text col">tempo de leitura: 5 minutos</span>
-                    </div>
-                    <header class="news-header">
-                        <h2>Notícia principal da pag</h2>
-                        <p class="news-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
-                        </p>
-                    </header>
-                </section>
-
+                <a href="#">
+                    <section class="section-news col-12">
+                        <img src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" class="img-fluid col-12" alt="Imagem da notícia principal">
+                        <div class="small-text">
+                            <span class="under-img-text col">25/10/2021</span>
+                            <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                        </div>
+                        <header class="news-header">
+                            <h2>Notícia principal da pag</h2>
+                            <p class="text-lora news-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                            </p>
+                        </header>
+                    </section>
+                </a>
                 <div class="last-news">
-                    <section class="section-news col-sm-12 col-md-6">
-                        <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
-                        <div class="small-text">
-                            <span class="under-img-text col">25/10/2021</span>
-                            <span class="under-img-text col">tempo de leitura: 5 minutos</span>
-                        </div>
-                        <header class="news-header">
-                            <h2>Notícia principal da pag</h2>
-                            <p class="news-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                        </header>
-                    </section>
-
-                    <section class="section-news col-sm-12 col-md-6">
-                        <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
-                        <div class="small-text">
-                            <span class="under-img-text col">25/10/2021</span>
-                            <span class="under-img-text col">tempo de leitura: 5 minutos</span>
-                        </div>
-                        <header class="news-header">
-                            <h2>Notícia principal da pag</h2>
-                            <p class="news-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                        </header>
-                    </section>
+                    <a class="section-news col-sm-12 col-md-6" href="#">
+                        <section>
+                            <img src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" class="img-fluid col-12" alt="Imagem da notícia principal">
+                            <div class="small-text">
+                                <span class="under-img-text col">25/10/2021</span>
+                                <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                            </div>
+                            <header class="news-header">
+                                <h2>Notícia principal da pag</h2>
+                                <p class="text-lora news-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </header>
+                        </section>
+                    </a>
+                    <a class="section-news col-sm-12 col-md-6" href="#">
+                        <section>
+                            <img src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" class="img-fluid col-12" alt="Imagem da notícia principal">
+                            <div class="small-text">
+                                <span class="under-img-text col">25/10/2021</span>
+                                <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                            </div>
+                            <header class="news-header">
+                                <h2>Notícia principal da pag</h2>
+                                <p class="text-lora news-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </header>
+                        </section>
+                    </a>
                 </div>
             </div>
         </article>
@@ -109,7 +115,7 @@
                     </div>
                     <div class="text-content">
                         <h2>personal page</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
+                        <p class="text-lora">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
                     </div>
                 </div>
             </div>
@@ -118,7 +124,7 @@
                     <img src="img/just_example/news-250x250.jpg" alt="">
                     <div class="text-content">
                         <h2>personal page</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
+                        <p class="text-lora">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
                         <div class="small-text"><small>Autor</small><small>13/11/2021</small></div>
                     </div>
                 </div>
@@ -126,7 +132,7 @@
                     <img src="img/just_example/news-250x250.jpg" alt="">
                     <div class="text-content">
                         <h2>personal page</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
+                        <p class="text-lora">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
                         <div class="small-text"><small>Autor</small><small>13/11/2021</small></div>
                     </div>
                 </div>
@@ -134,7 +140,7 @@
                     <img src="img/just_example/news-250x250.jpg" alt="">
                     <div class="text-content">
                         <h2>personal page</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
+                        <p class="text-lora">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
                         <div class="small-text"><small>Autor</small><small>13/11/2021</small></div>
                     </div>
                 </div>
