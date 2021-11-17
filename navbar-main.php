@@ -12,14 +12,34 @@
         <div class="collapse navbar-collapse row" id="navbarToggleMain">
             <img src="img/just_example/banner-750x150.jpg" alt="Banner de exemplo" class="img-fluid banner">
             <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
-                <li class="nav-item ms-3">
-                    <a class="nav-link" href="#">Noticías</a>
+                <li class="nav-item ms-3 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="noticiaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Noticías</a>
+                    <ul class="dropdown-menu" aria-labelledby="noticiaDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item ms-3">
-                    <a class="nav-link" href="informacoes.php">Informações gerais</a>
+                
+                <li class="nav-item ms-3 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id=infoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Informações gerais</a>
+                    <ul class="dropdown-menu" aria-labelledby=infoDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item ms-3">
-                    <a class="nav-link" href="#">Area social</a>
+
+                <li class="nav-item ms-3 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="socialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Area social</a>
+                    <ul class="dropdown-menu" aria-labelledby="socialDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>

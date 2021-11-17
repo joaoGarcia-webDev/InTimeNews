@@ -39,7 +39,10 @@ nav .container-fluid .collapse .banner{
     max-height: 100px;
     object-fit: cover;
 }
-
+.dropdown-menu[data-bs-popper]{
+    left: auto;
+    right: 0;
+}
 /* FOOTER CUSTOMIZE CLASSES */
 footer{
     margin-top: 5.5em;
