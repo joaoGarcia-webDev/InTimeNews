@@ -15,30 +15,30 @@
                 <li class="nav-item ms-3 dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="noticiaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Noticías</a>
                     <ul class="dropdown-menu" aria-labelledby="noticiaDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">CPI da Covid</a></li>
+                        <li><a class="dropdown-item" href="#">Sintomas e Tratamentos</a></li>
+                        <li><a class="dropdown-item" href="#">Porcentagem de infectados</a></li>
                     </ul>
                 </li>
                 
                 <li class="nav-item ms-3 dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id=infoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Informações gerais</a>
                     <ul class="dropdown-menu" aria-labelledby=infoDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Curiosidades</a></li>
+                        <li><a class="dropdown-item" href="variants.php">Variantes</a></li>
+                        <li><a class="dropdown-item" href="#">Inovações</a></li>
+                        <li><a class="dropdown-item" href="informacoes.php">Informações</a></li>
                     </ul>
                 </li>
 
                 <li class="nav-item ms-3 dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="socialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Area social</a>
                     <ul class="dropdown-menu" aria-labelledby="socialDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Notícias Automáticas</a></li>
+                        <li><a class="dropdown-item" href="#">Contato</a></li>
+                        <li><a class="dropdown-item" href="#">Quem somos</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Normas de uso</a></li>
                     </ul>
                 </li>
             </ul>

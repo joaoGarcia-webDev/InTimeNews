@@ -43,6 +43,11 @@ nav .container-fluid .collapse .banner{
     left: auto;
     right: 0;
 }
+.dropdown-menu li a:active{
+    background-color: #C81D25;
+    color: #fff;
+}
+
 /* FOOTER CUSTOMIZE CLASSES */
 footer{
     margin-top: 5.5em;
@@ -105,6 +110,7 @@ ul.icons li{
     position: relative;
     height: 235px;
 }
+
 .initial-news .section-news img, .section-news img{
     position: absolute;
     height: 100%;
@@ -140,6 +146,7 @@ ul.icons li{
     width: 47%;
     font-size: .8em;
     margin-top: 1em;
+    height: 235px;
 }
 .last-news .section-news .news-header h2{
     font-size: 1.8em;
@@ -248,8 +255,16 @@ ALL MEDIA RESPONSIVE CLASSES
     .last-news{
         display: block;
     }
-    .last-news .section-news{
+    .last-news .section-news, .last-news .section-news section{
         width: 100%;
         font-size: 1em;
+        height: 235px;
+    }
+    .last-news .section-news section{
+        margin-top: 1em;
+        position: relative;
+    }
+    .article-news-content .initial-news .section-news{
+        font-size: .9em;
     }
 }
