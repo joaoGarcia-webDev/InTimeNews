@@ -20,7 +20,7 @@
 
 </head>
 
-<body>
+<body class="bg-light">
 
     <!-- MAIN NAVBAR ======================= -->
     <?php include 'navbar-main.php'; ?>
@@ -152,17 +152,17 @@
         <!-- ================
         cards-content -->
         <aside class="cards-content row">
-            <div class="card bg-light col-sm-12 col-md-6 col-lg-3">
+            <div class="card col-sm-12 col-md-6 col-lg-3">
                 <h2>Sobre Nós</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero facilis ipsa autem animi earum quod vel illum facere voluptatem mollitia. Maxime nemo nihil dolores earum possimus pariatur, atque itaque voluptatibus!</p>
                 <a href="#" class="btn btn-primary">Saiba mais</a>
             </div>
-            <div class="card bg-light col-sm-12 col-md-6 col-lg-3">
+            <div class="card col-sm-12 col-md-6 col-lg-3">
                 <h2>Contato</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eum excepturi necessitatibus eos ducimus sequi culpa unde odit incidunt adipisci alias perspiciatis saepe voluptas consequatur natus quis sit, impedit veniam.</p>
                 <a href="#" class="btn btn-primary">Entrar em contato</a>
             </div>
-            <div class="card bg-light col-sm-12 col-lg-3">
+            <div class="card col-sm-12 col-lg-3">
                 <h3>Receba as ultimas noticías</h3>
                 <p>Lorem ipsum dolor sit amet</p>
 

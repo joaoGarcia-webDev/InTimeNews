@@ -23,7 +23,7 @@ font-family: 'Lora', serif; (HIGH TEXT)
 /* MAIN CLASSES TO COLORS BACKGROUND */
 .bg-dark-blue { background-color: #0B3954;} /* Secundary */
 .bg-light-blue { background-color: #087E8B;} /* Primary */
-.bg-light { background-color: #BFD7EA;} /* Background/light */
+.bg-light-part { background-color: #f0f0f0;} /* Background/light */
 .bg-light-red { background-color: #FF5A5F;} /* Primary */
 .bg-dark-red { background-color: #C81D25;} /* Secundary */
 
