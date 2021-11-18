@@ -54,7 +54,7 @@
                     <section class="section-news black col-12">
                         <img src="img/cpi-covid/grafico-casos-confirmados.png" class="img-fluid col-12" alt="Imagem da notícia principal">
                         <div class="small-text">
-                            <span class="under-img-text col">25/10/2021</span>
+                            <span class="under-img-text col">15/11/2021</span>
                             <span class="under-img-text col">tempo de leitura: 5 minutos</span>
                         </div>
                         <header class="news-header">
