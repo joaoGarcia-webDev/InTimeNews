@@ -51,14 +51,14 @@
             
             <div class="aside-news col-sm-12 col-md-12 col-lg-6">
                 <a href="#">
-                    <section class="section-news col-12">
-                        <img src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" class="img-fluid col-12" alt="Imagem da notícia principal">
+                    <section class="section-news black col-12">
+                        <img src="img/cpi-covid/grafico-casos-confirmados.png" class="img-fluid col-12" alt="Imagem da notícia principal">
                         <div class="small-text">
                             <span class="under-img-text col">25/10/2021</span>
                             <span class="under-img-text col">tempo de leitura: 5 minutos</span>
                         </div>
                         <header class="news-header">
-                            <h2>Notícia principal da pag</h2>
+                            <h2>Os alertas da quarta onda de COVID-19</h2>
                             <p class="text-lora news-text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
                             </p>
