@@ -8,8 +8,8 @@ PROJECT: Portal informativo sobre a pandemia de COVID-19 e formas de prevenção
 BY: Los Fofuritos 
 ===========================================
 
-version: 0.0.3
-last-update: 2021-11-14
+version: 0.0.4
+last-update: 2021-11-18
 =========================================== */
 
 /* FONT IMPORT */
@@ -27,6 +27,18 @@ font-family: 'Lora', serif; (HIGH TEXT)
 .bg-light-red { background-color: #FF5A5F;} /* Primary */
 .bg-dark-red { background-color: #C81D25;} /* Secundary */
 
+/* BIG-TITLE CLASS */
+.big-title{
+    margin-block-end: 0em;
+    color: #C81D25;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+.text-lora{
+    font: 1.2em 'Cabin', sans-serif;
+}
 
 /* NAV CUSTOMIZE CLASS */
 nav{
@@ -58,26 +70,35 @@ ul.icons li a i{
 ul.icons li{
     justify-content: center;
 }
+form label.big-title{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.input-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-btn input{
+    width: 80%;
+}
+.input-btn button{
+    width: 17%;
+}
+.link-footer-logo{
+    display: flex;
+    text-decoration: none;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.footer-logo-img{
+    width: 100%;
+    margin: 0;
+}
 
-/* BIG-TITLE CLASS */
-.big-title{
-    margin-block-end: 0em;
-    color: #C81D25;
-    font-family: 'Cabin', sans-serif;
-    font-weight: 600;
-    font-size: 2em;
-    margin-bottom: 0.2em;
-}
-.text-lora{
-    font: 1.2em 'Cabin', sans-serif;
-}
 /* ARTICLE-NEWS-CONTENT */
 .article-news-content a{
     text-decoration: none;
-}
-.article-news-content .section-news{
-    margin: 0 0 1em 0;
-    overflow: hidden;
 }
 .article-news-content .initial-news .section-news{
     font-size: 1.2em;
@@ -91,10 +112,6 @@ ul.icons li{
     font-weight: 700;
     text-shadow: 0 1px 3px rgb(0 0 0 / 80%);
 }
-.article-news-content .initial-news .section-news .news-header h2{
-    font-weight: 500;
-    text-shadow: 0 1px 3px rgb(0 0 0 / 80%);
-}
 .article-news-content .section-news{
     font-size: .9em;
 }
@@ -104,6 +121,9 @@ ul.icons li{
 }
 /* NEWS-STYLE-TEXT-ON-IMAGE */
 .section-news{
+    margin: 0 0 1em 0;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: relative;
     height: 235px;
 }
@@ -215,7 +235,7 @@ section.pages-content{
 .card h2, .card h3{
     text-align: center;
 }
-button.btn{
+.card form button.btn{
     width: 100%;
 }
 .btn-primary{
@@ -254,8 +274,31 @@ ALL MEDIA RESPONSIVE CLASSES
 } */
 /* MEDIA FOR - SM -  */
 @media only screen and (max-width:767px){
-    .last-news{
+    ul.list-unstyled{
+        margin: 1.2em 0;
+    }
+    ul.list-unstyled li{
+        margin: 0.8em 0;
+        font-size: 1.2em;
+    }
+    ul.icons{
+        margin: 0;
+    }
+    .link-footer-logo{
+        flex-direction: row;
+    }
+    .footer-logo-img{
+        width: 50px;
+        margin: 0 0.3em;
+    }
+
+    /* DISPLAY VLOCK CLASSES */
+    .input-btn, .last-news{
         display: block;
+    }
+    .input-btn input, .input-btn button{
+        width: 100%;
+        margin: 0.3em 0;
     }
     .last-news .section-news, .last-news .section-news section{
         width: 100%;
