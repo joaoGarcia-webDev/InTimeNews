@@ -68,30 +68,30 @@
                 <div class="last-news">
                     <a class="section-news col-sm-12 col-md-6" href="#">
                         <section>
-                            <img src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" class="img-fluid col-12" alt="Imagem da notícia principal">
+                            <img src="img/cpi-covid/brasil-supera-eua.png" class="img-fluid col-12" alt="Imagem da notícia principal">
                             <div class="small-text">
-                                <span class="under-img-text col">25/10/2021</span>
+                                <span class="under-img-text col">18/11/2021</span>
                                 <span class="under-img-text col">tempo de leitura: 5 minutos</span>
                             </div>
                             <header class="news-header">
-                                <h2>Notícia principal da pag</h2>
+                                <h2>Brasil supera EUA em taxa de vacinados</h2>
                                 <p class="text-lora news-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Já são 59,9% de brasileiros totalmente imunizados contra o coronavírus
                                 </p>
                             </header>
                         </section>
                     </a>
                     <a class="section-news col-sm-12 col-md-6" href="#">
                         <section>
-                            <img src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" class="img-fluid col-12" alt="Imagem da notícia principal">
+                            <img src="img/cpi-covid/brasil-taxa-mortes.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
                             <div class="small-text">
-                                <span class="under-img-text col">25/10/2021</span>
+                                <span class="under-img-text col">18/11/2021</span>
                                 <span class="under-img-text col">tempo de leitura: 5 minutos</span>
                             </div>
                             <header class="news-header">
-                                <h2>Notícia principal da pag</h2>
+                                <h2>Brasil tem salto de 15% em taxa de mortes</h2>
                                 <p class="text-lora news-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    País registrou cerca de 195,5 mil mortes a mais que em 2019, a maior alta histórica, a maioria de idosos.
                                 </p>
                             </header>
                         </section>
