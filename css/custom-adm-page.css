@@ -1,0 +1,27 @@
+/* ASIDE CONTENT */
+.adm-main{
+ margin-left: 0;
+}
+.aside-content{
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5em 0;
+}
+.aside-content .icon-content{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.aside-ico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aside-ico i{
+    color: #C81D25;
+    font-size: 2.5em;
+}
