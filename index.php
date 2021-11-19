@@ -48,7 +48,7 @@
                     </section>
                 </a>
             </div>
-            
+
             <div class="aside-news col-sm-12 col-md-12 col-lg-6">
                 <a href="#">
                     <section class="section-news black col-12">
@@ -108,14 +108,14 @@
             <h2 class="big-title">Informações Gerais</h2>
             <div class="col-12 col-lg-6">
                 <div class="initial-page">
-                    <img src="img/just_example/news-250x250.jpg" alt="">
+                    <img src="img/curiosidade/curiosidade.jpg" class="img-fluid col-12" alt="Imagem da seção de curiosidades">
                     <div class="small-text">
-                        <small>Autor</small>
-                        <small>13/11/2021</small>
+                        <small>Beatriz</small>
+                        <small>18/11/2021</small>
                     </div>
                     <div class="text-content">
-                        <h2>personal page</h2>
-                        <p class="text-lora">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
+<!--                        <h2 class="text-curiosity">Curiosidades</h2>-->
+                        <p class="text-lora text-black">Para saber mais sobre o Covid <a href="curiosity.php">Clique aqui.</a> </p>
                     </div>
                 </div>
             </div>
