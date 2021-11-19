@@ -51,7 +51,7 @@
             <div class="card col-sm-12 col-md-6 col-lg-3">
                 <h2>As 5 maiores pandemias. Sim, a pandemia que vivemos não foi a única</h2>
 <!--                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eum excepturi necessitatibus eos ducimus sequi culpa unde odit incidunt adipisci alias perspiciatis saepe voluptas consequatur natus quis sit, impedit veniam.</p>-->
-                <a href="#" class="btn btn-primary">Saiba mais</a>
+                <a href="biggest_pandemic.php" class="btn btn-primary">Saiba mais</a>
             </div>
             <div class="card col-sm-12 col-lg-3">
                 <h3>Gripe espanhola X Covid-19
