@@ -26,6 +26,7 @@ font-family: 'Lora', serif; (HIGH TEXT)
 .bg-light-part { background-color: #f0f0f0;} /* Background/light */
 .bg-light-red { background-color: #FF5A5F;} /* Primary */
 .bg-dark-red { background-color: #C81D25;} /* Secundary */
+.bg-dark-orange { background-color: #ff2f00;} /* Secundary */
 
 /* BIG-TITLE CLASS */
 .big-title{
@@ -38,6 +39,18 @@ font-family: 'Lora', serif; (HIGH TEXT)
 }
 .text-lora{
     font: 1.2em 'Cabin', sans-serif;
+}
+.text-curiosity{
+    color: #ffffff;
+}
+.text-black{
+    color: #000000;
+}
+.text-curiosity-covid{
+    font-size: 1.5em;
+}
+.text-title-curiosity{
+text-align: center;
 }
 
 /* NAV CUSTOMIZE CLASS */
@@ -312,4 +325,10 @@ ALL MEDIA RESPONSIVE CLASSES
     .article-news-content .initial-news .section-news{
         font-size: .9em;
     }
+
+}
+
+ul {
+    width: 50%;
+    margin: auto;
 }
