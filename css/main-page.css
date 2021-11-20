@@ -38,7 +38,7 @@ font-family: 'Lora', serif; (HIGH TEXT)
     margin-bottom: 0.2em;
 }
 .text-lora{
-    font: 1.2em 'Cabin', sans-serif;
+    font: 1.2em 'Lora', sans-serif;
 }
 .text-curiosity{
     color: #ffffff;
@@ -56,6 +56,7 @@ text-align: center;
 /* NAV CUSTOMIZE CLASS */
 nav{
     margin-bottom: 5.5em;
+    background-color: #f0f0f0;
 }
 nav .container-fluid a img.logo-img{
     max-height: 75px;
@@ -63,6 +64,12 @@ nav .container-fluid a img.logo-img{
 nav .container-fluid .collapse .banner{
     max-height: 100px;
     object-fit: cover;
+}
+.nav-item .nav-link{
+    font-size: 1.2em;
+    color: #0B3954;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
 }
 .dropdown-menu[data-bs-popper]{
     left: auto;
@@ -76,6 +83,7 @@ nav .container-fluid .collapse .banner{
 /* FOOTER CUSTOMIZE CLASSES */
 footer{
     margin-top: 5.5em;
+    background-color: #f0f0f0;
 }
 ul.icons li a i{
     font-size: 3em;
