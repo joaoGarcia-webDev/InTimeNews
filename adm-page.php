@@ -21,28 +21,28 @@
 
 </head>
 
-<body class="bg-light ">
-    <div class="adm-start-content row">
-        <aside class="aside-content col-2 col-md-1">
-            <div class="icon-content">
-                <a href="#" class="aside-ico active">
-                    <i class="bi bi-house-door"></i>
-                </a>
-                <a href="#" class="aside-ico">
-                    <i class="bi bi-newspaper"></i>
-                </a>
-                <a href="#" class="aside-ico">
-                    <i class="bi bi-info-circle"></i>
-                </a>
-            </div>
-            <div class="back-home">
-                <a href="index.php" class="aside-ico">
-                    <i class="bi bi-arrow-return-left"></i>
-                </a>
-            </div>
-        </aside>
+<body class="bg-light row">
+    <aside class="aside-content col-2 col-md-1">
+        <div class="icon-content">
+            <a href="#" class="aside-ico active">
+                <i class="bi bi-house-door"></i>
+            </a>
+            <a href="#" class="aside-ico">
+                <i class="bi bi-newspaper"></i>
+            </a>
+            <a href="#" class="aside-ico">
+                <i class="bi bi-info-circle"></i>
+            </a>
+        </div>
+        <div class="back-home">
+            <a href="index.php" class="aside-ico">
+                <i class="bi bi-arrow-return-left"></i>
+            </a>
+        </div>
+    </aside>
 
-        <nav class="navbar col">
+    <main class="main-adm col">
+        <nav class="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand">
                     <img src="img/svg/main_logo_v0.svg" class="img-fluid" alt="Logo principal do portal de notícias InTimeNews">
@@ -53,7 +53,38 @@
                 </form>
             </div>
         </nav>
-    </div>
+        <section class="inside-content row">
+            <h1 class="big-title">Pagina de Administrador, faça as alterações que desejar</h1>
+            <div class="card-content col-12 col-md-4">
+                <div class="card news">
+                    <p>notícias antigas</p>
+                    <h2>Nome Notícia</h2>
+                    <small>07/11/2021</small>
+                    <i class="bi bi-pencil-fill"></i>
+                </div>
+                <div class="card news">
+                    <p>notícias antigas</p>
+                    <h2>Nome Notícia</h2>
+                    <small>07/11/2021</small>
+                    <i class="bi bi-pencil-fill"></i>
+                </div>
+            </div>
+        </section>
+        <h1>
+        <?php
+        
+            $size = 0;
+            $path    = './';
+            $files = scandir($path);
+            $files = array_diff(scandir($path), array('.', '..'));
+            foreach($files as $file){
+                $size += filesize($file);
+            }
+            echo $size;
+            
+        ?>
+        </h1>
+    </main>
 
     <!-- JS BOOTSTRAP 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
