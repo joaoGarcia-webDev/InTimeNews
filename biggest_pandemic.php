@@ -41,7 +41,7 @@
             A peste bubônica é causada pela bactéria Yersinia pestis e pode se disseminar pelo contato com pulgas e roedores infectados. Seus sintomas incluem inchaço dos gânglios linfáticos na virilha, na axila ou no pescoço. Outros sinais são febre, calafrios, dor de cabeça, fadiga e dores musculares.
 
             A doença é considerada, historicamente, a causadora da Peste Negra, que assolou a Europa no século 14, matando entre 75 milhões e 200 milhões pessoas na antiga Eurásia. No total, a praga pode ter reduzido a população mundial de 450 milhões de pessoas para 350 milhões.
-            
+
             <li><b>Varíola</b></li>
             A doença atormentou a humanidade por mais de 3 mil anos. O faraó egípcio Ramsés II, a rainha Maria II da Inglaterra e o rei Luís XV da França tiveram a temida “bixiga”. O vírus Orthopoxvírus variolae era transmitido de pessoa para pessoa, por meio das vias respiratórias. Os sintomas eram febre, seguida de erupções na garganta, na boca e no rosto. Felizmente, a varíola foi erradicada do planeta em 1980, após campanha de vacinação em massa.
 
