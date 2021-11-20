@@ -1,14 +1,17 @@
 /* ASIDE CONTENT */
-.adm-main{
- margin-left: 0;
+body{
+    overflow-x: hidden;
 }
+.adm-start-content{ margin-left: 0; }
 .aside-content{
     background-color: #f0f0f0;
+    max-width: 100px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.5em 0;
+    padding: 6.5em 0 1.5em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .aside-content .icon-content{
     height: 250px;
@@ -20,8 +23,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.4s ease;
 }
 .aside-ico i{
     color: #C81D25;
     font-size: 2.5em;
+}
+.aside-ico:hover, .aside-ico.active{
+    transform: translateX(10px);
+    background-color: #C81D25;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.aside-content:hover .aside-ico.active{
+    transform: translateX(0);
+    opacity: 0.5;
+}
+.aside-ico:hover i, .aside-ico.active i{
+    color: #f0f0f0;
+}
+
+nav.navbar{
+    height: 75px;
+    margin: 0.5em 1.5em;
+    background: transparent;
+}
+nav.navbar .container-fluid .navbar-brand img{
+    width: auto;
+    height: 50px;
 }

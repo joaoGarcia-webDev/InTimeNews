@@ -22,17 +22,17 @@
 </head>
 
 <body class="bg-light ">
-    <main class="adm-main row">
+    <div class="adm-start-content row">
         <aside class="aside-content col-2 col-md-1">
             <div class="icon-content">
+                <a href="#" class="aside-ico active">
+                    <i class="bi bi-house-door"></i>
+                </a>
                 <a href="#" class="aside-ico">
                     <i class="bi bi-newspaper"></i>
                 </a>
                 <a href="#" class="aside-ico">
                     <i class="bi bi-info-circle"></i>
-                </a>
-                <a href="#" class="aside-ico">
-                    <i class="bi bi-house-door"></i>
                 </a>
             </div>
             <div class="back-home">
@@ -41,7 +41,19 @@
                 </a>
             </div>
         </aside>
-    </main>
+
+        <nav class="navbar col">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img src="img/svg/main_logo_v0.svg" class="img-fluid" alt="Logo principal do portal de notícias InTimeNews">
+                </a>
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
 
     <!-- JS BOOTSTRAP 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

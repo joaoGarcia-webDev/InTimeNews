@@ -24,7 +24,7 @@
                 <li class="nav-item ms-3 dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id=infoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Informações gerais</a>
                     <ul class="dropdown-menu" aria-labelledby=infoDropdown">
-                        <li><a class="dropdown-item" href="#">Curiosidades</a></li>
+                        <li><a class="dropdown-item" href="curiosity.php">Curiosidades</a></li>
                         <li><a class="dropdown-item" href="variants.php">Variantes</a></li>
                         <li><a class="dropdown-item" href="#">Inovações</a></li>
                         <li><a class="dropdown-item" href="informacoes.php">Informações</a></li>
