@@ -57,7 +57,7 @@
                 <h3>Gripe espanhola X Covid-19
                     quais as suas igualdades</h3>
 <!--                <p>Lorem ipsum dolor sit amet</p>-->
-                <a href="#" class="btn btn-primary">Saiba mais</a>
+                <a href="spanish_covid.php" class="btn btn-primary">Saiba mais</a>
 
             </div>
         </aside>
