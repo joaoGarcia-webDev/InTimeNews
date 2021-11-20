@@ -46,9 +46,6 @@
             <li>O vírus não é capaz de entrar na pele, apenas em mucosa;</li>
         </ul>
 
-
-        <!-- cards-content
-        ================ -->
     </main>
     
 
