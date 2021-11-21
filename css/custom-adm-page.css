@@ -1,5 +1,6 @@
 /* ASIDE CONTENT */
 body{
+    width: 98%;
     overflow-x: hidden;
 }
 .aside-content{
@@ -25,12 +26,12 @@ body{
     transition: all 0.4s ease;
 }
 .aside-ico i{
-    color: #C81D25;
+    color: #0B3954;
     font-size: 2.5em;
 }
 .aside-ico:hover, .aside-ico.active{
     transform: translateX(10px);
-    background-color: #C81D25;
+    background-color: #0B3954;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .aside-content:hover .aside-ico.active{
@@ -53,6 +54,12 @@ nav.navbar{
 nav.navbar .container-fluid .navbar-brand img{
     width: auto;
     height: 50px;
+}
+
+/* INSIDE CONTENT ELEMENTS */
+.inside-content h1{
+    font-size: 1.6em;
+    margin-top: 1em;
 }
 
 /* CARDS CONTENT */
@@ -79,7 +86,7 @@ nav.navbar .container-fluid .navbar-brand img{
     position: absolute;
     right: 0;
     top: 0;
-    font-size: 2em;
+    font-size: 1.5em;
     height: 100%;
     padding: 0.5em;
     display: flex;
