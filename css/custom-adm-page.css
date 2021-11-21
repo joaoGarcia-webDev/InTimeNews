@@ -54,3 +54,42 @@ nav.navbar .container-fluid .navbar-brand img{
     width: auto;
     height: 50px;
 }
+
+/* CARDS CONTENT */
+.card{
+    margin: 1em 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.card.news .text-content{
+    width: 90%;
+}
+.card.news .text-content h2{
+    text-align: left;
+    font-size: 1.8em;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+.card.news a{
+    color: #0B3954;
+}
+.card.news i{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 2em;
+    height: 100%;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    cursor: pointer;
+    transition: all 0.2s ease
+}
+.card.news i:hover{
+    background: #0B3954;
+    color: #f0f0f0;
+}

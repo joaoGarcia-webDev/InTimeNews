@@ -55,35 +55,45 @@
         </nav>
         <section class="inside-content row">
             <h1 class="big-title">Pagina de Administrador, faça as alterações que desejar</h1>
-            <div class="card-content col-12 col-md-4">
+            <div class="card-content col-12 col-md-6 col-lg-4">
                 <div class="card news">
-                    <p>notícias antigas</p>
-                    <h2>Nome Notícia</h2>
-                    <small>07/11/2021</small>
-                    <i class="bi bi-pencil-fill"></i>
+                    <div class="text-content">
+                        <p>notícias antigas</p>
+                        <h2>Nome Notícia</h2>
+                        <small>07/11/2021</small>
+                    </div>
+                    <a href="#">
+                        <i class="bi bi-pencil-fill"></i>
+                    </a>
                 </div>
                 <div class="card news">
-                    <p>notícias antigas</p>
-                    <h2>Nome Notícia</h2>
-                    <small>07/11/2021</small>
-                    <i class="bi bi-pencil-fill"></i>
+                    <div class="text-content">
+                        <p>notícias antigas</p>
+                        <h2>Nome Notícia</h2>
+                        <small>07/11/2021</small>
+                    </div>
+                    <a href="#">
+                        <i class="bi bi-pencil-fill"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="size-content col-12 col-md-6 col-lg-4">
+                <div class="card size">
+
+                <!-- MELHORAR A CONTAGEM DE BYTES -->
+                <?php
+                    $size = 0;
+                    $path    = './';
+                    $files = scandir($path);
+                    $files = array_diff(scandir($path), array('.', '..'));
+                    foreach($files as $file){
+                        $size += filesize($file);
+                    }
+                    echo "<h1>". $size. "</h1>";
+                ?>
                 </div>
             </div>
         </section>
-        <h1>
-        <?php
-        
-            $size = 0;
-            $path    = './';
-            $files = scandir($path);
-            $files = array_diff(scandir($path), array('.', '..'));
-            foreach($files as $file){
-                $size += filesize($file);
-            }
-            echo $size;
-            
-        ?>
-        </h1>
     </main>
 
     <!-- JS BOOTSTRAP 5 -->
