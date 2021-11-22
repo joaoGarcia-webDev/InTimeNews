@@ -56,7 +56,7 @@
             </nav>
             <section class="inside-content row">
                 <h1 class="big-title">Ultimas notícias da página</h1>
-                <div class="card-content col-11 col-md-6 col-lg-4">
+                <div class="card-content col-12 col-md-6 col-lg-4">
                     <div class="card news">
                         <div class="text-content">
                             <p>notícias antigas</p>
@@ -78,7 +78,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="size-content col-11 col-md-6 col-lg-4">
+                <div class="size-content col-12 col-md-6 col-lg-4">
                     <div class="card size">
 
                     <!-- MELHORAR A CONTAGEM DE BYTES -->
