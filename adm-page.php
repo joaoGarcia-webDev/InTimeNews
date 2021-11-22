@@ -78,20 +78,45 @@
                         </a>
                     </div>
                 </div>
-                <div class="size-content col-12 col-md-6 col-lg-4">
-                    <div class="card size">
+                <div class="size-content col-12 col-md-6 col-lg-2">
+                    <div class="card size justify-content-center">
+                        <h2>Portal de Notícias em MB</h2>
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <!-- MELHORAR A CONTAGEM DE BYTES -->
+                                <?php
+                                    $size = 0;
+                                    $path    = './';
+                                    $files = scandir($path);
+                                    $files = array_diff(scandir($path), array('.', '..'));
+                                    foreach($files as $file){
+                                        $size += filesize($file);
+                                    }
+                                    echo "<h3>". round(($size/30000), 2). "<span>MB</span></h3>";
+                                ?>
+                            </div>
+                        </div>
+                        <div class="img-folder">
+                            <?php
+                            function folderSize($dir)
+                            {
+                                $size = 0;
 
-                    <!-- MELHORAR A CONTAGEM DE BYTES -->
-                    <?php
-                        $size = 0;
-                        $path    = './';
-                        $files = scandir($path);
-                        $files = array_diff(scandir($path), array('.', '..'));
-                        foreach($files as $file){
-                            $size += filesize($file);
-                        }
-                        echo "<h1>". $size. "</h1>";
-                    ?>
+                                foreach (glob(rtrim($dir, '/').'/*', GLOB_NOSORT) as $each) {
+                                    $size += is_file($each) ? filesize($each) : folderSize($each);
+                                }
+                            
+                                return round(($size/1000));
+                            }
+
+                            echo "<i class='bi bi-image'></i><span>".folderSize('img/'). "MB</span>";
+                            ?>
+                            
+                        </div>               
                     </div>
                 </div>
             </section>

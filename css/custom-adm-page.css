@@ -100,3 +100,73 @@ nav.navbar .container-fluid .navbar-brand img{
     background: #0B3954;
     color: #f0f0f0;
 }
+.card.size{
+    flex-direction: column;
+}
+.card.size h2{
+    font-size: 1em;
+}
+/* PERCENT CIRCLE */
+.percent, .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.percent svg circle{
+    fill: none;
+    stroke-width: 10;
+    stroke: #0B3954;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+.percent svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: rgba(11, 57, 84, 0.5);
+}
+.percent svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440*83) / 100);
+    stroke: rgba(11, 57, 84, 1);
+}
+.percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.percent .number h3{
+    font-size: 2.3em;
+}
+.percent .number span{
+    font-size: 0.5em;
+}
+span{
+    font-family: 'Cabin', sans-serif;
+}
+/* IMG FOLDER SIZE */
+.img-folder{
+    margin: 1.5em 0;
+    font-size: 1.4em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid rgba(11, 57, 84, 0.5);
+    padding: 0.1em .9em;
+    border-radius: 5em;
+    transition: all 0.2s ease;
+}
+.img-folder:hover{
+    color: #f0f0f0;
+    background-color: #0B3954;
+}
+
+/* MEDIA FOR - SM -  */
+@media only screen and (max-width:767px){
+    .aside-ico i{
+        font-size: 2em;
+    }
+}
