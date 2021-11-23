@@ -59,7 +59,7 @@
                 </a>
             </section>
 
-            <section class="aside-content col-12 col-lg-4 offset-lg-2">
+            <aside class="aside-content col-12 col-lg-4 offset-lg-2">
                 <div class="bg-dark-blue col-md-5 col-lg-12">
                     <h3>Ultimas notícias</h3>
                     <div class="content-news">
@@ -104,7 +104,7 @@
                         <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
                     </div>
                 </div>
-            </section>
+            </aside>
         </article>
 
     </main>

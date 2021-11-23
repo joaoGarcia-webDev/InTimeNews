@@ -20,7 +20,7 @@
 
 </head>
 
-<body>
+<body class="bg-light">
 
     <!-- MAIN NAVBAR ======================= -->
     <?php include 'navbar-main.php'; ?>
@@ -32,64 +32,70 @@
         <article class="article-news-content mx-auto row">
             <h1 class="big-title">Ultimas Notícias</h1>
             <div class="initial-news col-sm-12 col-md-12 col-lg-6">
-                <section class="section-news">
-                    <img src="img/just_example/news-250x250.jpg" class="img-fluid" alt="Imagem da notícia principal">
-                    <div class="small-text">
-                        <span class="under-img-text col">25/10/2021</span>
-                        <span class="under-img-text col">tempo de leitura: 5 minutos</span>
-                    </div>
-                    <header class="news-header">
-                        <h2>Notícia principal da pag</h2>
-                        <p class="news-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
-                        </p>
-                    </header>
-                </section>
+                <a href="#">
+                    <section class="section-news">
+                        <img src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" class="img-fluid" alt="Imagem de Renam Calheiros durante a reunião da CPI da COVID-19, notícia principal">
+                        <div class="small-text">
+                            <span class="under-img-text col">26/10/2021</span>
+                            <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                        </div>
+                        <header class="news-header">
+                            <h2 class="big-title">É aprovado relatório que pede indiciamento de Bolsonaro e outras 77 pessoas</h2>
+                            <p class="text-lora news-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                            </p>
+                        </header>
+                    </section>
+                </a>
             </div>
-            
+
             <div class="aside-news col-sm-12 col-md-12 col-lg-6">
-                <section class="section-news col-12">
-                    <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
-                    <div class="small-text">
-                        <span class="under-img-text col">25/10/2021</span>
-                        <span class="under-img-text col">tempo de leitura: 5 minutos</span>
-                    </div>
-                    <header class="news-header">
-                        <h2>Notícia principal da pag</h2>
-                        <p class="news-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
-                        </p>
-                    </header>
-                </section>
-
+                <a href="#">
+                    <section class="section-news black col-12">
+                        <img src="img/cpi-covid/grafico-casos-confirmados.png" class="img-fluid col-12" alt="Imagem da notícia principal">
+                        <div class="small-text">
+                            <span class="under-img-text col">15/11/2021</span>
+                            <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                        </div>
+                        <header class="news-header">
+                            <h2>Os alertas da quarta onda de COVID-19</h2>
+                            <p class="text-lora news-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                            </p>
+                        </header>
+                    </section>
+                </a>
                 <div class="last-news">
-                    <section class="section-news col-sm-12 col-md-6">
-                        <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
-                        <div class="small-text">
-                            <span class="under-img-text col">25/10/2021</span>
-                            <span class="under-img-text col">tempo de leitura: 5 minutos</span>
-                        </div>
-                        <header class="news-header">
-                            <h2>Notícia principal da pag</h2>
-                            <p class="news-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                        </header>
-                    </section>
-
-                    <section class="section-news col-sm-12 col-md-6">
-                        <img src="img/just_example/news-250x250.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
-                        <div class="small-text">
-                            <span class="under-img-text col">25/10/2021</span>
-                            <span class="under-img-text col">tempo de leitura: 5 minutos</span>
-                        </div>
-                        <header class="news-header">
-                            <h2>Notícia principal da pag</h2>
-                            <p class="news-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                        </header>
-                    </section>
+                    <a class="section-news col-sm-12 col-md-6" href="#">
+                        <section>
+                            <img src="img/cpi-covid/brasil-supera-eua.png" class="img-fluid col-12" alt="Imagem da notícia principal">
+                            <div class="small-text">
+                                <span class="under-img-text col">18/11/2021</span>
+                                <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                            </div>
+                            <header class="news-header">
+                                <h2>Brasil supera EUA em taxa de vacinados</h2>
+                                <p class="text-lora news-text">
+                                    Já são 59,9% de brasileiros totalmente imunizados contra o coronavírus
+                                </p>
+                            </header>
+                        </section>
+                    </a>
+                    <a class="section-news col-sm-12 col-md-6" href="#">
+                        <section>
+                            <img src="img/cpi-covid/brasil-taxa-mortes.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
+                            <div class="small-text">
+                                <span class="under-img-text col">18/11/2021</span>
+                                <span class="under-img-text col">tempo de leitura: 5 minutos</span>
+                            </div>
+                            <header class="news-header">
+                                <h2>Brasil tem salto de 15% em taxa de mortes</h2>
+                                <p class="text-lora news-text">
+                                    País registrou cerca de 195,5 mil mortes a mais que em 2019, a maior alta histórica, a maioria de idosos.
+                                </p>
+                            </header>
+                        </section>
+                    </a>
                 </div>
             </div>
         </article>
@@ -102,14 +108,14 @@
             <h2 class="big-title">Informações Gerais</h2>
             <div class="col-12 col-lg-6">
                 <div class="initial-page">
-                    <img src="img/just_example/news-250x250.jpg" alt="">
+                    <img src="img/curiosidade/curiosidade.jpg" class="img-fluid col-12" alt="Imagem da seção de curiosidades">
                     <div class="small-text">
-                        <small>Autor</small>
-                        <small>13/11/2021</small>
+                        <small>Beatriz</small>
+                        <small>18/11/2021</small>
                     </div>
                     <div class="text-content">
-                        <h2>personal page</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
+<!--                        <h2 class="text-curiosity">Curiosidades</h2>-->
+                        <p class="text-lora text-black">Para saber mais sobre o Covid <a href="curiosity.php">Clique aqui.</a> </p>
                     </div>
                 </div>
             </div>
@@ -118,7 +124,7 @@
                     <img src="img/just_example/news-250x250.jpg" alt="">
                     <div class="text-content">
                         <h2>personal page</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
+                        <p class="text-lora">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
                         <div class="small-text"><small>Autor</small><small>13/11/2021</small></div>
                     </div>
                 </div>
@@ -126,7 +132,7 @@
                     <img src="img/just_example/news-250x250.jpg" alt="">
                     <div class="text-content">
                         <h2>personal page</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
+                        <p class="text-lora">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
                         <div class="small-text"><small>Autor</small><small>13/11/2021</small></div>
                     </div>
                 </div>
@@ -134,7 +140,7 @@
                     <img src="img/just_example/news-250x250.jpg" alt="">
                     <div class="text-content">
                         <h2>personal page</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
+                        <p class="text-lora">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
                         <div class="small-text"><small>Autor</small><small>13/11/2021</small></div>
                     </div>
                 </div>
@@ -146,19 +152,19 @@
         <!-- ================
         cards-content -->
         <aside class="cards-content row">
-            <div class="card bg-light col-sm-12 col-md-6 col-lg-3">
+            <div class="card col-sm-12 col-md-6 col-lg-3">
                 <h2>Sobre Nós</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero facilis ipsa autem animi earum quod vel illum facere voluptatem mollitia. Maxime nemo nihil dolores earum possimus pariatur, atque itaque voluptatibus!</p>
+                <p class="text-lora">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero facilis ipsa autem animi earum quod vel illum facere voluptatem mollitia. Maxime nemo nihil dolores earum possimus pariatur, atque itaque voluptatibus!</p>
                 <a href="#" class="btn btn-primary">Saiba mais</a>
             </div>
-            <div class="card bg-light col-sm-12 col-md-6 col-lg-3">
+            <div class="card col-sm-12 col-md-6 col-lg-3">
                 <h2>Contato</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eum excepturi necessitatibus eos ducimus sequi culpa unde odit incidunt adipisci alias perspiciatis saepe voluptas consequatur natus quis sit, impedit veniam.</p>
+                <p class="text-lora">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eum excepturi necessitatibus eos ducimus sequi culpa unde odit incidunt adipisci alias perspiciatis saepe voluptas consequatur natus quis sit, impedit veniam.</p>
                 <a href="#" class="btn btn-primary">Entrar em contato</a>
             </div>
-            <div class="card bg-light col-sm-12 col-lg-3">
+            <div class="card col-sm-12 col-lg-3">
                 <h3>Receba as ultimas noticías</h3>
-                <p>Lorem ipsum dolor sit amet</p>
+                <p class="text-lora">Lorem ipsum dolor sit amet</p>
 
                 <form action="#" method="post">
                     <div class="mb-3">

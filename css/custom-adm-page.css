@@ -1,0 +1,172 @@
+/* ASIDE CONTENT */
+body{
+    width: 98%;
+    overflow-x: hidden;
+}
+.aside-content{
+    background-color: #f0f0f0;
+    max-width: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6.5em 0 1.5em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.aside-content .icon-content{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.aside-ico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+.aside-ico i{
+    color: #0B3954;
+    font-size: 2.5em;
+}
+.aside-ico:hover, .aside-ico.active{
+    transform: translateX(10px);
+    background-color: #0B3954;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.aside-content:hover .aside-ico.active{
+    transform: translateX(0);
+    opacity: 0.5;
+}
+.aside-ico:hover i, .aside-ico.active i{
+    color: #f0f0f0;
+}
+
+.main-adm{
+    padding: 0 25px;
+}
+nav.navbar{
+    height: 75px;
+    margin: 0.5em 0;
+    background: transparent;
+}
+
+nav.navbar .container-fluid .navbar-brand img{
+    width: auto;
+    height: 50px;
+}
+
+/* INSIDE CONTENT ELEMENTS */
+.inside-content h1{
+    font-size: 1.6em;
+    margin-top: 1em;
+}
+
+/* CARDS CONTENT */
+.card{
+    margin: 1em 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.card.news .text-content{
+    width: 90%;
+}
+.card.news .text-content h2{
+    text-align: left;
+    font-size: 1.8em;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+.card.news a{
+    color: #0B3954;
+}
+.card.news i{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.5em;
+    height: 100%;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    cursor: pointer;
+    transition: all 0.2s ease
+}
+.card.news i:hover{
+    background: #0B3954;
+    color: #f0f0f0;
+}
+.card.size{
+    flex-direction: column;
+}
+.card.size h2{
+    font-size: 1em;
+}
+/* PERCENT CIRCLE */
+.percent, .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.percent svg circle{
+    fill: none;
+    stroke-width: 10;
+    stroke: #0B3954;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+.percent svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: rgba(11, 57, 84, 0.5);
+}
+.percent svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440*83) / 100);
+    stroke: rgba(11, 57, 84, 1);
+}
+.percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.percent .number h3{
+    font-size: 2.3em;
+}
+.percent .number span{
+    font-size: 0.5em;
+}
+span{
+    font-family: 'Cabin', sans-serif;
+}
+/* IMG FOLDER SIZE */
+.img-folder{
+    margin: 1.5em 0;
+    font-size: 1.4em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid rgba(11, 57, 84, 0.5);
+    padding: 0.1em .9em;
+    border-radius: 5em;
+    transition: all 0.2s ease;
+}
+.img-folder:hover{
+    color: #f0f0f0;
+    background-color: #0B3954;
+}
+
+/* MEDIA FOR - SM -  */
+@media only screen and (max-width:767px){
+    .aside-ico i{
+        font-size: 2em;
+    }
+}

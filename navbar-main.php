@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid px-md-5">
         <button class="col-md-1 navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarToggleMain" aria-controls="navbarToggleMain" aria-expanded="true"
@@ -12,14 +12,34 @@
         <div class="collapse navbar-collapse row" id="navbarToggleMain">
             <img src="img/just_example/banner-750x150.jpg" alt="Banner de exemplo" class="img-fluid banner">
             <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
-                <li class="nav-item ms-3">
-                    <a class="nav-link" href="#">Noticías</a>
+                <li class="nav-item ms-3 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="noticiaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Noticías</a>
+                    <ul class="dropdown-menu" aria-labelledby="noticiaDropdown">
+                        <li><a class="dropdown-item" href="CPI.php">CPI da Covid</a></li>
+                        <li><a class="dropdown-item" href="#">Sintomas e Tratamentos</a></li>
+                        <li><a class="dropdown-item" href="#">Porcentagem de infectados</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item ms-3">
-                    <a class="nav-link" href="informacoes.php">Informações gerais</a>
+                
+                <li class="nav-item ms-3 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id=infoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Informações gerais</a>
+                    <ul class="dropdown-menu" aria-labelledby=infoDropdown">
+                        <li><a class="dropdown-item" href="curiosity.php">Curiosidades</a></li>
+                        <li><a class="dropdown-item" href="variants.php">Variantes</a></li>
+                        <li><a class="dropdown-item" href="#">Inovações</a></li>
+                        <li><a class="dropdown-item" href="informacoes.php">Informações</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item ms-3">
-                    <a class="nav-link" href="#">Area social</a>
+
+                <li class="nav-item ms-3 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="socialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Area social</a>
+                    <ul class="dropdown-menu" aria-labelledby="socialDropdown">
+                        <li><a class="dropdown-item" href="#">Notícias Automáticas</a></li>
+                        <li><a class="dropdown-item" href="#">Contato</a></li>
+                        <li><a class="dropdown-item" href="#">Quem somos</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="normas.php">Normas de uso</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>

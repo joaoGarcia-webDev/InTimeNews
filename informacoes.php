@@ -28,128 +28,46 @@
 
         <!--Section com conteúdo-->
 
-        <article class="mx-auto">
-            <div class="col-sm-12 col-md-12 col-lg-12 mx-auto clear-fix">
-              <section class="infos mt-5">
-                <img src="img/imagem-informacoes/vacina-astrazeneca-desktop.png" class="img-fluid col-4 float-end ml-5 pt-3" alt="vacina astrazeneca" />
-                <h2 >Astrazeneca</h2>
-                <p class="col-7 mr-1" >A  vacina foi desenvolvida por uma equipe da Universidade de Oxford em conjunto com a empresa britânico-Sueca AstraZeneca. 
-                É uma vacina vetorial segundo o laboratório Fiocruz, ela foi produzida com um vetor não replicante do adenovírus de chimpanzés que é inofensivo para seres-humanos. Sendo assim uma versão mais fraca do vírus da gripe que é comum nos chimpanzes e contém as proteínas no Sars-Cov-2.
-                Depois da vacinação esse adenovírus consegue penetrar em poucas células do corpo humano.  E essas células são necessárias para nosso sistema imunológico começar a produção de anticorpos e células T que nos protegeram da infecção da Sars-Cov-2. </p>
-              </section>
-        </article>
-        
-        <section class="mx-auto separador ">
-                <div class="row col-sm-12 col-md-12 col-lg-12 ">
-                  <section class="col-4 mt-4">
-                    <h2>EFICÁCIA</h2>
-                    <p>A vacina tem uma eficácia de 76% a 79% contra casos contra casos do novo coronavírus e 100% contra casos graves.</p>
-                  </section>
-                  <section class="col-4 mt-4">
-                    <h2>INTERVALO ENTRE DOSES</h2>
-                    <p>O intervalo das doses no Brasil, inicialmente erta de 12 semanas, mas com o avanço da vacinação em todo território, foi alterado para 8 semanas.</p>
-                  </section>
-                  <section class="col-4 mt-4">
-                    <h2>FABRICANTE</h2>
-                    <p>No Brasil a Fiocruz é a fabricante da vacina.</p>
-                  </section>
+        <section>
+            <div id="carouselInfos" class="carousel carousel-dark slide" data-bs-interval="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselInfos" data-bs-target="#conteudo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselInfos" data-bs-target="#conteudo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselInfos" data-bs-target="#conteudo" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-        </section>
-            </div>
-
-            
-        <article class="mx-auto">
-            <div class="col-sm-12 col-md-12 col-lg-12 mx-auto clear-fix">
-              <section class="infos mt-5">
-                <img src="img/imagem-informacoes/vacina-astrazeneca-desktop.png" class="img-fluid col-4 float-end ml-5 pt-3" alt="vacina astrazeneca" />
-                <h2 >Astrazeneca</h2>
-                <p class="col-7 mr-1" >A  vacina foi desenvolvida por uma equipe da Universidade de Oxford em conjunto com a empresa britânico-Sueca AstraZeneca. 
-                É uma vacina vetorial segundo o laboratório Fiocruz, ela foi produzida com um vetor não replicante do adenovírus de chimpanzés que é inofensivo para seres-humanos. Sendo assim uma versão mais fraca do vírus da gripe que é comum nos chimpanzes e contém as proteínas no Sars-Cov-2.
-                Depois da vacinação esse adenovírus consegue penetrar em poucas células do corpo humano.  E essas células são necessárias para nosso sistema imunológico começar a produção de anticorpos e células T que nos protegeram da infecção da Sars-Cov-2. </p>
-              </section>
-        </article>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="img/imagem-informacoes/img-5-slides-1200.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption carrosel">
+                        <h2>VACINAS</h2>
+                    </div>
+                    </div>
         
-        <section class="mx-auto ">
-                <div class="row col-sm-12 col-md-12 col-lg-12 ">
-                  <section class="col-4 mt-4">
-                    <h2>EFICÁCIA</h2>
-                    <p>A vacina tem uma eficácia de 76% a 79% contra casos contra casos do novo coronavírus e 100% contra casos graves.</p>
-                  </section>
-                  <section class="col-4 mt-4">
-                    <h2>INTERVALO ENTRE DOSES</h2>
-                    <p>O intervalo das doses no Brasil, inicialmente erta de 12 semanas, mas com o avanço da vacinação em todo território, foi alterado para 8 semanas.</p>
-                  </section>
-                  <section class="col-4 mt-4">
-                    <h2>FABRICANTE</h2>
-                    <p>No Brasil a Fiocruz é a fabricante da vacina.</p>
-                  </section>
-                </div>
-        </section>
-            </div>
-
-
-
-            
-        <article class="mx-auto">
-            <div class="col-sm-12 col-md-12 col-lg-12 mx-auto clear-fix">
-              <section class="infos mt-5">
-                <img src="img/imagem-informacoes/vacina-astrazeneca-desktop.png" class="img-fluid col-4 float-end ml-5 pt-3" alt="vacina astrazeneca" />
-                <h2 >Astrazeneca</h2>
-                <p class="col-7 mr-1" >A  vacina foi desenvolvida por uma equipe da Universidade de Oxford em conjunto com a empresa britânico-Sueca AstraZeneca. 
-                É uma vacina vetorial segundo o laboratório Fiocruz, ela foi produzida com um vetor não replicante do adenovírus de chimpanzés que é inofensivo para seres-humanos. Sendo assim uma versão mais fraca do vírus da gripe que é comum nos chimpanzes e contém as proteínas no Sars-Cov-2.
-                Depois da vacinação esse adenovírus consegue penetrar em poucas células do corpo humano.  E essas células são necessárias para nosso sistema imunológico começar a produção de anticorpos e células T que nos protegeram da infecção da Sars-Cov-2. </p>
-              </section>
-        </article>
+                    <div class="carousel-item">
+                    <img src="img/imagem-informacoes/img-6-slides-slides.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h2>AGRADECIMENTOS </h2>
+                    </div>
+                    </div>
         
-        <section class="mx-auto ">
-                <div class="row col-sm-12 col-md-12 col-lg-12 ">
-                  <section class="col-4 mt-4">
-                    <h2>EFICÁCIA</h2>
-                    <p>A vacina tem uma eficácia de 76% a 79% contra casos contra casos do novo coronavírus e 100% contra casos graves.</p>
-                  </section>
-                  <section class="col-4 mt-4">
-                    <h2>INTERVALO ENTRE DOSES</h2>
-                    <p>O intervalo das doses no Brasil, inicialmente erta de 12 semanas, mas com o avanço da vacinação em todo território, foi alterado para 8 semanas.</p>
-                  </section>
-                  <section class="col-4 mt-4">
-                    <h2>FABRICANTE</h2>
-                    <p>No Brasil a Fiocruz é a fabricante da vacina.</p>
-                  </section>
-                </div>
-        </section>
-            </div>
-
-            
-        <article class="mx-auto">
-            <div class="col-sm-12 col-md-12 col-lg-12 mx-auto clear-fix">
-              <section class="infos mt-5">
-                <img src="img/imagem-informacoes/vacina-astrazeneca-desktop.png" class="img-fluid col-4 float-end ml-5 pt-3" alt="vacina astrazeneca" />
-                <h2 >Astrazeneca</h2>
-                <p class="col-7 mr-1" >A  vacina foi desenvolvida por uma equipe da Universidade de Oxford em conjunto com a empresa britânico-Sueca AstraZeneca. 
-                É uma vacina vetorial segundo o laboratório Fiocruz, ela foi produzida com um vetor não replicante do adenovírus de chimpanzés que é inofensivo para seres-humanos. Sendo assim uma versão mais fraca do vírus da gripe que é comum nos chimpanzes e contém as proteínas no Sars-Cov-2.
-                Depois da vacinação esse adenovírus consegue penetrar em poucas células do corpo humano.  E essas células são necessárias para nosso sistema imunológico começar a produção de anticorpos e células T que nos protegeram da infecção da Sars-Cov-2. </p>
-              </section>
-        </article>
+                    <div class="carousel-item">
+                    <img src="img/imagem-informacoes/img-4-slides-1200.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h2>DIFERENTES VACINAS</h2>
         
-        <section class="mx-auto ">
-                <div class="row col-sm-12 col-md-12 col-lg-12 ">
-                  <section class="col-4 mt-4">
-                    <h2>EFICÁCIA</h2>
-                    <p>A vacina tem uma eficácia de 76% a 79% contra casos contra casos do novo coronavírus e 100% contra casos graves.</p>
-                  </section>
-                  <section class="col-4 mt-4">
-                    <h2>INTERVALO ENTRE DOSES</h2>
-                    <p>O intervalo das doses no Brasil, inicialmente erta de 12 semanas, mas com o avanço da vacinação em todo território, foi alterado para 8 semanas.</p>
-                  </section>
-                  <section class="col-4 mt-4">
-                    <h2>FABRICANTE</h2>
-                    <p>No Brasil a Fiocruz é a fabricante da vacina.</p>
-                  </section>
+                    </div>
+                    </div>
                 </div>
-        </section>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselInfos" data-bs-target="#conteudo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselInfos" data-bs-target="#conteudo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
             </div>
-
-
+    </section>
 
         <!-- MAIN FOOTER ======================= -->
         <?php include 'footer-main.php' ?>
