@@ -78,7 +78,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="size-content col-12 col-md-6 col-lg-2">
+                <div class="size-content col-12 col-md-6 col-lg-4">
                     <div class="card size justify-content-center">
                         <h2>Portal de Notícias em MB</h2>
                         <div class="percent">
