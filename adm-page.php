@@ -78,7 +78,11 @@
                         </a>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div class="size-content col-12 col-md-6 col-lg-2">
+=======
+                <div class="size-content col-12 col-md-6 col-lg-4">
+>>>>>>> 378c9509640ef279c2399cfa441fbe91097172d6
                     <div class="card size justify-content-center">
                         <h2>Portal de Notícias em MB</h2>
                         <div class="percent">
