@@ -102,10 +102,7 @@ nav.navbar .container-fluid .navbar-brand img{
 }
 .card.size{
     flex-direction: column;
-<<<<<<< HEAD
-=======
     max-width: 400px;
->>>>>>> 378c9509640ef279c2399cfa441fbe91097172d6
 }
 .card.size h2{
     font-size: 1em;
@@ -153,10 +150,7 @@ span{
 }
 /* IMG FOLDER SIZE */
 .img-folder{
-<<<<<<< HEAD
-=======
     max-width: 200px;
->>>>>>> 378c9509640ef279c2399cfa441fbe91097172d6
     margin: 1.5em 0;
     font-size: 1.4em;
     width: 100%;
