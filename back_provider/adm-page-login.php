@@ -25,7 +25,7 @@
         <div class="card login-card">
             <header>
                 <h1 class="big-title">Login da pagina de Administrator</h1>
-                <h2 class="my-2">Se você acessou esta pagina e não é uma pessoa autorizada peço que acesse <a href="../index.php">Pagina Inicial</a> para continuar aproveitando todo o conteúdo de nosso site.</h2>
+                <h2 class="my-2">Se você acessou esta pagina e não é uma pessoa autorizada, peço que acesse <a href="../index.php">Pagina Inicial</a> para continuar aproveitando todo o conteúdo de nosso site.</h2>
             </header>
             <form action="../adm-page.php" method="post" enctype="multipart/form">
                 <div class="mb-5">
