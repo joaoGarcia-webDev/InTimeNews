@@ -37,37 +37,40 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src="img/imagem-informacoes/img-5-slides-1200.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption carrosel">
-                        <h2>VACINAS</h2>
+                        <img src="img/imagem-informacoes/img-5-slides-1200.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption carrosel">
+                            <h2>VACINAS</h2>
+                        </div>
+                        </div>
+            
+                        <div class="carousel-item">
+                        <img src="img/imagem-informacoes/img-6-slides-slides.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h2>AGRADECIMENTOS </h2>
+                        </div>
+                        </div>
+            
+                        <div class="carousel-item">
+                        <img src="img/imagem-informacoes/img-4-slides-1200.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h2>DIFERENTES VACINAS</h2>
+            
+                        </div>
+                        </div>
                     </div>
-                    </div>
-        
-                    <div class="carousel-item">
-                    <img src="img/imagem-informacoes/img-6-slides-slides.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h2>AGRADECIMENTOS </h2>
-                    </div>
-                    </div>
-        
-                    <div class="carousel-item">
-                    <img src="img/imagem-informacoes/img-4-slides-1200.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h2>DIFERENTES VACINAS</h2>
-        
-                    </div>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselInfos" data-bs-target="#conteudo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselInfos" data-bs-target="#conteudo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselInfos" data-bs-target="#conteudo" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselInfos" data-bs-target="#conteudo" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Próximo</span>
-                </button>
-            </div>
-    </section>
+        </section>
+
+
+        </main>
 
         <!-- MAIN FOOTER ======================= -->
         <?php include 'footer-main.php' ?>
@@ -76,7 +79,5 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-
-        </main>
 </body>
 </html>
