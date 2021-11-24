@@ -45,7 +45,7 @@
         <main class="main-adm col">
             <nav class="navbar">
                 <div class="container-fluid">
-                    <a class="navbar-brand">
+                    <a href="index.php" class="navbar-brand">
                         <img src="img/svg/main_logo_v0.svg" class="img-fluid" alt="Logo principal do portal de notícias InTimeNews">
                     </a>
                     <form class="d-flex">
