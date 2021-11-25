@@ -1,8 +1,10 @@
 <?php
 session_start();
-if (isset($_POST['email']) && $_POST['email'] != '') {
+
+if (isset($_POST['email']) && $_POST['email'] != '' || $_SESSION['admloged']) {
     $_SESSION['admloged'] = true;
 } else { $_SESSION['admloged'] = false; }
+
 
 if ($_SESSION['admloged']) {
 ?>
@@ -63,6 +65,8 @@ if ($_SESSION['admloged']) {
                     </form>
                 </div>
             </nav>
+
+            <!-- INSIDE INITIAL CONTENT -->
             <section class="inside-content row">
                 <h1 class="big-title">Ultimas notícias da página</h1>
                 <div class="card-content col-12 col-md-6 col-lg-4">
