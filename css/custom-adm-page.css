@@ -186,7 +186,10 @@ span{
 .card.login-card header{
     text-align: center;
 }
-.card.login-card header h2{
+.card.login-card header h1{
+    color: #0B3954;
+}
+.card.login-card h2{
     color: #aaaaaa;
     letter-spacing: .05em;
     font-weight: 600;
@@ -199,8 +202,18 @@ span{
     left: 0;
     right: 0;
     width: 100%;
+    background-color: #0B3954;
+    border: 2px solid #093046;
 }
-
+.btn-login:hover{
+    border: 2px solid #105177;
+    background-color: #0e496b;
+}
+.text-danger{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
 /* MEDIA FOR - SM -  */
 @media only screen and (max-width:767px){
     .aside-ico i{

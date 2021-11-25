@@ -25,17 +25,22 @@
         <div class="card login-card">
             <header>
                 <h1 class="big-title">Login da pagina de Administrator</h1>
-                <h2 class="my-2">Se você acessou esta pagina e não é uma pessoa autorizada, peço que acesse <a href="../index.php">Pagina Inicial</a> para continuar aproveitando todo o conteúdo de nosso site.</h2>
+                
             </header>
+            <?php   
+                session_start();
+                if(isset($_SESSION['error'])){echo $_SESSION['error']; unset( $_SESSION['error']);} 
+            ?>
             <form action="../adm-page.php" method="post" enctype="multipart/form">
-                <div class="mb-5">
+                <div class="mb-3">
                     <label for="loginInput" class="form-label">Login</label>
-                    <input type="email" class="form-control" id="loginInput">
+                    <input name="email" type="email" class="form-control" id="loginInput">
                     <label for="passwordInput" class="form-label">Senha</label>
-                    <input type="password" class="form-control" id="passwordInput">
+                    <input name="password" type="password" class="form-control" id="passwordInput">
                 </div>
                 <button type="submit" class="btn-login btn btn-primary">Enviar</button>
             </form>
+            <h2 class="mb-5">Se você acessou esta pagina e não é uma pessoa autorizada, peço que acesse <a href="../index.php">Pagina Inicial</a> para continuar aproveitando todo o conteúdo de nosso site.</h2>
         </div>
     </main>
 

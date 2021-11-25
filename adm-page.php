@@ -1,3 +1,12 @@
+<?php
+session_start();
+if (isset($_POST['email']) && $_POST['email'] != '') {
+    $_SESSION['admloged'] = true;
+} else { $_SESSION['admloged'] = false; }
+
+if ($_SESSION['admloged']) {
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -127,5 +136,6 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
+
+<?php } else{ $_SESSION['error'] = "<p class='text-danger'>Faça o login antes de entrar na pagina de administrador!</p>"; header('Location: back_provider/adm-page-login.php'); }?>
