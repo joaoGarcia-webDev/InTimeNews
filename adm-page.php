@@ -76,7 +76,7 @@ if ($_SESSION['admloged']) {
                             <h2>Nome Notícia</h2>
                             <small>07/11/2021</small>
                         </div>
-                        <a href="#">
+                        <a href="back_provider/edit-news.php">
                             <i class="bi bi-pencil-fill"></i>
                         </a>
                     </div>
