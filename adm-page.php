@@ -66,30 +66,41 @@ if ($_SESSION['admloged']) {
                 </div>
             </nav>
 
+            
+
             <!-- INSIDE INITIAL CONTENT -->
             <section class="inside-content row">
                 <h1 class="big-title">Ultimas notícias da página</h1>
                 <div class="card-content col-12 col-md-6 col-lg-4">
-                    <div class="card news">
-                        <div class="text-content">
-                            <p>notícias antigas</p>
-                            <h2>Nome Notícia</h2>
-                            <small>07/11/2021</small>
+                <!-- GET ALL NEWS FILES TO GENERATE CARDS -->
+                <?php
+                    include 'back_provider/lastmodified-inc.php';
+                    $fileDatas = dirList('database/cpi_covid/', $sortOrder);
+
+                    for ($i=0; $i < count($fileDatas); $i += 2) {
+
+                        $fileName = "?file=".$fileDatas[$i];
+                        $fileTitle = file('database/cpi_covid/'.$fileDatas[$i]);
+                        $fileTitle = $fileTitle[1];
+                        $fileData = date ("d/m/Y H:i:s.", $fileDatas[$i+1]);
+                        ?>
+                        
+                        <div class="card news">
+                            <div class="text-content">
+                                <p>notícias CPI COVID-19</p>
+                                <h2><?php echo $fileTitle; ?></h2>
+                                <small><?php echo $fileData; ?></small>
+                            </div>
+                            <a href="back_provider/edit-news.php<?php echo $fileName;?>">
+                                <i class="bi bi-pencil-fill"></i>
+                            </a>
                         </div>
-                        <a href="back_provider/edit-news.php">
-                            <i class="bi bi-pencil-fill"></i>
-                        </a>
-                    </div>
-                    <div class="card news">
-                        <div class="text-content">
-                            <p>notícias antigas</p>
-                            <h2>Nome Notícia</h2>
-                            <small>07/11/2021</small>
-                        </div>
-                        <a href="#">
-                            <i class="bi bi-pencil-fill"></i>
-                        </a>
-                    </div>
+
+                        <?php
+                    }
+                ?>
+
+                    
                 </div>
                 <div class="size-content col-12 col-md-6 col-lg-4">
                     <div class="card size justify-content-center">
