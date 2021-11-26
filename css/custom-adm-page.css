@@ -3,6 +3,16 @@ body{
     width: 98%;
     overflow-x: hidden;
 }
+body.adm-login{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
 .aside-content{
     background-color: #f0f0f0;
     max-width: 100px;
@@ -63,7 +73,7 @@ nav.navbar .container-fluid .navbar-brand img{
 }
 
 /* CARDS CONTENT */
-.card{
+.card.news, .card.size{
     margin: 1em 0;
     flex-direction: row;
     align-items: center;
@@ -102,10 +112,7 @@ nav.navbar .container-fluid .navbar-brand img{
 }
 .card.size{
     flex-direction: column;
-<<<<<<< HEAD
-=======
     max-width: 400px;
->>>>>>> 378c9509640ef279c2399cfa441fbe91097172d6
 }
 .card.size h2{
     font-size: 1em;
@@ -153,10 +160,7 @@ span{
 }
 /* IMG FOLDER SIZE */
 .img-folder{
-<<<<<<< HEAD
-=======
     max-width: 200px;
->>>>>>> 378c9509640ef279c2399cfa441fbe91097172d6
     margin: 1.5em 0;
     font-size: 1.4em;
     width: 100%;
@@ -170,6 +174,50 @@ span{
 .img-folder:hover{
     color: #f0f0f0;
     background-color: #0B3954;
+}
+
+/* ADM LOGIN PART */
+.card.login-card{
+    position: relative;
+    overflow: hidden;
+    max-width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card.login-card header{
+    text-align: center;
+}
+.card.login-card header h1{
+    color: #0B3954;
+}
+.card.login-card h2{
+    color: #aaaaaa;
+    letter-spacing: .05em;
+    font-weight: 600;
+    font-size: 0.9em;
+    text-align: left;
+}
+.btn-login{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #0B3954;
+    border: 2px solid #093046;
+}
+.btn-login:hover{
+    border: 2px solid #105177;
+    background-color: #0e496b;
+}
+.text-danger{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.img-file{
+    display: flex;
+    flex-direction: column;
 }
 
 /* MEDIA FOR - SM -  */
