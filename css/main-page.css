@@ -84,8 +84,23 @@ footer{
     margin-top: 5.5em;
     background-color: #f0f0f0;
 }
+h5.fw-bold{
+    color: #C81D25;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+.links-footer li a{
+    color: #0B3954;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+}
+.links-footer li:hover a{
+    text-decoration: underline;
+}
 ul.icons li a i{
     font-size: 3em;
+    color: #0B3954;
 }
 ul.icons li{
     justify-content: center;

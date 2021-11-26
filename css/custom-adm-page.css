@@ -67,6 +67,10 @@ nav.navbar .container-fluid .navbar-brand img{
 }
 
 /* INSIDE CONTENT ELEMENTS */
+.inside-content{
+    height: 550px;
+    overflow-y: scroll;
+}
 .inside-content h1{
     font-size: 1.6em;
     margin-top: 1em;

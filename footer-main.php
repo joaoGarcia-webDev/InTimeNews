@@ -8,8 +8,8 @@
         </div>
         <div class="col-11 col-md-4 mt-sm-5 row">
             <div class="col-sm-6 col-md-12">
-                <h5 class="font-weight-bold text-uppercase mb-2">Notícias</h5>
-                <ul class="list-unstyled">
+                <h5 class="fw-bold text-uppercase mb-2">Notícias</h5>
+                <ul class="list-unstyled links-footer">
                     <li>
                         <a href="#!">CPI da COVID-19</a>
                     </li>
@@ -22,8 +22,8 @@
                 </ul>
             </div>
             <div class="col-sm-6 col-md-12">
-                <h5 class="font-weight-bold text-uppercase mb-2">Informações Gerais</h5>
-                <ul class="list-unstyled">
+                <h5 class="fw-bold text-uppercase mb-2">Informações Gerais</h5>
+                <ul class="list-unstyled links-footer">
                     <li>
                         <a href="#!">Variantes da COVID-19</a>
                     </li>
@@ -41,8 +41,8 @@
         </div>
         <div class="col-11 col-md-4 mt-sm-5 row">
             <div class="col-sm-6 col-md-12">
-                <h5 class="font-weight-bold text-uppercase mb-2">Nossa area social</h5>
-                <ul class="list-unstyled">
+                <h5 class="fw-bold text-uppercase mb-2">Nossa area social</h5>
+                <ul class="list-unstyled links-footer">
                     <li>
                         <a href="#!">Termos de uso</a>
                     </li>
