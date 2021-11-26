@@ -214,6 +214,12 @@ span{
     font-weight: 600;
     font-size: 1em;
 }
+
+.img-file{
+    display: flex;
+    flex-direction: column;
+}
+
 /* MEDIA FOR - SM -  */
 @media only screen and (max-width:767px){
     .aside-ico i{

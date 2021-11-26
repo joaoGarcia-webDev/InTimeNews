@@ -66,10 +66,50 @@ if ($_SESSION['admloged']) {
                 </div>
             </nav>
 
-            
-
             <!-- INSIDE INITIAL CONTENT -->
             <section class="inside-content row">
+            <?php
+                if (isset($_SESSION['fileCont']) && $_SESSION['fileCont'] != '') {
+                    $fileEdit = $_SESSION['fileCont'];
+                    unset($_SESSION['fileCont']);
+                    
+                    ?>
+                    <h1 class="big-title">Revisão/Manutenção da notícia</h1>
+                    <section class="form-edit my-3 col-12 col-md-12 col-lg-6">
+                        <form action="back_provider/edit-news.php" method="post" enctype="multipart/form">
+
+                            <div class="content-file-form">
+                                <div class="my-3 title-file">
+                                    <label for="fileTitle" class="form-label">Titulo da Notícia</label>
+                                    <!-- RECEBE O TITULO DO ARQUIVO -->
+                                    <input class="form-control form-control-lg" id="fileTitle" type="text" placeholder="Titulo" value="<?php echo $fileEdit[1]; ?>">
+                                </div>    
+                                <div class="my-3 text-file">
+                                    <label for="fileText" class="form-label">Conteudo da Notícia</label>
+                                    <!-- RECEBE O CONTEUDO DO ARQUIVO -->
+                                    <textarea class="form-control" id="fileText" rows="10"><?php
+                                            $cont = 0;
+                                            foreach ($fileEdit as $row) {
+                                                if ($cont > 1) {
+                                                    echo $row;
+                                                }                                            $cont++;
+                                            }
+                                        ?></textarea>
+                                </div>
+                            </div>
+                            <!-- RECEBE A IMAGEM DA PRIMEIRA LINHA -->
+                            <div class="my-3 img-file">
+                                <img src="<?php echo 'img/'.$fileEdit[0] ?>" class="img-fluid" alt="Imagem atual da notícia que esta selecionada para revisão">
+                                <label for="formFile" class="form-label">Adicione uma nova imagem</label>
+                                <input class="form-control" type="file" id="formFile">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Salvar as alterações</button>
+                        </form>
+                    </section>
+
+            <?php } else { ?>
+
+            
                 <h1 class="big-title">Ultimas notícias da página</h1>
                 <div class="card-content col-12 col-md-6 col-lg-4">
                 <!-- GET ALL NEWS FILES TO GENERATE CARDS -->
@@ -96,7 +136,7 @@ if ($_SESSION['admloged']) {
                             </a>
                         </div>
 
-                        <?php
+                <?php
                     }
                 ?>
 
@@ -144,6 +184,9 @@ if ($_SESSION['admloged']) {
                     </div>
                 </div>
             </section>
+
+            <?php } ?>
+
         </main>
     </div>
     <!-- JS BOOTSTRAP 5 -->
