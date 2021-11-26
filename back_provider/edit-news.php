@@ -11,7 +11,9 @@
             var_dump($_SESSION['fileCont']);
             header('Location: ../adm-page.php');
         }
-    } else {
+    } else if (isset($_POST['file-title']) && isset($_POST['file-text']) && isset($_POST['file-img'])) 
+        
+    else {
         header('Location: ../adm-page.php');
     }
     

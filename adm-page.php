@@ -82,12 +82,12 @@ if ($_SESSION['admloged']) {
                                 <div class="my-3 title-file">
                                     <label for="fileTitle" class="form-label">Titulo da Notícia</label>
                                     <!-- RECEBE O TITULO DO ARQUIVO -->
-                                    <input class="form-control form-control-lg" id="fileTitle" type="text" placeholder="Titulo" value="<?php echo $fileEdit[1]; ?>">
+                                    <input name="file-title" class="form-control form-control-lg" id="fileTitle" type="text" placeholder="Titulo" value="<?php echo $fileEdit[1]; ?>">
                                 </div>    
                                 <div class="my-3 text-file">
                                     <label for="fileText" class="form-label">Conteudo da Notícia</label>
                                     <!-- RECEBE O CONTEUDO DO ARQUIVO -->
-                                    <textarea class="form-control" id="fileText" rows="10"><?php
+                                    <textarea name="file-text" class="form-control" id="fileText" rows="10"><?php
                                             $cont = 0;
                                             foreach ($fileEdit as $row) {
                                                 if ($cont > 1) {
@@ -101,7 +101,7 @@ if ($_SESSION['admloged']) {
                             <div class="my-3 img-file">
                                 <img src="<?php echo 'img/'.$fileEdit[0] ?>" class="img-fluid" alt="Imagem atual da notícia que esta selecionada para revisão">
                                 <label for="formFile" class="form-label">Adicione uma nova imagem</label>
-                                <input class="form-control" type="file" id="formFile">
+                                <input name="file-img" class="form-control" type="file" id="formFile">
                             </div>
                             <button type="submit" class="btn btn-primary">Salvar as alterações</button>
                         </form>
