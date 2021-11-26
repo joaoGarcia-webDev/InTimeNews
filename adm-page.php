@@ -69,9 +69,9 @@ if ($_SESSION['admloged']) {
             <!-- INSIDE INITIAL CONTENT -->
             <section class="inside-content row">
             <?php
-                if (isset($_SESSION['fileCont']) && $_SESSION['fileCont'] != '') {
-                    $fileEdit = $_SESSION['fileCont'];
-                    unset($_SESSION['fileCont']);
+                if (isset($_SESSION['fileCont'][0]) && $_SESSION['fileCont'] != '') {
+                    $fileEdit = $_SESSION['fileCont'][0];
+                    unset($_SESSION['fileCont'][0]);
                     
                     ?>
                     <h1 class="big-title">Revisão/Manutenção da notícia</h1>
