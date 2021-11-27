@@ -69,9 +69,9 @@ if ($_SESSION['admloged']) {
             <!-- INSIDE INITIAL CONTENT -->
             <section class="inside-content row">
             <?php
-                if (isset($_SESSION['fileCont'][0]) && $_SESSION['fileCont'] != '') {
-                    $fileEdit = $_SESSION['fileCont'][0];
-                    unset($_SESSION['fileCont'][0]);
+                if (isset($_SESSION['fileCont']) && $_SESSION['fileCont'] != '') {
+                    $fileEdit = $_SESSION['fileCont'];
+                    unset($_SESSION['fileCont']);
                     
                     ?>
                     <h1 class="big-title">Revisão/Manutenção da notícia</h1>
@@ -107,7 +107,15 @@ if ($_SESSION['admloged']) {
                         </form>
                     </section>
 
-            <?php } else { ?>
+            <?php } 
+            else { 
+                if (isset($_SESSION['message'])) {
+                echo "<div class='response-message'>
+                    <h3 class'big-title'>".$_SESSION['message']."</h3>
+                </div>";
+                unset($_SESSION['message']);
+                    }
+                ?>
 
             
                 <h1 class="big-title">Ultimas notícias da página</h1>
@@ -183,9 +191,9 @@ if ($_SESSION['admloged']) {
                         </div>               
                     </div>
                 </div>
+            <?php } ?>
             </section>
 
-            <?php } ?>
 
         </main>
     </div>

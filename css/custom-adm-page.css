@@ -67,10 +67,6 @@ nav.navbar .container-fluid .navbar-brand img{
 }
 
 /* INSIDE CONTENT ELEMENTS */
-.inside-content{
-    height: 550px;
-    overflow-y: scroll;
-}
 .inside-content h1{
     font-size: 1.6em;
     margin-top: 1em;
@@ -224,9 +220,39 @@ span{
     flex-direction: column;
 }
 
+.response-message{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 2em;
+    animation: hideOpacity 5s ease-in;
+    animation-fill-mode: backwards;
+    background-color: #0B3954;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    opacity: 0;
+    z-index: 99;
+    text-align: center;
+}
+.response-message h3{
+    font-size: 2.3em;
+    color: #fff;
+    font-weight: 700;
+}
+
 /* MEDIA FOR - SM -  */
 @media only screen and (max-width:767px){
     .aside-ico i{
         font-size: 2em;
     }
+}
+
+@keyframes  hideOpacity{
+    10% {opacity:1;}
+    100% {opacity:0;}
 }
