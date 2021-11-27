@@ -1,9 +1,7 @@
-<nav class="navbar navbar-expand-lg sticky-top">
+<nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid px-md-5">
-        <button class="col-md-1 navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarToggleMain" aria-controls="navbarToggleMain" aria-expanded="true"
-            aria-label="Menu de navegação">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleMain" aria-controls="navbarToggleMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
         </button>
         <a class="col-8 col-md-4 navbar-brand" href="index.php">
             <img class="img-fluid logo-img" src="img/svg/main_logo_v0.svg"

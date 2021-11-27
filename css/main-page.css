@@ -70,6 +70,10 @@ nav .container-fluid .collapse .banner{
     font-family: 'Cabin', sans-serif;
     font-weight: 600;
 }
+button.navbar-toggler span{
+    color: #C81D25;
+    z-index: 99;
+}
 .dropdown-menu[data-bs-popper]{
     left: auto;
     right: 0;
