@@ -63,7 +63,7 @@
             <div class="aside-news col-sm-12 col-md-12 col-lg-6">
                 <a href="#?=<?php echo $fileName[2] ?>">
                     <section class="section-news black col-12">
-                        <img src="img/cpi-covid/grafico-casos-confirmados.png" class="img-fluid col-12" alt="Imagem da notícia principal">
+                        <img src="img/cpi-covid/grafico-casos-confirmados.png" class="img-fluid col-12" alt="Imagem do grafico entre os casos confirmados do brasil e seu crescimento">
                         <div class="small-text">
                             <span class="under-img-text col">15/11/2021</span>
                             <span class="under-img-text col">tempo de leitura: 5 minutos</span>
@@ -79,7 +79,7 @@
                 <div class="last-news">
                     <a class="section-news col-sm-12 col-md-6" href="?=<?php echo $fileName[0] ?>">
                         <section>
-                            <img src="img/cpi-covid/brasil-supera-eua.png" class="img-fluid col-12" alt="Imagem da notícia principal">
+                            <img src="img/cpi-covid/brasil-supera-eua.png" class="img-fluid col-12" alt="Imagem de uma vacina em um fundo preto">
                             <div class="small-text">
                                 <span class="under-img-text col">18/11/2021</span>
                                 <span class="under-img-text col">tempo de leitura: 5 minutos</span>
@@ -94,7 +94,7 @@
                     </a>
                     <a class="section-news col-sm-12 col-md-6" href="?=<?php echo $fileName[3] ?>">
                         <section>
-                            <img src="img/cpi-covid/brasil-taxa-mortes.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
+                            <img src="img/cpi-covid/brasil-taxa-mortes.jpg" class="img-fluid col-12" alt="Imagem proxima de uma lapide cheio de flores">
                             <div class="small-text">
                                 <span class="under-img-text col">18/11/2021</span>
                                 <span class="under-img-text col">tempo de leitura: 5 minutos</span>
