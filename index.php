@@ -53,7 +53,7 @@
                         <header class="news-header">
                             <h2 class="big-title">É aprovado relatório que pede indiciamento de Bolsonaro e outras 77 pessoas</h2>
                             <p class="text-lora news-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                                O relatório final da Comissão Parlamentar de Inquérito (CPI) da Covid.
                             </p>
                         </header>
                     </section>
@@ -71,7 +71,7 @@
                         <header class="news-header">
                             <h2>Os alertas da quarta onda de COVID-19</h2>
                             <p class="text-lora news-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat dolore sapiente vitae doloribus.
+                                Com o surto de casos de Covid-19 em vários países da Europa, China e Rússia, a Organização Mundial da Saúde (OMS) afirmou nesta segunda-feira (22) que o mundo está entrando em uma quarta onda da pandemia do novo coronavírus.
                             </p>
                         </header>
                     </section>

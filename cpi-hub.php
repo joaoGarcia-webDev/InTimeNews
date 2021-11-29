@@ -15,6 +15,7 @@
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/main-page.css">
+    <link rel="stylesheet" href="css/cpi.css">
 
     <title>InTime News - Portal de Notícias</title>
 
@@ -30,15 +31,19 @@
         <!-- ================
         article-news -->
         <article>
-            <h1>Ultimas Notícias da CPI da COVID-19</h1>
-            <section class="section-news">
-                <img src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" alt="">
-                <div class="text-content">
-                    <h2>News title</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eveniet veniam provident perspiciatis, cumque commodi perferendis mollitia odit eius blanditiis hic repellat debitis ab officia error dolores quia est culpa.</p>
-                    <small></small>
-                </div>
+
+            <h1 class="big-title mb-5">Ultimas Notícias da CPI da COVID-19</h1>
+            <section class="section-news-cpi my-3">
+                <a href="cpi-news.php" class="row">
+                    <img class="img-fluid col-12 col-md-6" src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" alt="">
+                    <div class="text-content col">
+                        <h2 class="big-title">News title</h2>
+                        <p class="text-lora">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eveniet veniam provident perspiciatis, cumque commodi perferendis mollitia odit eius blanditiis hic repellat debitis ab officia error dolores quia est culpa.</p>
+                        <small>Publicado em 00/00/0000</small>
+                    </div>
+                </a>
             </section>
+
         </article>
         <!-- article-news
         ================ -->       
