@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/main-page.css">
     <link rel="stylesheet" href="css/cpi.css">
 
-    <title>InTime News - Portal de Notícias</title>
+    <title>InTime News - Notícias da CPI da COVID-19</title>
 
 </head>
 
