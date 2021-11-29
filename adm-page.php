@@ -117,9 +117,9 @@ if ($_SESSION['admloged']) {
                     }
                 ?>
 
-            
                 <h1 class="big-title">Ultimas notícias da página</h1>
                 <div class="card-content col-12 col-md-6 col-lg-4">
+
                 <!-- GET ALL NEWS FILES TO GENERATE CARDS -->
                 <?php
                     include 'back_provider/lastmodified-inc.php';

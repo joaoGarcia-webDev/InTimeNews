@@ -31,8 +31,19 @@
         article-news -->
         <article class="article-news-content mx-auto row">
             <h1 class="big-title">Ultimas Notícias</h1>
+
+            <?php 
+                include 'back_provider/lastmodified-inc.php';
+                $fileData = dirList('database/cpi_covid/', $sortOrder);
+                for ($i=0; $i < 8; $i++) { 
+                    if ($i % 2 == 0) {
+                        $fileName[] = $fileData[$i];
+                    }
+                }
+            ?>
+
             <div class="initial-news col-sm-12 col-md-12 col-lg-6">
-                <a href="#">
+                <a href="#?=<?php echo $fileName[1] ?>">
                     <section class="section-news">
                         <img src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" class="img-fluid" alt="Imagem de Renam Calheiros durante a reunião da CPI da COVID-19, notícia principal">
                         <div class="small-text">
@@ -50,7 +61,7 @@
             </div>
 
             <div class="aside-news col-sm-12 col-md-12 col-lg-6">
-                <a href="#">
+                <a href="#?=<?php echo $fileName[2] ?>">
                     <section class="section-news black col-12">
                         <img src="img/cpi-covid/grafico-casos-confirmados.png" class="img-fluid col-12" alt="Imagem da notícia principal">
                         <div class="small-text">
@@ -66,7 +77,7 @@
                     </section>
                 </a>
                 <div class="last-news">
-                    <a class="section-news col-sm-12 col-md-6" href="#">
+                    <a class="section-news col-sm-12 col-md-6" href="?=<?php echo $fileName[0] ?>">
                         <section>
                             <img src="img/cpi-covid/brasil-supera-eua.png" class="img-fluid col-12" alt="Imagem da notícia principal">
                             <div class="small-text">
@@ -81,7 +92,7 @@
                             </header>
                         </section>
                     </a>
-                    <a class="section-news col-sm-12 col-md-6" href="#">
+                    <a class="section-news col-sm-12 col-md-6" href="?=<?php echo $fileName[3] ?>">
                         <section>
                             <img src="img/cpi-covid/brasil-taxa-mortes.jpg" class="img-fluid col-12" alt="Imagem da notícia principal">
                             <div class="small-text">

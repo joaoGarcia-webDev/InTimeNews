@@ -1,4 +1,4 @@
-cpi-covid/renam-calheiros-relatorio-cpi-covid.png
-É aprovado relatório que pede indiciamento de Bolsonaro e outras 77 pessoas
+cpi-covid/brasil-taxa-mortes.png
+Brasil tem salto de 15% em taxa de mortes
 O Brasil superou os Estados Unidos na taxa de população completamente vacinada contra a Covid-19. De acordo com dados do DataSUS (departamento de informática que centraliza informações do Sistema Único de Saúde), o país tem 59,9% de pessoas completamente imunizadas, enquanto os EUA, segundo informações do CDC (Centro de Controle e Prevenção de Doença), chegaram a 58,8% de americanos vacinados. 
 Em números absolutos o Brasil aplicou menos doses do que os EUA. A diferença se dá porque a população do país estrangeiro é maior.
