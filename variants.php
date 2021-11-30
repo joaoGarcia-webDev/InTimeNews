@@ -72,33 +72,43 @@
             </section>
 
             <aside class="aside-content col-12 col-lg-4 offset-lg-2">
-                <div class="bg-dark-blue col-md-5 col-lg-12">
-                    <h3>Ultimas notícias</h3>
+                <div class="div-news col-md-5 col-lg-12">
+                    <h3 class="bg-dark-blue">Ultimas notícias</h3>
+                    <?php
+                        include 'back_provider/lastmodified-inc.php';
+                        $fileData = dirList('database/cpi_covid/', $sortOrder);
+                        for ($i=0; $i < 6; $i++) { 
+                            if ($i % 2 == 0) {
+                                $fileName[] = $fileData[$i];
+                                $file = file('database/cpi_covid/'.$fileData[$i]);
+                                $fileInformation[] = $file[0];
+                                $fileInformation[] = $file[1];
+                                $fileInformation[] = $file[2];
+                            }
+                        }
+                    ?>
                     <div class="content-news">
-                        <img src="img/just_example/news-250x250.jpg" width="75px" height="75px"alt="">
-                        <div class="text-content">
-                            <h4>Notícia CPI</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
+                        <a href="#?=<?php echo $fileName[0]?>" class="text-content">
+                            <h4 class="big-title"><?php echo $fileInformation[1]; ?></h4>
+                            <p><?php echo implode(' ', array_slice(str_word_count($fileInformation[2], 2), 0, 15)).'...'; ?></p>
+                        </a>
                     </div>
                     <div class="content-news">
-                        <img src="img/just_example/news-250x250.jpg" width="75px" height="75px"alt="">
-                        <div class="text-content">
-                            <h4>Notícia CPI</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
+                        <a href="#?=<?php echo $fileName[1]?>" class="text-content">
+                            <h4 class="big-title"><?php echo $fileInformation[4]; ?></h4>
+                            <p><?php echo implode(' ', array_slice(str_word_count($fileInformation[5], 2), 0, 15)).'...'; ?></p>
+                        </a>
                     </div>
                     <div class="content-news">
-                        <img src="img/just_example/news-250x250.jpg" width="75px" height="75px"alt="">
-                        <div class="text-content">
-                            <h4>Notícia CPI</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
+                        <a href="#?=<?php echo $fileName[2]?>" class="text-content">
+                            <h4 class="big-title"><?php echo $fileInformation[7]; ?></h4>
+                            <p><?php echo implode(' ', array_slice(str_word_count($fileInformation[8], 2), 0, 15)).'...'; ?></p>
+                        </a>
                     </div>
                 </div>
 
-                <div class="bg-dark-blue col-md-5 col-lg-12">
-                    <h3>Taxa de Transmissão</h3>
+                <div class="div-news col-md-5 col-lg-12">
+                    <h3 class="bg-dark-blue">Taxa de Transmissão</h3>
                     <p>Variante Alfa</p>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">55%</div>
