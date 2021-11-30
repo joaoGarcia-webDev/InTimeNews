@@ -3,11 +3,12 @@
 /* VARIANT CARDS */
 .variants-card .card{
     position: relative;
-    margin: 3em 2em;
+    margin: 3em 0;
     transition: all 0.2s ease-in;
-    border: 0px solid #0B3954;
+    border: 2px solid #f0f0f0;
     color: black;
     text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .variants-card .card img{
     width: 150px;
@@ -18,10 +19,13 @@
 }
 .variants-card .card h2{
     text-align: left;
+    font-family: 'Cabin', sans-serif;
 }
-.variants-card .card:hover{
-    margin: 3em 0;
-    border-width: 5px;
+.variants-card .card p{
+    margin: 0.5em 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+    font-family: 'Lora', serif;
 }
 
 /* ASIDE CUSTOM */
@@ -33,6 +37,8 @@
     color: #fff;
     padding: 1em 1em;
     margin: 1.5em 0;
+    border: 2px solid #f0f0f0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .aside-content .bg-dark-blue .content-news{
     display: flex;
