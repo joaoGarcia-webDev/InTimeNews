@@ -34,7 +34,7 @@
                         <a href="#!">Curiosidades</a>
                     </li>
                     <li>
-                        <a href="#!">Link 4</a>
+                        <a href="#!">Inovação</a>
                     </li>
                 </ul>
             </div>

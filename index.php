@@ -165,17 +165,17 @@
         <aside class="cards-content row">
             <div class="card col-sm-12 col-md-6 col-lg-3">
                 <h2>Sobre Nós</h2>
-                <p class="text-lora my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero facilis ipsa autem animi earum quod vel illum facere voluptatem mollitia. Maxime nemo nihil dolores earum possimus pariatur, atque itaque voluptatibus!</p>
+                <p class="text-lora my-4">O In Time News é um portal especializado em notícias sobre a pandemia da COVID-19 que está acontecendo no mundo. Procuramos de maneira parcial apresentar as últimas notícias planejadas e escritas por nossos desenvolvedores competentes.</p>
                 <a href="#" class="btn btn-primary">Saiba mais</a>
             </div>
             <div class="card col-sm-12 col-md-6 col-lg-3">
                 <h2>Contato</h2>
-                <p class="text-lora my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eum excepturi necessitatibus eos ducimus sequi culpa unde odit incidunt adipisci alias perspiciatis saepe voluptas consequatur natus quis sit, impedit veniam.</p>
+                <p class="text-lora my-4">Nós do Portal de Notícias In Time News estamos sempre a disposição para um contato mais proximo entre nossos usuários, disponibilizando nosso e-mail e contato para caso de dúvidas, sugestões ou elogios</p>
                 <a href="#" class="btn btn-primary">Entrar em contato</a>
             </div>
             <div class="card col-sm-12 col-lg-3">
                 <h3>Receba as ultimas noticías</h3>
-                <p class="text-lora my-4">Lorem ipsum dolor sit amet</p>
+                <p class="text-lora my-4">Faça seu cadastro gratuito</p>
 
                 <form action="#" method="post">
                     <div class="mb-3">
