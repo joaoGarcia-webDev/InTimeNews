@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,92 +27,62 @@
         <main class="container-xxl">
 
         <!--Section com conteúdo-->
-        <section class="col-lg-12 col-md-12 col-sm-12 row mx-auto">
-            <article>
+        <section class="row col-lg-12 col-md-12 col-sm-12 ">
+            <article class="col-lg-6 col-md-6 col-sm-12">
                 <h1 class="big-title">O que são as vacinas</h1>
-                <p class="text-lora">As vacinas são a melhor opção na luta contra doenças infecciosas que atacam nosso organismo, elas são criadas a partir de partículas do próprio vírus ou bactéria, sendo ele inativo ou enfraquecido.
-                Quando nosso organismo é atacado por esses agentes agressores, nosso sistema de defesa (imunológico) dispara uma reação em cadeia para impedir a ação desses agentes. Mas nem sempre essa reação é bem-sucedida e, quando isso ocorre, ficamos doentes.
-                O que as vacinas fazem é 'fingir' que são agentes infecciosos de forma a estimular a produção de nossas defesas, com anticorpos específicos contra o vírus ou bacteria. Dessa forma é ensinado para nosso corpo uma forma eficaz de se defender e quando um ataque de verdade acontece nosso sistema imunológico utiliza a sua memória de defesa e limita o ataque do "inimigo" auxiliando em nossa melhora.
+                <p class="text-lora">A pandemia da covid-19 transformou nossa forma de viver, trouxe a nós uma realidade de máscaras e álcool gel. Nesse tempo muitas pessoas foram atingidas pela doença que ao todo já contaminou mais de 260 milhões de pessoas e deixou mais de 5 milhões de mortos pelo mundo todo.
+                Mas a morte não é o único malefício que o vírus causa, ele também é capaz de deixar inúmeras sequelas que prejudicam a qualidade de vida pós infecção por muito tempo.
+                Uma pequena parcela da população é chamada de "Assintomáticos" pois eles podem ser infectados pelo vírus e transmitilo, mas não sentem os seus sintomas.
                 </p>
             </article>    
-        </section>
-
-
-        <!--Section com links externos para outras informações-->
-        <div class="row mx-auto">
-            <div class="col-lg-4 col-md-4 col-sm-12 mx-auto">
-                <a href="curiosity.php">
-                <section class="external-news">
-                    <img class="img-fluid" src="img/imagem-informacoes/imagem-curiosidades.png" alt="Imagem curiosidades">
-                
-                <div class="external-content texto-externo">
-                        <h3>veja também</h3>
-                        <p>conheça mais sobre pandemias</p>
-                    </div>  
-                </section>
-                </a>  
-             </div>
-
-             <div class="col-lg-4 col-md-4 col-sm-12 mx-auto">
-                <a href="#">
-                <section class="external-news">
-                    <img class="img-fluid" src="img/imagem-informacoes/img-virus.png" alt="Imagem virus">
-                
-                <div class="external-content texto-externo">
-                        <h3>veja também</h3>
-                        <p>Conheça as variantes do vírus da covid 19</p>
-                    </div>  
-                </section>
-                </a>  
-             </div>
-
-             <div class="col-lg-4 col-md-4 col-sm-12 mx-auto">
-                <a href="#">
-                <section class="external-news">
-                    <img class="img-fluid" src="img/imagem-informacoes/img-tosse.png" alt="Imagem curiosidades">
-                
-                <div class="external-content texto-externo">
-                        <h3>veja também</h3>
-                        <p>Os principais sintomas da covid</p>
-                    </div>  
-                </section>
-                </a>  
-            </div>
-         </div>
-
-
-         <!--Seção com mais informações sobre os tipos de vacinas-->
         
-         <section class="mx-auto row col-lg-12 col-md-12 col-sm-12">
-            <h1 class="big-title">Tipos de vacinas</h1>
-                <p class="text-lora">Existem diversas formas de desenvolvimento de uma vacina, e todas elas são eficientes, algumas mais que as outras, mas todas elas cumprem bem o seu papel.</p>
-
-            <h2 class="big-title">A tecnologia de vírus inativo</h2>
-                <p class="text-lora">Usa o vírus em alguma célula ou ovos embrionados de galinha, assim o vírus passa por um processo de purificação e depois fica inativado. 
-                Quando o corpo recebe a dose da vacina, o sistema imunológico entende que o patógeno está presente no organismo, e assim começa uma reação de defesa que desencadeia um desenvolvimento de anticorpos para combater o "inimigo".
+                <aside class="col-lg-5 col-md-5 col-sm-12 ">
                 
-                </p>
-                <p class="text-lora"> Essa tecnologia é usada no desenvolvimento das vacinas Sinovac/Coronavac do instituto Butantan.</p>
+                    <a  href="vacinas.php">
+                    <section class="external-news">
+                        <img class="img-fluid" src="img/imagem-informacoes/imagem-curiosidades.png" alt="Imagem curiosidades">
+            
+                    <div class="external-content texto-externo">
+                            <h3>veja também</h3>
+                            <p>Saiba mais sobre vacinas</p>
+                        </div>
+                    </section>
+                    </a>
+                 </div>
 
-            <h2 class="big-title">A vacina de vetor viral não replicante</h2>
-                <p class="text-lora">O desenvolvimento dessa vacina é feito de forma em que os pesquisadores inserem os genes que codificam a produção da proteína "S" (que liga o coronavírus as nossas células) dentro de um vírus que não causa doença em humanos e ele também é incapaz de se reproduzir dentro do organismo.
-                Após a vacinação, o vetor viral entra na célula e a proteína "S" se transforma em uma molécula de RNA mensageiro (mRNA), que leva com ela instruções para produzir a proteína "S", que é detectado pelo sistema imunológico e desencadeia a produção de anticorpos.
-                </p>
-                <p class="text-lora"> Essa tecnologia é usada no desenvolvimento das vacinas Oxford/AstraZeneca/Fiocruz,  Janssen e Sputnik V.</p>
+                 <div >
+                    <a href="#">
+                    <section class="external-news">
+                        <img class="img-fluid" src="img/imagem-informacoes/img-virus.png" alt="Imagem virus">
+            
+                    <div class="external-content texto-externo">
+                            <h3>veja também</h3>
+                            <p>Saiba mais sobre as sequelas da Covid-19</p>
+                        </div>
+                    </section>
+                    </a>
+                 </div>
 
-            <h2 class="big-title">A vacina de RNA-mensageiro</h2>
-                <p class="text-lora">É uma forma de desenvolvimento mais barata e rápida 
-                em que os imunizantes são produzidos a partir da replicação de sequências de RNA por meio de engenharia genética. O mRNA(RNA-mensageiro) assume a forma da proteína spike, que é especifica do vírus da Covid-19 que tem a função de facilitar a invasão de células humanas, porém essa "cópia" não é prejudicial como o vírus verdadeiro, mas é sulficiente para dar início a uma reação do nosso sistema imunológico produzindo uma defesa sólida no organismo.
-                </p>
-                <p class="text-lora"> Essa tecnologia é usada no desenvolvimento das vacinas Pfizer/BioNTech e Moderna.</p>
-         </section>
-
-    
+                 <div >
+                    <a href="assintomaticos.php">
+                    <section class="external-news">
+                        <img class="img-fluid" src="img/imagem-informacoes/img-tosse.png" alt="Imagem curiosidades">
+            
+                    <div class="external-content texto-externo">
+                            <h3>veja também</h3>
+                            <p>Saiba mais sobre assintomáticos</p>
+                        </div>
+                    </section>
+                    </a>
+                </aside>    
+                </section>
 
         </main>
 
         <!-- MAIN FOOTER ======================= -->
+       
         <?php include 'footer-main.php' ?>
+        
 
         <!-- JS BOOTSTRAP 5 -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

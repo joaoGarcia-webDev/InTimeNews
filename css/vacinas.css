@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.title-vacinas {
+    margin-block-end: 0em;
+    color: #C81D25;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 0.2em;
+    text-align: left;
+}
