@@ -35,7 +35,8 @@
 
         <!--Section com conteúdo-->
         <section class="col-lg-12 col-md-12 col-sm-12 row mx-auto">
-             <img class="mx-auto mb-5 col-lg-8 col-md-8 col-sm-12 img-fluid"src="img/imagem-informacoes/imagem-vacinas2.jpg" alt="Imagem vacinas">
+             <img class="mx-auto  col-lg-8 col-md-8 col-sm-12 img-fluid"src="img/imagem-informacoes/imagem-vacinas2.jpg" alt="Imagem vacinas">
+             <p class="mt-0 mb-5 mx-auto col-lg-8 col-md-8 col-sm-12">Mulher com seringa: vacinas são importantes na batalha contra agentes nocívos - foto: Pixabay</p>
             <article class="mx-auto col-lg-8">
                 <h2 class="big-title">O que são as vacinas</h2>
                 <p class="text-lora">As vacinas são a melhor opção na luta contra doenças infecciosas que atacam nosso organismo, elas são criadas a partir de partículas do próprio vírus ou bactéria, sendo ele inativo ou enfraquecido.
@@ -52,17 +53,19 @@
             <h1 class=" mt-5 big-title">Tipos de vacinas</h1>
                 <p class="text-lora">Existem diversas formas de desenvolvimento de uma vacina, e todas elas são eficientes, algumas mais que as outras, mas todas elas cumprem bem o seu papel.</p>
 
+                <ul class="my-5">
+                <li>  
+                    <strong>Leia também:</strong> <a href="assintomaticos.php"> Assintomáticos pré-sintomáticos e sintomáticos são classificações da Organização Mundial da Saúde (OMS) para se referir às pessoas contaminadas pelo novo coronavírus.</a>
+                </li> 
+            </ul>
+
             <h2 class=" mt-5 big-title">A tecnologia de vírus inativo</h2>
                 <p class="text-lora">Usa o vírus em alguma célula ou ovos embrionados de galinha, assim o vírus passa por um processo de purificação e depois fica inativado. 
                 Quando o corpo recebe a dose da vacina, o sistema imunológico entende que o patógeno está presente no organismo, e assim começa uma reação de defesa que desencadeia um desenvolvimento de anticorpos para combater o "inimigo".
                 </p>
                 <p class="text-lora"> Essa tecnologia é usada no desenvolvimento das vacinas Sinovac/Coronavac do instituto Butantan.</p>
             
-            <ul class="my-5">
-                <li>  
-                    <strong>Leia também:</strong> <a href="assintomaticos.php"> Assintomáticos pré-sintomáticos e sintomáticos são classificações da Organização Mundial da Saúde (OMS) para se referir às pessoas contaminadas pelo novo coronavírus.</a>
-                </li> 
-            </ul>
+           
 
             <h2 class="mt-3 big-title">A vacina de vetor viral não replicante</h2>
                 <p class="text-lora">O desenvolvimento dessa vacina é feito de forma em que os pesquisadores inserem os genes que codificam a produção da proteína "S" (que liga o coronavírus as nossas células) dentro de um vírus que não causa doença em humanos e ele também é incapaz de se reproduzir dentro do organismo.
