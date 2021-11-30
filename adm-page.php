@@ -39,12 +39,6 @@ if ($_SESSION['admloged']) {
                 <a href="#" class="aside-ico active">
                     <i class="bi bi-house-door"></i>
                 </a>
-                <a href="#" class="aside-ico">
-                    <i class="bi bi-newspaper"></i>
-                </a>
-                <a href="#" class="aside-ico">
-                    <i class="bi bi-info-circle"></i>
-                </a>
             </div>
             <div class="back-home">
                 <a href="index.php" class="aside-ico">
