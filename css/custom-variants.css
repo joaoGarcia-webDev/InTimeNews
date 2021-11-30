@@ -51,18 +51,20 @@
     font-size: 0.7em;
     margin: 1em 0;
 }
-.aside-content .div-news .content-news a.text-content p{
-    font-size: 1.5em;
-}
 .aside-content .div-news p{
     font-size: 1.3em;
     font-weight: bold;
     margin: 1rem 0 0 0;
 }
+.aside-content .div-news .content-news a.text-content p{
+    font-size: 1.5em;
+    margin: 0;
+}
 .bg-dark-blue{
     padding: 0.5em 1em;
     color: white;
 }
+.progress-bar{ background-color: #0B3954;}
 
 /* MEDIA FOR - SM -  */
 @media only screen and (max-width:767px){

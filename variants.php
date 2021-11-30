@@ -37,7 +37,7 @@
                     <img src="img/just_example/virus.png" alt="Virus image">
                     <h2>Variante Alfa</h2>
                     <small>B.1.1.7</small>
-                    <p> A Alfa, detectada inicialmente na Inglaterra, mostra grande capacidade de transmissão, causando novas infecções. Desta forma, “praticamente dominou o cenário nos países onde circulou, por causa da sua capacidade de replicação”. Em compensação, esta não mostrou habilidade em driblar a proteção. “Essa variação do vírus já não tinha essa propriedade de resistir aos fatores de proteção, principalmente os anticorpos que a gente produz para se proteger, seja com estímulo da vacina ou da própria doença”, explica.</p>
+                    <p> A Alfa, detectada inicialmente na Inglaterra, mostra grande capacidade de transmissão, causando novas infecções. Desta forma, “praticamente dominou o cenário nos países onde circulou, por causa da sua capacidade de replicação”. Em compensação, esta não mostrou habilidade em driblar a proteção. Essa variação do vírus já não tinha essa propriedade de resistir aos fatores de proteção, principalmente os anticorpos que a gente produz para se proteger, seja com estímulo da vacina ou da própria doença.</p>
                     <span>Fonte: <a href="https://olhardigital.com.br/2021/08/19/coronavirus/covid-19-variante-alfa-beta-gama-e-delta-conheca-todas/">Olhar Digital - Entenda a variante Alfa, Beta, Gama e Delta</a></span>
                 </div>
                 <div class="card single-variant">
