@@ -10,17 +10,21 @@
     text-align: left;
 }
 
-.vacinas-info ul li{
+.vacinas-info  ul li{
   font-family: 'Cabin', sans-serif;
   font-size: 1.5em;
 }
 
-.vacinas-info ul li a {
+.vacinas-info  li a {
   color: #C81D25;
   text-decoration: none;
 }
 
-.vacinas-info ul li a:hover{
+.vacinas-info  li a:hover{
   color: #FF0713;
   text-decoration: underline;
+}
+
+.vacinas-info h1 {
+ 
 }
