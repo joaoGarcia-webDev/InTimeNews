@@ -30,8 +30,8 @@
 }
 
 .news-externals {
-  
-  background-color: #C4C4C4;
+  background-color: #F3F3F3;
+  border-top: solid 1px #000;
 }
 
 .news-externals a {
@@ -54,3 +54,8 @@
     font-size: 1.3em;
     margin-bottom: 0.2em;
 }
+
+.separador {
+  border-bottom: solid 2px ;
+}
+

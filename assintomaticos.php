@@ -15,6 +15,7 @@
         <!-- CUSTOM CSS -->
         <link rel="stylesheet" href="css/main-page.css">
         <link rel="stylesheet" href="css/assintomaticos.css">
+    
 
 
       <title>Informaçoes</title>
@@ -31,7 +32,7 @@
           <header class="col-lg-9 col-md-9 col-sm-12 mx-auto">
             <h1 class="title-vacinas">A vacinação é talvez o momento mais importante na batalha contra uma doença que devasta a população mundial, e não devemos nunca negar à essa ferramenta de imunização.</h1>
             <h2 class="text-lora mt-3 mb-5">O Brasil já alcançou um total de 62,9% de vacinados - numeros tirados de "Our World In Data".</h2>
-            <p>Fontes: https://www.pfizer.com.br/sua-saude/vacinacao/tudo-sobre-vacinas </p>
+            
           </header>
         </div>
 
@@ -50,7 +51,7 @@
         </section>
 
         <!--Section com o restante do conteúdo-->
-        <div class="mx-auto row col-lg-12 col-md-12 col-sm-12">
+        <div class="mx-auto  row col-lg-12 col-md-12 col-sm-12">
           <section class="assintomaticos-info mx-auto mt-4 col-lg-8 col-md-8 col-sm-12" >
           <h2 class="big-title">Pré-sintomáticos</h2>
           <p class="text-lora">Os pré-sintomáticos são pessoas com cargas virais bastante altas, mas que ainda não apresentam sintomas. Por conta disso, o grupo dos pré-sintomáticos é considerados aquele com maior potencial de transmissão do vírus. De acordo com uma pesquisa do Núcleo em Ecologia e Desenvolvimento Sócio-Ambiental de Macaé (NUPEM), da UFRJ, essas pessoas são representam cerca de 45% das transmissões. Ou seja, transmitem mais o vírus do que os sintomáticos e os assintomáticos. 
@@ -78,19 +79,27 @@
           <!--Section com notícias externas-->
 
           
-            <div class=" row col-lg-12 col-md-12 col-sm-12 mx-auto news-externals">
-              <section class="row mx-auto py-3 ms-5 col-lg-12">
-                <div class=" col-lg-6 ">
-                  <img class=" ms-1 img-fluid float-start" src="img/imagem-informacoes/renan-calheiros-sm.png" alt="Imagem de Renan Calheiros">
-                  <div class="ms-1 row float-start col-lg-2 ">
-                    <h1 >CPI COVID</h1>
-                    <a class="text-lora "href="$">Relatório impede indiciamento de Bolsonaro.</a>
+            <div class=" mt-5 row col-lg-12 col-md-12 col-sm-12 mx-auto news-externals cor">
+              <section class="row mx-auto py-3  col-lg-12">
+              <div class="mt-5  pb-5 separador mx-auto col-lg-8 col-md-8 col-sm-12">
+                  <img class="img-fluid float-start" src="img/imagem-informacoes/renan-calheiros-sm.png" alt="Imagem de Renan Calheiros">
+                  <div class=" col-lg-5  ms-2 row ">
+                    <h1 class="ms-3 mt-2" >Cpi da Covid</h1>
+                    <a class="ms-3 mt-2 text-lora "href="$">Relatório impede indiciamento de Bolsonaro.</a>
+                    <p class="ms-3 mt-2">Documento de 1.289 páginas, elaborado ao longo de seis meses, será enviado a órgãos de investigação</p>
                   </div>
-                </div>
-                <div class="border-start border-3 border-danger ms-0  col-lg-5 flex-end">
-                  <img class="ms-2 img-fluid float-start pr-3" src="img/imagem-informacoes/renan-calheiros-sm.png" alt="Imagem de Renan Calheiros">
-                  <h1 >teste</h1>
-                </div>
+              </div>
+
+              <div class="mt-5  pb-5  mx-auto col-lg-8 ">
+                  <img class="img-fluid float-start" src="img/imagem-informacoes/brasil-taxa-mortes-sm.jpg" alt="Imagem de flores no cemitério">
+                  <div class=" col-lg-5 ms-2 row ">
+                    <h1 class="ms-3 mt-2" >Pandemia</h1>
+                    <a class="ms-3 mt-2 text-lora "href="$">Brasil tem salto de 15% em taxa de mortes.</a>
+                    <p class="ms-3 mt-2">País registrou cerca de 195,5 mil mortes a mais que em 2019, a maior alta histórica, a maioria de idosos.</p>
+                  </div>
+              </div>
+
+            
               </section>
             </div>
         
