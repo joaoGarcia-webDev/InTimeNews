@@ -15,7 +15,7 @@
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/main-page.css">
-    <link rel="stylesheet" href="css/custom-variants.css">
+    <link rel="stylesheet" href="css/variants-map-cpi.css">
 
     <title>InTime News - Variantes da COVID-19</title>
 
@@ -33,35 +33,35 @@
             <h1 class="big-title">Variantes da COVID-19</h1>
 
             <section class="variants-card col-12 col-lg-6">
-                <div class="card single-variant">
+                <div class="card card-variant single-variant">
                     <img src="img/just_example/virus.png" alt="Virus image">
                     <h2>Variante Alfa</h2>
                     <small>B.1.1.7</small>
                     <p> A Alfa, detectada inicialmente na Inglaterra, mostra grande capacidade de transmissão, causando novas infecções. Desta forma, “praticamente dominou o cenário nos países onde circulou, por causa da sua capacidade de replicação”. Em compensação, esta não mostrou habilidade em driblar a proteção. Essa variação do vírus já não tinha essa propriedade de resistir aos fatores de proteção, principalmente os anticorpos que a gente produz para se proteger, seja com estímulo da vacina ou da própria doença.</p>
                     <span>Fonte: <a href="https://olhardigital.com.br/2021/08/19/coronavirus/covid-19-variante-alfa-beta-gama-e-delta-conheca-todas/">Olhar Digital - Entenda a variante Alfa, Beta, Gama e Delta</a></span>
                 </div>
-                <div class="card single-variant">
+                <div class="card card-variant single-variant">
                     <img src="img/just_example/virus.png" alt="Virus image">
                     <h2>Variante Beta</h2>
                     <small>B.1.351</small>
                     <p>Originada na África do Sul, a Beta possui características inversas, e foi a que menos se espalhou pelo mundo. Essa variante da Covid-19 possui a mesma mutação da Alfa além de outras como a K417N e a E484K. A principal preocupação dessa cepa é com a imunidade concedida pelas vacinas.</p>
                     <span>Fonte: <a href="https://olhardigital.com.br/2021/08/19/coronavirus/covid-19-variante-alfa-beta-gama-e-delta-conheca-todas/">Olhar Digital - Entenda a variante Alfa, Beta, Gama e Delta</a></span>
                 </div>
-                <div class="card single-variant">
+                <div class="card card-variant single-variant">
                     <img src="img/just_example/virus.png" alt="Virus image">
                     <h2>Variante Gama</h2>
                     <small>P.1</small>
                     <p>A variante brasileira Gama apresenta um pouco das duas características. Ela é mais transmissível, mas nem tanto quanto a Alfa. Tem capacidade de contornar o sistema de defesa, mas não exatamente como a Beta. Essa variante foi descoberta no Brasil, em Manaus e foi responsável por uma enorme onda de casos de Covid-19 na capital do Amazonas. Possui características semelhantes a Beta, sendo mais transmissível. Todas as vacinas são eficazes contra ela com duas doses, indicam os estudos.</p>
                     <span>Fonte: <a href="https://olhardigital.com.br/2021/08/19/coronavirus/covid-19-variante-alfa-beta-gama-e-delta-conheca-todas/">Olhar Digital - Entenda a variante Alfa, Beta, Gama e Delta</a></span>
                 </div>
-                <div class="card single-variant">
+                <div class="card card-variant single-variant">
                     <img src="img/just_example/virus.png" alt="Virus image">
                     <h2>Variante Delta</h2>
                     <small>B.1.617.2</small>
                     <p>A mais recente das variantes, originária da Índia, é mais transmissível que a cepa original. “É duas vezes mais transmissível e tem, não tanto quanto a Beta, a capacidade de contornar os nossos mecanismos de defesa”, detalha o infectologista. Com essas duas características, a mutação merece mais atenção. “A variante mostrou-se um problema por onde passou”, alerta.</p>
                     <span>Fonte: <a href="https://olhardigital.com.br/2021/08/19/coronavirus/covid-19-variante-alfa-beta-gama-e-delta-conheca-todas/">Olhar Digital - Entenda a variante Alfa, Beta, Gama e Delta</a></span>
                 </div>
-                <div class="card single-variant">
+                <div class="card card-variant single-variant">
                     <img src="img/just_example/virus.png" alt="Virus image">
                     <h2>Variante Ômicron</h2>
                     <small>B.1.1.529</small>

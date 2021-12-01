@@ -15,7 +15,7 @@
                     <ul class="dropdown-menu" aria-labelledby="noticiaDropdown">
                         <li><a class="dropdown-item" href="cpi-hub.php">CPI da Covid</a></li>
                         <li><a class="dropdown-item" href="#">Sintomas e Tratamentos</a></li>
-                        <li><a class="dropdown-item" href="#">Porcentagem de infectados</a></li>
+                        <li><a class="dropdown-item" href="map-percent.php">Porcentagem de infectados</a></li>
                     </ul>
                 </li>
                 

@@ -15,7 +15,7 @@
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/main-page.css">
-    <link rel="stylesheet" href="css/cpi.css">
+    <link rel="stylesheet" href="css/variants-map-cpi.css">
 
     <title>InTime News - Notícias da CPI da COVID-19</title>
 

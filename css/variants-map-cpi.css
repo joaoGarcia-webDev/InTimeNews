@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* VARIANT CARDS */
-.variants-card .card{
+.variants-card .card-variant{
     position: relative;
     margin: 3em 0;
     transition: all 0.2s ease-in;
@@ -10,18 +10,18 @@
     text-decoration: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.variants-card .card img{
+.variants-card .card-variant img{
     width: 150px;
     height: 150px;
     position: absolute;
     top: -50px;
     right: -50px;
 }
-.variants-card .card h2{
+.variants-card .card-variant h2{
     text-align: left;
     font-family: 'Cabin', sans-serif;
 }
-.variants-card .card p{
+.variants-card .card-variant p{
     margin: 0.5em 0;
     font-size: 1.1em;
     line-height: 1.6;
@@ -68,6 +68,66 @@
     color: white;
 }
 .progress-bar{ background-color: #0B3954;}
+
+/* ==========================
+CPI STYLE */
+section.section-news-cpi{
+    padding: 0 5em;
+}
+section.section-news-cpi a{
+    color: black;
+    text-decoration: none;
+}
+section.section-news-cpi a .text-content h2{
+    color: black;
+}
+section.section-news-cpi:hover a .text-content h2{
+    color: #C81D25;
+}
+.news-header, .main-text{
+    padding: 0 3em;
+}
+.news-header .big-title{
+    font-size: 3em;
+}
+.news-header p.initial-text{
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+article img.main-img{
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+p{
+    font-family: 'Lora', serif;
+}
+.main-text{
+    font-size: 1.4em;
+    line-height: 1.6;
+}
+
+/* ==========================
+MAP STYLE */
+.aside-map .card-numbers{
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.table-card{
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.aside-map .card h3{
+    font-size: 2em;
+    font-weight: 700;
+    margin-block-end: 0em;
+}
+.aside-map .card p{
+    margin-block-end: 0em;
+    font-weight: 700;
+}
 
 /* MEDIA FOR - SM -  */
 @media only screen and (max-width:767px){
