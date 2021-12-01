@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/main-page.css">
     <link rel="stylesheet" href="css/variants-map-cpi.css">
 
-    <title>InTime News - Portal de Notícias</title>
+    <title>InTime News - Mapa de infectados no Brasil</title>
 
 </head>
 

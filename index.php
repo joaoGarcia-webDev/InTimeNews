@@ -166,7 +166,7 @@
             <div class="card col-sm-12 col-md-6 col-lg-3">
                 <h2>Sobre Nós</h2>
                 <p class="text-lora my-4">O In Time News é um portal especializado em notícias sobre a pandemia da COVID-19 que está acontecendo no mundo. Procuramos de maneira parcial apresentar as últimas notícias planejadas e escritas por nossos desenvolvedores competentes.</p>
-                <a href="#" class="btn btn-primary">Saiba mais</a>
+                <a href="about.php" class="btn btn-primary">Saiba mais</a>
             </div>
             <div class="card col-sm-12 col-md-6 col-lg-3">
                 <h2>Contato</h2>

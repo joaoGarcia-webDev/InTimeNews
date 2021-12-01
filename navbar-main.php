@@ -34,7 +34,7 @@
                     <ul class="dropdown-menu" aria-labelledby="socialDropdown">
                         <li><a class="dropdown-item" href="#">Notícias Automáticas</a></li>
                         <li><a class="dropdown-item" href="#">Contato</a></li>
-                        <li><a class="dropdown-item" href="#">Quem somos</a></li>
+                        <li><a class="dropdown-item" href="about.php">Quem somos</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="normas.php">Normas de uso</a></li>
                     </ul>

@@ -1,0 +1,38 @@
+.about-content{
+    justify-content: space-between;
+}
+.about-card{
+    flex-direction: row;
+    transition: all 0.2s ease;
+    width: 49%;
+    font-family: 'Cabin', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.about-card .about-img .img-fluid{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    transition: all 0.3s ease;
+    object-fit: cover;
+}
+.about-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.about-card:hover .about-img .img-fluid{
+    border-radius: 5%;
+}
+.about-card .text-content .title h2{
+    text-align: left;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-block-end: 0em;
+    color: #0B3954;
+}
+.about-card .text-content .title p{
+    font-size: 1.3em;
+    color: #0B3954;
+    font-weight: 700;
+}
+.about-card .text-content .lists{
+    display: flex;
+}
