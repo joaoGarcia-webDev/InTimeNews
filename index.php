@@ -171,7 +171,7 @@
             <div class="card col-sm-12 col-md-6 col-lg-3">
                 <h2>Contato</h2>
                 <p class="text-lora my-4">Nós do Portal de Notícias In Time News estamos sempre a disposição para um contato mais proximo entre nossos usuários, disponibilizando nosso e-mail e contato para caso de dúvidas, sugestões ou elogios</p>
-                <a href="#" class="btn btn-primary">Entrar em contato</a>
+                <a href="contact.php" class="btn btn-primary">Entrar em contato</a>
             </div>
             <div class="card col-sm-12 col-lg-3">
                 <h3>Receba as ultimas noticías</h3>

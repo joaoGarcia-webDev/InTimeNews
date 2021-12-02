@@ -11,13 +11,13 @@
                 <h5 class="fw-bold text-uppercase mb-2">Notícias</h5>
                 <ul class="list-unstyled links-footer">
                     <li>
-                        <a href="#!">CPI da COVID-19</a>
+                        <a href="cpi-hub.php">CPI da COVID-19</a>
                     </li>
                     <li>
                         <a href="#!">Sintomas e tratamentos</a>
                     </li>
                     <li>
-                        <a href="#!">Taxa de infectados</a>
+                        <a href="map-percent.php">Taxa de infectados</a>
                     </li>
                 </ul>
             </div>
@@ -25,13 +25,13 @@
                 <h5 class="fw-bold text-uppercase mb-2">Informações Gerais</h5>
                 <ul class="list-unstyled links-footer">
                     <li>
-                        <a href="#!">Variantes da COVID-19</a>
+                        <a href="variants.php">Variantes da COVID-19</a>
                     </li>
                     <li>
-                        <a href="#!">Informações</a>
+                        <a href="informacoes.php">Informações</a>
                     </li>
                     <li>
-                        <a href="#!">Curiosidades</a>
+                        <a href="curiosity.php">Curiosidades</a>
                     </li>
                     <li>
                         <a href="#!">Inovação</a>
@@ -44,13 +44,13 @@
                 <h5 class="fw-bold text-uppercase mb-2">Nossa area social</h5>
                 <ul class="list-unstyled links-footer">
                     <li>
-                        <a href="#!">Termos de uso</a>
+                        <a href="normas.php">Termos de uso</a>
                     </li>
                     <li>
-                        <a href="#!">Contato</a>
+                        <a href="contact.php">Contato</a>
                     </li>
                     <li>
-                        <a href="#!">Quem somos</a>
+                        <a href="about.php">Quem somos</a>
                     </li>
                 </ul>
             </div>
