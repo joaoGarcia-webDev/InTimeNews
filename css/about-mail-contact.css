@@ -56,6 +56,26 @@
     margin-top: 0.5em;
 }
 
+
+/* ============
+FORM STYLES */
+.mail-content .text-content{
+    position: relative;
+}
+.mail-content .text-content .header{
+    font-size: 1.2em;
+}
+.last-text-contact{
+    position: absolute;
+    bottom: 15px;
+}
+.mail-content .text-content, .mail-content .form-content{
+    padding: 1em 2em;
+}
+.mail-content .form-content{
+    background-color: #f0f0f0;
+}
+
 @media only screen and (min-width:991px){
     .about-card{
         width: 49%;
@@ -64,18 +84,8 @@
         border-radius: 50%;
     }
 }
-
-/* ============
-FORM STYLES */
-.mail-content{
-    overflow: hidden;
-}
-.mail-content .text-content .header{
-    font-size: 1.2em;
-}
-.mail-content .text-content, .mail-content .form-content{
-    padding: 1em 2em;
-}
-.mail-content .form-content{
-    background-color: #f0f0f0;
+@media only screen and (max-width:767px){
+    .last-text-contact{
+        position: static;
+    }
 }
