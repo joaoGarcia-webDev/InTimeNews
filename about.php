@@ -31,7 +31,7 @@
         <h1 class="big-title">Sobre nós</h1>
         <div class="about-content row">
             <section class="card row col-sm-12 col-md-6 about-card my-3">
-                <div class="about-img col-sm-12 col-md-4 ">
+                <div class="about-img col-sm-12 col-md-12 col-lg-4 text-center">
                     <img src="img/about/bea_reveal.png" class="img-fluid" alt="">
                 </div>
                 <div class="text-content col">
@@ -62,7 +62,7 @@
             </section>
             
             <section class="card row col-sm-12 col-md-6 about-card my-3">
-                <div class="about-img col-sm-12 col-md-4 ">
+                <div class="about-img col-sm-12 col-md-4 col-md-12 col-lg-4 text-center">
                     <img src="img/about/caio_reveal.png" class="img-fluid" alt="">
                 </div>
                 <div class="text-content col">
@@ -94,7 +94,7 @@
             </section>
 
             <section class="card row col-sm-12 col-md-6 about-card my-3">
-                <div class="about-img col-sm-12 col-md-4 ">
+                <div class="about-img col-sm-12 col-md-4 col-md-12 col-lg-4 text-center">
                     <img src="img/about/joao_reveal.png" class="img-fluid" alt="">
                 </div>
                 <div class="text-content col">
@@ -127,7 +127,7 @@
             </section>
 
             <section class="card row col-sm-12 col-md-6 about-card my-3">
-                <div class="about-img col-sm-12 col-md-4 ">
+                <div class="about-img col-sm-12 col-md-12 col-lg-4 text-center">
                     <img src="img/about/guilherme_reveal.png" class="img-fluid" alt="">
                 </div>
                 <div class="text-content col">

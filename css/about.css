@@ -4,12 +4,11 @@
 .about-card{
     flex-direction: row;
     transition: all 0.2s ease;
-    width: 49%;
     font-family: 'Cabin', sans-serif;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .about-card .about-img .img-fluid{
-    border-radius: 50%;
+    border-radius: 5%;
     width: 250px;
     height: 250px;
     transition: all 0.3s ease;
@@ -34,10 +33,9 @@
     font-weight: 700;
 }
 .about-card .text-content .lists{
-    display: flex;
-}
-.about-card .text-content .lists{
     font-size: 1.1em;
+    display: flex;
+    justify-content: space-around;
 }
 .about-card .text-content .lists .function{
     margin-right: 4em;
@@ -56,4 +54,13 @@
     font: 1.2em 'Lora', sans-serif;
     font-weight: bold;
     margin-top: 0.5em;
+}
+
+@media only screen and (min-width:991px){
+    .about-card{
+        width: 49%;
+    }
+    .about-card .about-img .img-fluid{
+        border-radius: 50%;
+    }
 }
