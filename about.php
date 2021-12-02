@@ -32,34 +32,32 @@
         <div class="about-content row">
             <section class="card row col-sm-12 col-md-6 about-card my-3">
                 <div class="about-img col-sm-12 col-md-4 ">
-                    <img src="img/about/caio_reveal.png" class="img-fluid" alt="">
+                    <img src="img/about/bea_reveal.png" class="img-fluid" alt="">
                 </div>
                 <div class="text-content col">
                     <div class="title">
-                        <h2>Fulano de Alguma Coisa</h2>
-                        <p class="ra">RA: 2650832113002</p>
+                        <h2>Beatriz Lima Alvez</h2>
+                        <p class="ra">RA: 2650832113034</p>
                     </div>
                     <div class="lists">
-                        <div class="function me-5">
+                        <div class="function">
                             <p>Funções:</p>
-                            <ul>
+                            <ul class="list-unstyled">
                                 <li>Front-End</li>
-                                <li>Back-End</li>
                                 <li>Redator</li>
                                 <li>Design</li>
                             </ul>
                         </div>
                         <div class="page">
-                            <p>Páginas encarregadas:</p>
-                            <ul>
-                                <li><a href="">Pagina individual</a></li>
-                                <li><a href="">Pagina individual</a></li>
+                            <p>Página encarregada:</p>
+                            <ul class="list-unstyled" class="list-unstyled" class="list-unstyled">
+                                <li><a href="curiosity.php">Curiosidades</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="text-about">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque earum cumque voluptates obcaecati delectus illum incidunt illo laudantium tenetur nisi. Quas commodi maiores dolorum enim porro vel reiciendis error amet!</p>
-                    </div>
+                </div>
+                <div class="text-about">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque earum cumque voluptates obcaecati delectus illum incidunt illo laudantium tenetur nisi. Quas commodi maiores dolorum enim porro vel reiciendis error amet!</p>
                 </div>
             </section>
             
@@ -69,46 +67,45 @@
                 </div>
                 <div class="text-content col">
                     <div class="title">
-                        <h2>Fulano de Alguma Coisa</h2>
-                        <p class="ra">RA: 2650832113002</p>
+                        <h2>Caio Gabriel Carvalho Pereira</h2>
+                        <p class="ra">RA: 2650832113027</p>
                     </div>
                     <div class="lists">
-                        <div class="function me-5">
+                        <div class="function">
                             <p>Funções:</p>
-                            <ul>
+                            <ul class="list-unstyled" class="list-unstyled">
                                 <li>Front-End</li>
-                                <li>Back-End</li>
                                 <li>Redator</li>
                                 <li>Design</li>
                             </ul>
                         </div>
                         <div class="page">
                             <p>Páginas encarregadas:</p>
-                            <ul>
+                            <ul class="list-unstyled" class="list-unstyled">
                                 <li><a href="">Pagina individual</a></li>
                                 <li><a href="">Pagina individual</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="text-about">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque earum cumque voluptates obcaecati delectus illum incidunt illo laudantium tenetur nisi. Quas commodi maiores dolorum enim porro vel reiciendis error amet!</p>
-                    </div>
+                </div>
+                <div class="text-about">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque earum cumque voluptates obcaecati delectus illum incidunt illo laudantium tenetur nisi. Quas commodi maiores dolorum enim porro vel reiciendis error amet!</p>
                 </div>
             </section>
 
             <section class="card row col-sm-12 col-md-6 about-card my-3">
                 <div class="about-img col-sm-12 col-md-4 ">
-                    <img src="img/about/caio_reveal.png" class="img-fluid" alt="">
+                    <img src="img/about/joao_reveal.png" class="img-fluid" alt="">
                 </div>
                 <div class="text-content col">
                     <div class="title">
-                        <h2>Fulano de Alguma Coisa</h2>
+                        <h2>João Victor Garcia</h2>
                         <p class="ra">RA: 2650832113002</p>
                     </div>
                     <div class="lists">
-                        <div class="function me-5">
+                        <div class="function">
                             <p>Funções:</p>
-                            <ul>
+                            <ul class="list-unstyled">
                                 <li>Front-End</li>
                                 <li>Back-End</li>
                                 <li>Redator</li>
@@ -117,31 +114,31 @@
                         </div>
                         <div class="page">
                             <p>Páginas encarregadas:</p>
-                            <ul>
-                                <li><a href="">Pagina individual</a></li>
-                                <li><a href="">Pagina individual</a></li>
+                            <ul class="list-unstyled">
+                                <li><a href="variants.php">Variantes</a></li>
+                                <li><a href="back_provider/adm-page-login.php">pagina ADM</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="text-about">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque earum cumque voluptates obcaecati delectus illum incidunt illo laudantium tenetur nisi. Quas commodi maiores dolorum enim porro vel reiciendis error amet!</p>
-                    </div>
+                </div>
+                <div class="text-about">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque earum cumque voluptates obcaecati delectus illum incidunt illo laudantium tenetur nisi. Quas commodi maiores dolorum enim porro vel reiciendis error amet!</p>
                 </div>
             </section>
 
             <section class="card row col-sm-12 col-md-6 about-card my-3">
                 <div class="about-img col-sm-12 col-md-4 ">
-                    <img src="img/about/caio_reveal.png" class="img-fluid" alt="">
+                    <img src="img/about/guilherme_reveal.png" class="img-fluid" alt="">
                 </div>
                 <div class="text-content col">
                     <div class="title">
-                        <h2>Fulano de Alguma Coisa</h2>
+                        <h2>Guilherme Monteiro</h2>
                         <p class="ra">RA: 2650832113002</p>
                     </div>
                     <div class="lists">
-                        <div class="function me-5">
+                        <div class="function">
                             <p>Funções:</p>
-                            <ul>
+                            <ul class="list-unstyled">
                                 <li>Front-End</li>
                                 <li>Back-End</li>
                                 <li>Redator</li>
@@ -149,16 +146,15 @@
                             </ul>
                         </div>
                         <div class="page">
-                            <p>Páginas encarregadas:</p>
-                            <ul>
-                                <li><a href="">Pagina individual</a></li>
-                                <li><a href="">Pagina individual</a></li>
+                            <p>Página encarregada:</p>
+                            <ul class="list-unstyled">
+                                <li><a href="informacoes.php">Informações</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="text-about">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque earum cumque voluptates obcaecati delectus illum incidunt illo laudantium tenetur nisi. Quas commodi maiores dolorum enim porro vel reiciendis error amet!</p>
-                    </div>
+                </div>
+                <div class="text-about">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque earum cumque voluptates obcaecati delectus illum incidunt illo laudantium tenetur nisi. Quas commodi maiores dolorum enim porro vel reiciendis error amet!</p>
                 </div>
             </section>
            

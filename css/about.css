@@ -36,3 +36,24 @@
 .about-card .text-content .lists{
     display: flex;
 }
+.about-card .text-content .lists{
+    font-size: 1.1em;
+}
+.about-card .text-content .lists .function{
+    margin-right: 4em;
+}
+.about-card .text-content .lists .function ul,
+.about-card .text-content .lists .page ul{
+    margin-top: 0.5em;
+}
+.about-card .text-content .lists p{
+    margin-block-end: 0em;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-bottom: 5px solid #0B3954;
+}
+.about-card .text-about{
+    font: 1.2em 'Lora', sans-serif;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
