@@ -33,7 +33,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="socialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Area social</a>
                     <ul class="dropdown-menu" aria-labelledby="socialDropdown">
                         <li><a class="dropdown-item" href="auto-mail.php">Notícias Automáticas</a></li>
-                        <li><a class="dropdown-item" href="#">Contato</a></li>
+                        <li><a class="dropdown-item" href="contact.php">Contato</a></li>
                         <li><a class="dropdown-item" href="about.php">Quem somos</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="normas.php">Normas de uso</a></li>

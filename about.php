@@ -15,7 +15,7 @@
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/main-page.css">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/about-mail-contact.css">
 
     <title>InTime News - Sobre nós</title>
 

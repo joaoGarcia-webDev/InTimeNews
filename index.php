@@ -177,14 +177,14 @@
                 <h3>Receba as ultimas noticías</h3>
                 <p class="text-lora my-4">Faça seu cadastro gratuito</p>
 
-                <form action="#" method="post">
+                <form action="auto-mail.php" method="post">
                     <div class="mb-3">
                         <label for="nameInput" class="form-label">Nome</label>
-                        <input type="email" class="form-control" id="nameInput" placeholder="Nome do usuário">
+                        <input type="name" name="name" class="form-control" id="nameInput" placeholder="Nome do usuário">
                     </div>
                     <div class="mb-3">
                         <label for="emailInput" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                        <input type="email" name="email" class="form-control" id="emailInput" placeholder="name@example.com">
                     </div>
                     <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>

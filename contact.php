@@ -1,17 +1,3 @@
-<?php
-    if (isset($_POST['email'])) {
-        $email = $_POST['email'];
-    } else {
-        $email = '';
-    }
-
-    if (isset($_POST['name'])) {
-        $name = $_POST['name'];
-    } else {
-        $name = '';
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
