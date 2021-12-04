@@ -84,7 +84,7 @@
 
         </div>
     </div>
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <div class="footer-copyright w-100 text-center py-3">© 2020 Copyright:
         <a href="back_provider/adm-page-login.php"> Los Fofuritos</a>
     </div>
 </footer>

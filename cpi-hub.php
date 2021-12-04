@@ -28,25 +28,104 @@
 
     <!-- PAGE CONTENT -->
     <main class="container-lg">
-        <!-- ================
-        article-news -->
-        <article>
+        <div class="row">
+            <!-- ================
+            article-news -->
+            <article class="col-sm-12 col-md-8">
 
-            <h1 class="big-title mb-5">Ultimas Notícias da CPI da COVID-19</h1>
-            <section class="section-news-cpi my-3">
-                <a href="cpi-news.php" class="row">
-                    <img class="img-fluid col-12 col-md-6" src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" alt="">
-                    <div class="text-content col">
-                        <h2 class="big-title">News title</h2>
-                        <p class="text-lora">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eveniet veniam provident perspiciatis, cumque commodi perferendis mollitia odit eius blanditiis hic repellat debitis ab officia error dolores quia est culpa.</p>
-                        <small>Publicado em 00/00/0000</small>
+                <?php
+                    include 'back_provider/lastmodified-inc.php';
+
+                    $fileData = dirList('database/cpi_covid/', $sortOrder);
+                    $cont = 0;
+                    $fileContent = array();
+                    $fileCont = 0;
+                
+                    foreach ($fileData as $data) {
+                        if ($cont % 2 == 0) {
+                            $fileName[] = $data;
+                            $file = file('database/cpi_covid/'.$data);
+                
+                            $contRow = 0;
+                            echo "<br>";
+                
+                            foreach ($file as $fileRow){
+                                if ($contRow == 0) {
+                                    $fileContent[$fileCont]['img'] = $fileRow;
+                                    $contRow++;
+                                } else if ($contRow == 1) {
+                                    $fileContent[$fileCont]['title'] = $fileRow;
+                                    $contRow++;
+                                } else if ($contRow == 2){
+                                    $fileContent[$fileCont]['subTitle'] = $fileRow;
+                                    $contRow++;
+                                }
+                            }
+                
+                            $fileCont++;
+                        }
+                        $cont++;
+                    }
+                    var_dump($fileContent);
+
+
+                ?> 
+
+                <h1 class="big-title mb-5">Ultimas Notícias da CPI da COVID-19</h1>
+                <?php
+                $cont = 0;
+                foreach ($fileContent as $content) {
+                ?>
+
+                <section class="section-news-cpi my-3">
+                    <a href="cpi-news.php?file=<?php echo $fileName[$cont]; ?>" class="row">
+                        <img class="img-fluid col-12 col-md-6" src="img/<?php echo $fileContent[$cont]['img']; ?>" alt="">
+                        <div class="text-content col">
+                            <h2 class="big-title"><?php echo $fileContent[$cont]['title']; ?></h2>
+                            <p class="text-lora"><?php echo $fileContent[$cont]['subTitle']; ?></p>
+                            <small>Publicado em 00/00/0000</small>
+                        </div>
+                    </a>
+                </section>
+                <?php
+                $cont++;
+                }
+                ?>
+                
+
+            </article>
+            <!-- article-news
+            ================ -->      
+
+            <!-- ================
+            aside-links -->
+            <aside class="col-sm-12 col-md-4">
+                <form action="auto-mail.php" method="post" class="form-automail my-5 p-2">
+                    
+                    <label for="form-mail" class="big-title form-label">Receba as ultimas notícias</label>
+                    <div class="input-btn">
+                        <input type="email" name="email" class="form-control" id="form-mail" placeholder="nome@exemplo.com">
+                        <button type="submit" class="btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89.471-1.178-1.178.471L5.93 9.363l.338.215a.5.5 0 0 1 .154.154l.215.338 7.494-7.494Z"/>
+                            </svg>
+                        </button>
                     </div>
-                </a>
-            </section>
+                </form>
 
-        </article>
-        <!-- article-news
-        ================ -->       
+                <nav class="aside-nav navbar nav p-4"> 
+                    <h3 class="big-title">Informações que podem te interessar</h3>
+                    <ul class="">
+                        <li><a href="iformacoes.php">Informações gerais</a></li>
+                        <li><a href="variants.php">Variantes da COVID</a></li>
+                        <li><a href="curiosity.php">Curiosidades</a></li>
+                        <li><a href="inovacao.php">Inovações da pandemia</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <!-- aside-links
+            ================ -->     
+        </div> 
     </main>
     
 

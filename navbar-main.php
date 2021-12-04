@@ -24,7 +24,7 @@
                     <ul class="dropdown-menu" aria-labelledby=infoDropdown">
                         <li><a class="dropdown-item" href="curiosity.php">Curiosidades</a></li>
                         <li><a class="dropdown-item" href="variants.php">Variantes</a></li>
-                        <li><a class="dropdown-item" href="#">Inovações</a></li>
+                        <li><a class="dropdown-item" href="inovacao.php">Inovações</a></li>
                         <li><a class="dropdown-item" href="informacoes.php">Informações</a></li>
                     </ul>
                 </li>
