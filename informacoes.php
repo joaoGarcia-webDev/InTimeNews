@@ -51,7 +51,7 @@
                  </div>
 
                  <div >
-                    <a href="#">
+                    <a href="sequelas.php">
                     <section class="external-news">
                         <img class="img-fluid" src="img/imagem-informacoes/img-virus.png" alt="Imagem virus">
             

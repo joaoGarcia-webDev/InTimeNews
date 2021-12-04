@@ -47,7 +47,7 @@
 }
 
 .news-externals h1 {
-  margin-block-end: 0em;
+    margin-block-end: 0em;
     color: #000;
     font-family: 'Cabin', sans-serif;
     font-weight: 700;
@@ -59,3 +59,16 @@
   border-bottom: solid 2px ;
 }
 
+.separador-branco {
+  border-bottom: solid 2px #C7C3C3;
+  
+}
+
+.texto-h3 {
+  margin-block-end: 0em;
+  color: #C81D25;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  margin-bottom: 0.2em;
+}

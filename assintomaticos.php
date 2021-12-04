@@ -28,7 +28,7 @@
 
         <main class="container-xxl">
     
-        <div class=" col-lg-12 col-md-12 col-sm-12">
+        <div class="separador-branco col-lg-12 col-md-12 col-sm-12">
           <header class="col-lg-9 col-md-9 col-sm-12 mx-auto">
             <h1 class="title-vacinas">A vacinação é talvez o momento mais importante na batalha contra uma doença que devasta a população mundial, e não devemos nunca negar à essa ferramenta de imunização.</h1>
             <h2 class="text-lora mt-3 mb-5">O Brasil já alcançou um total de 62,9% de vacinados - numeros tirados de "Our World In Data".</h2>

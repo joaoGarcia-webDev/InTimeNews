@@ -15,6 +15,7 @@
         <!-- CUSTOM CSS -->
         <link rel="stylesheet" href="css/main-page.css">
         <link rel="stylesheet" href="css/vacinas.css">
+        <link rel="stylesheet" href="css/assintomaticos.css">
 
 
       <title>Vacinas</title>
@@ -26,7 +27,7 @@
         <!-- PAGE CONTENT -->
         <main class="container-xxl">
         
-        <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="separador-branco col-lg-12 col-md-12 col-sm-12">
             <header class="col-lg-9 col-md-9 col-sm-12 mx-auto">
                 <h1 class="title-vacinas">A vacinação é talvez o momento mais importante na batalha contra uma doença que devasta a população mundial, e não devemos nunca negar à essa ferramenta de imunização.</h1>
                 <h2 class="text-lora mt-3 mb-5">O Brasil já alcançou um total de 62,9% de vacinados - números tirados de "Our World In Data".</h2>
@@ -35,7 +36,7 @@
 
         <!--Section com conteúdo-->
         <section class="col-lg-12 col-md-12 col-sm-12 row mx-auto">
-             <img class="mx-auto  col-lg-8 col-md-8 col-sm-12 img-fluid"src="img/imagem-informacoes/imagem-vacinas2.jpg" alt="Imagem vacinas">
+             <img class="mx-auto mt-5 col-lg-8 col-md-8 col-sm-12 img-fluid"src="img/imagem-informacoes/imagem-vacinas2.jpg" alt="Imagem vacinas">
              <p class="mt-0 mb-5 mx-auto col-lg-8 col-md-8 col-sm-12">Mulher com seringa: vacinas são importantes na batalha contra agentes nocívos - foto: Pixabay</p>
             <article class="mx-auto col-lg-8">
                 <h2 class="big-title">O que são as vacinas</h2>
@@ -63,15 +64,15 @@
                 <p class="text-lora">Usa o vírus em alguma célula ou ovos embrionados de galinha, assim o vírus passa por um processo de purificação e depois fica inativado. 
                 Quando o corpo recebe a dose da vacina, o sistema imunológico entende que o patógeno está presente no organismo, e assim começa uma reação de defesa que desencadeia um desenvolvimento de anticorpos para combater o "inimigo".
                 </p>
-                <p class="text-lora"> Essa tecnologia é usada no desenvolvimento das vacinas Sinovac/Coronavac do instituto Butantan.</p>
+                <p class="mb-5 text-lora"> Essa tecnologia é usada no desenvolvimento das vacinas Sinovac/Coronavac do instituto Butantan.</p>
             
            
 
-            <h2 class="mt-3 big-title">A vacina de vetor viral não replicante</h2>
+            <h2 class="mt-5 big-title">A vacina de vetor viral não replicante</h2>
                 <p class="text-lora">O desenvolvimento dessa vacina é feito de forma em que os pesquisadores inserem os genes que codificam a produção da proteína "S" (que liga o coronavírus as nossas células) dentro de um vírus que não causa doença em humanos e ele também é incapaz de se reproduzir dentro do organismo.
                 Após a vacinação, o vetor viral entra na célula e a proteína "S" se transforma em uma molécula de RNA mensageiro (mRNA), que leva com ela instruções para produzir a proteína "S", que é detectado pelo sistema imunológico e desencadeia a produção de anticorpos.
                 </p>
-                <p class="text-lora"> Essa tecnologia é usada no desenvolvimento das vacinas Oxford/AstraZeneca/Fiocruz,  Janssen e Sputnik V.</p>
+                <p class="mb-5 text-lora"> Essa tecnologia é usada no desenvolvimento das vacinas Oxford/AstraZeneca/Fiocruz,  Janssen e Sputnik V.</p>
 
             <h2 class="mt-3 big-title">A vacina de RNA-mensageiro</h2>
                 <p class="text-lora">É uma forma de desenvolvimento mais barata e rápida 
