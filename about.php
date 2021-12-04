@@ -132,7 +132,7 @@
                 <div class="text-content col">
                     <div class="title">
                         <h2>Guilherme Monteiro</h2>
-                        <p class="ra">RA: 2650832113002</p>
+                        <p class="ra">RA: 2650832013011</p>
                     </div>
                     <div class="lists">
                         <div class="function">
