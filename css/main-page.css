@@ -8,8 +8,8 @@ PROJECT: Portal informativo sobre a pandemia de COVID-19 e formas de prevenção
 BY: Los Fofuritos 
 ===========================================
 
-version: 0.0.4
-last-update: 2021-11-18
+version: 0.1.1
+last-update: 2021-12-04
 =========================================== */
 
 /* FONT IMPORT */
@@ -62,7 +62,6 @@ nav .container-fluid a img.logo-img{
 }
 nav .container-fluid .collapse .banner{
     max-height: 100px;
-    object-fit: cover;
 }
 .nav-item .nav-link{
     font-size: 1.2em;

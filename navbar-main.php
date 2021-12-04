@@ -9,7 +9,7 @@
                 alt="Logo principal do portal de notícias InTimeNews">
         </a>
         <div class="collapse navbar-collapse row" id="navbarToggleMain">
-            <img src="img/just_example/banner-750x150.jpg" alt="Banner de exemplo" class="img-fluid banner">
+            <!-- <img src="img/just_example/banner-750x150.png" alt="Banner representativo da página de notícias InTimeNews" class="img-fluid banner"> -->
             <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
                 <li class="nav-item ms-3 dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="noticiaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Noticías</a>
