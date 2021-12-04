@@ -88,19 +88,19 @@
                         }
                     ?>
                     <div class="content-news">
-                        <a href="#?=<?php echo $fileName[0]?>" class="text-content">
+                        <a href="cpi-news.php?file=<?php echo $fileName[0]?>" class="text-content">
                             <h4 class="big-title"><?php echo $fileInformation[1]; ?></h4>
                             <p><?php echo implode(' ', array_slice(str_word_count($fileInformation[2], 2), 0, 15)).'...'; ?></p>
                         </a>
                     </div>
                     <div class="content-news">
-                        <a href="#?=<?php echo $fileName[1]?>" class="text-content">
+                        <a href="cpi-news.php?file=<?php echo $fileName[1]?>" class="text-content">
                             <h4 class="big-title"><?php echo $fileInformation[4]; ?></h4>
                             <p><?php echo implode(' ', array_slice(str_word_count($fileInformation[5], 2), 0, 15)).'...'; ?></p>
                         </a>
                     </div>
                     <div class="content-news">
-                        <a href="#?=<?php echo $fileName[2]?>" class="text-content">
+                        <a href="cpi-news.php?file=<?php echo $fileName[2]?>" class="text-content">
                             <h4 class="big-title"><?php echo $fileInformation[7]; ?></h4>
                             <p><?php echo implode(' ', array_slice(str_word_count($fileInformation[8], 2), 0, 15)).'...'; ?></p>
                         </a>

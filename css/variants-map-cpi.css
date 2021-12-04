@@ -81,7 +81,10 @@ section.section-news-cpi a .text-content h2{
 section.section-news-cpi:hover a .text-content h2{
     color: #C81D25;
 }
-.news-header, .main-text{
+.news-header{
+    padding: 0 5em;
+}
+.main-text{
     padding: 0 3em;
 }
 .news-header .big-title{
@@ -92,9 +95,14 @@ section.section-news-cpi:hover a .text-content h2{
     opacity: 0.9;
 }
 article img.main-img{
-    height: 300px;
+    height: 400px;
     object-fit: cover;
+    padding: 0 4.5em;
     object-position: top;
+}
+.img-cpi-hub{
+    object-fit: cover;
+    height: 300px;
 }
 p{
     font-family: 'Lora', serif;

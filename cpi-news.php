@@ -1,3 +1,35 @@
+<?php 
+if (!(isset($_GET['file'])) && $_GET['file'] == '') {
+    header("Location: cpi-hub.php");
+    exit;
+}
+$fileName = $_GET['file'];
+if (!(file_exists('database/cpi_covid/'.$fileName))) {
+    header("Location: cpi-hub.php");
+    exit;
+}
+$file = "database/cpi_covid/".$fileName;
+$fileTime = date("d/m/Y",filectime($file));
+$file = file("database/cpi_covid/".$fileName);
+$contRow = 0;
+
+foreach ($file as $filerow){
+    if ($contRow == 0) {
+        $fileContent['img'] = $filerow;
+        $contRow++;
+    } else if ($contRow == 1) {
+        $fileContent['title'] = $filerow;
+        $contRow++;
+    } else if ($contRow == 2){
+        $fileContent['subTitle'] = $filerow;
+        $contRow++;
+    } else if ($contRow > 2){
+        $fileContent[] = $filerow;
+        $contRow++;
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -32,18 +64,20 @@
         article-news -->
         <article class="row">
             <header class="news-header">
-                <h1 class="big-title">Titulo principal da Notícia</h1>
+                <h1 class="big-title"><?php echo $fileContent['title']; ?></h1>
                 <p class="initial-text text-lora">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis explicabo eos, fugit tenetur optio eum quam consectetur saepe architecto unde nam error dicta itaque molestiae provident soluta? Omnis, corrupti tenetur.
+                    <?php echo $fileContent['subTitle']; ?>
                 </p>
-                <span class="mt-3">00/00/0000</span>
+                <span class="mt-3"><?php echo $fileTime; ?></span>
             </header>
-            <img src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" alt="" class="main-img img-fluid">
+            <img src="img/<?php echo $fileContent['img']; ?>" alt="" class="main-img img-fluid">
             <div class="main-text mt-5">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa suscipit ducimus dolores, impedit, qui quo sint assumenda excepturi accusantium at doloremque molestias quae vitae eius deleniti necessitatibus modi atque nobis.lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi voluptates recusandae voluptate distinctio commodi non corporis quae sed, ex facere! Repudiandae, aliquid quia laboriosam assumenda deserunt fugiat autem quae sapiente.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa suscipit ducimus dolores, impedit, qui quo sint assumenda excepturi accusantium at doloremque molestias quae vitae eius deleniti necessitatibus modi atque nobis.lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi voluptates recusandae voluptate distinctio commodi non corporis quae sed, ex facere! Repudiandae, aliquid quia laboriosam assumenda deserunt fugiat autem quae sapiente.</p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa suscipit ducimus dolores, impedit, qui quo sint assumenda excepturi accusantium at doloremque molestias quae vitae eius deleniti necessitatibus modi atque nobis.lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi voluptates recusandae voluptate distinctio commodi non corporis quae sed, ex facere! Repudiandae, aliquid quia laboriosam assumenda deserunt fugiat autem quae sapiente.</p>
+                <?php
+                    for ($i=0; $i < (count($fileContent)-4); $i++) { 
+                        echo "<p>".$fileContent[$i]."</p>";
+                    }
+                ?>
+                <a href="<?php echo $fileContent[(count($fileContent)-4)]; ?>">Fonte</a>
             </div>
 
         </article>

@@ -43,7 +43,7 @@
             ?>
 
             <div class="initial-news col-sm-12 col-md-12 col-lg-6">
-                <a href="#?=<?php echo $fileName[1] ?>">
+                <a href="cpi-news.php?file=<?php echo $fileName[1] ?>">
                     <section class="section-news">
                         <img src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" class="img-fluid" alt="Imagem de Renam Calheiros durante a reunião da CPI da COVID-19, notícia principal">
                         <div class="small-text">
@@ -61,7 +61,7 @@
             </div>
 
             <div class="aside-news col-sm-12 col-md-12 col-lg-6">
-                <a href="#?=<?php echo $fileName[2] ?>">
+                <a href="cpi-news.php?file=<?php echo $fileName[2] ?>">
                     <section class="section-news black col-12">
                         <img src="img/cpi-covid/grafico-casos-confirmados.png" class="img-fluid col-12" alt="Imagem do grafico entre os casos confirmados do brasil e seu crescimento">
                         <div class="small-text">
@@ -77,7 +77,7 @@
                     </section>
                 </a>
                 <div class="last-news">
-                    <a class="section-news col-sm-12 col-md-6" href="?=<?php echo $fileName[0] ?>">
+                    <a class="section-news col-sm-12 col-md-6" href="cpi-news.php?file=<?php echo $fileName[0] ?>">
                         <section>
                             <img src="img/cpi-covid/brasil-supera-eua.png" class="img-fluid col-12" alt="Imagem de uma vacina em um fundo preto">
                             <div class="small-text">
@@ -92,7 +92,7 @@
                             </header>
                         </section>
                     </a>
-                    <a class="section-news col-sm-12 col-md-6" href="?=<?php echo $fileName[3] ?>">
+                    <a class="section-news col-sm-12 col-md-6" href="cpi-news.php?file=<?php echo $fileName[3] ?>">
                         <section>
                             <img src="img/cpi-covid/brasil-taxa-mortes.jpg" class="img-fluid col-12" alt="Imagem proxima de uma lapide cheio de flores">
                             <div class="small-text">

@@ -45,9 +45,7 @@
                         if ($cont % 2 == 0) {
                             $fileName[] = $data;
                             $file = file('database/cpi_covid/'.$data);
-                
                             $contRow = 0;
-                            echo "<br>";
                 
                             foreach ($file as $fileRow){
                                 if ($contRow == 0) {
@@ -61,13 +59,12 @@
                                     $contRow++;
                                 }
                             }
-                
                             $fileCont++;
+                        } else{
+                            $fileTime[] = date ("d/m/Y", $data);
                         }
                         $cont++;
                     }
-                    var_dump($fileContent);
-
 
                 ?> 
 
@@ -77,16 +74,17 @@
                 foreach ($fileContent as $content) {
                 ?>
 
-                <section class="section-news-cpi my-3">
+                <section class="section-news-cpi my-5">
                     <a href="cpi-news.php?file=<?php echo $fileName[$cont]; ?>" class="row">
-                        <img class="img-fluid col-12 col-md-6" src="img/<?php echo $fileContent[$cont]['img']; ?>" alt="">
+                        <img class="img-fluid img-cpi-hub col-12 col-md-6" src="img/<?php echo $fileContent[$cont]['img']; ?>" alt="">
                         <div class="text-content col">
                             <h2 class="big-title"><?php echo $fileContent[$cont]['title']; ?></h2>
                             <p class="text-lora"><?php echo $fileContent[$cont]['subTitle']; ?></p>
-                            <small>Publicado em 00/00/0000</small>
+                            <small>Publicado em <?php echo $fileTime[$cont]; ?></small>
                         </div>
                     </a>
                 </section>
+                <hr>
                 <?php
                 $cont++;
                 }
