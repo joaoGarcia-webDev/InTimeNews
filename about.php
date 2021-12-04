@@ -82,8 +82,7 @@
                         <div class="page">
                             <p>Páginas encarregadas:</p>
                             <ul class="list-unstyled" class="list-unstyled">
-                                <li><a href="">Pagina individual</a></li>
-                                <li><a href="">Pagina individual</a></li>
+                                <li><a href="inovacao.php">Inovações</a></li>
                             </ul>
                         </div>
                     </div>
@@ -122,7 +121,7 @@
                     </div>
                 </div>
                 <div class="text-about">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque earum cumque voluptates obcaecati delectus illum incidunt illo laudantium tenetur nisi. Quas commodi maiores dolorum enim porro vel reiciendis error amet!</p>
+                    <p>Me chamo João Victor Garcia, atualmente estudante da Fatec São Roque. Formado em Técnologo de Sistemas para Internet busco uma carreira como desenvolvedor Web, atualmente pego trabalhos Freelancer como Desenvolvedor para Internet.</p>
                 </div>
             </section>
 
