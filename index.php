@@ -126,33 +126,39 @@
                     </div>
                     <div class="text-content">
 <!--                        <h2 class="text-curiosity">Curiosidades</h2>-->
-                        <p class="text-lora text-black">Para saber mais sobre o Covid <a href="curiosity.php">Clique aqui.</a> </p>
+                        <p class="text-lora text-white">Para saber mais sobre o Covid <a href="curiosity.php">Clique aqui.</a> </p>
                     </div>
                 </div>
             </div>
             <div class="side-pages col-12 col-lg-6">
                 <div class="single-page">
-                    <img src="img/just_example/news-250x250.jpg" alt="">
+                    <img src="img/just_example/virus.png" alt="Imagem de um virus representando o virus da COVID-19">
                     <div class="text-content">
-                        <h2>personal page</h2>
-                        <p class="text-lora">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
-                        <div class="small-text"><small>Autor</small><small>13/11/2021</small></div>
+                        <a href="variants.php">
+                            <h2>Variantes da COVID-19</h2>
+                            <p class="text-lora">Conheça novas variantes ou descubra coisas novas sobre as antigas</p>
+                            <div class="small-text"><small>João Victor Garcia</small><small>25/11/2021</small></div>
+                        </a>
                     </div>
                 </div>
                 <div class="single-page">
-                    <img src="img/just_example/news-250x250.jpg" alt="">
+                    <img src="img/imagem-informacoes/imagem-curiosidades.png" alt="Uma interrogação desenhada em uma lousa">
                     <div class="text-content">
-                        <h2>personal page</h2>
-                        <p class="text-lora">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
-                        <div class="small-text"><small>Autor</small><small>13/11/2021</small></div>
+                        <a href="informacoes.php">
+                            <h2>Informações</h2>
+                            <p class="text-lora">Duscubra de tudo um pouco sobre a Pandemia da COVID-19 nesta pagina de informações</p>
+                            <div class="small-text"><small>Guilerme Monteiro</small><small>27/11/2021</small></div>
+                        </a>
                     </div>
                 </div>
                 <div class="single-page">
-                    <img src="img/just_example/news-250x250.jpg" alt="">
+                    <img src="img/inovacao/covid.jpg" alt="Imagem de uma placa tecnológica escrito Coronavirus no centro">
                     <div class="text-content">
-                        <h2>personal page</h2>
-                        <p class="text-lora">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ea possimus.</p>
-                        <div class="small-text"><small>Autor</small><small>13/11/2021</small></div>
+                        <a href="inovacao.php">
+                            <h2>Inovações</h2>
+                            <p class="text-lora">Fique por dentro de todas as inovações deste periodo de pandemia</p>
+                            <div class="small-text"><small>Caio Gabriel</small><small>21/11/2021</small></div>
+                        </a>
                     </div>
                 </div>
             </div>

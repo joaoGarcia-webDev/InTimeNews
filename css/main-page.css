@@ -250,10 +250,15 @@ section.pages-content{
 }
 .single-page img{
     height: 100px;
-    width: auto;
+    width: 100px;
+    object-fit: cover;
 }
 .single-page .text-content{
     width: 75%;
+}
+.single-page .text-content a{
+    text-decoration: none;
+    color: #000;
 }
 .single-page .text-content h2{
     font-size: 1.5em;
