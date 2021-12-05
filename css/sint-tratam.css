@@ -1,0 +1,20 @@
+.sint-art hgroup h2{
+    font-size: 1.5em;
+}
+section.cases-cards{
+    justify-content: center;
+}
+.card h2{
+    text-align: left;
+}
+section.cases-cards>*, section.cases-cards div .card{
+    margin: 1em 0;
+}
+.tratamentos h3{
+    font-size: 1.3em;
+}
+@media only screen and (min-width:991px){
+    section.cases-cards{
+        justify-content: space-between;
+    }
+}

@@ -34,7 +34,7 @@
                         <a href="curiosity.php">Curiosidades</a>
                     </li>
                     <li>
-                        <a href="#!">Inovação</a>
+                        <a href="inovacao.php">Inovação</a>
                     </li>
                 </ul>
             </div>
