@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="text-about">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque earum cumque voluptates obcaecati delectus illum incidunt illo laudantium tenetur nisi. Quas commodi maiores dolorum enim porro vel reiciendis error amet!</p>
+                    <p>Meu nome é Beatriz estou cursando sistemas para internet na Fatec de São Roque e engenharia da computação na Anhembi Morumbi. Trabalho na empresa de automação bancária STM Brasil como desenvolvedora fullstack da empresa e faço freelancer de final de semana de programadora.</p>
                 </div>
             </section>
             
