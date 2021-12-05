@@ -13,7 +13,7 @@
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/main-page.css">
-    <link rel="stylesheet" href="css/inov-style.css">
+    <link rel="stylesheet" href="css/tentativa2.css">
   
   </head>
   
@@ -28,7 +28,7 @@
 
           <section class="col-12">
 
-            <div class="card card1 sombra" >
+            <div class="card1 sombra" >
               <div class="card-body">
                 <h3 class="card-title ti">Inovações</h3>
                 <p class="tx">O surgimento da pandemia afetou a vida de todos no mundo fazendo com que por proteção global governantes de seus respectivos países fizessem com que a população seguisse com isolamento em suas casas, fechando comércios, escolas, empresas e etc... Mas o mundo tinha que voltar a funcionar então essas áreas tiveram que inovar para que volte dando proteção a todos os envolvidos.</p>              </div>
@@ -44,11 +44,11 @@
       <section class="container seg">
         <div class="row">
 
-          <section class="col-6 ">
+          <section class="col-sm-12 col-md-12 col-lg-6 cd1">
 
-            <div class="card sombra zoom" style="width: 39rem;">
+            <div class="maincard sombra zoom" style="width: 39rem;">
             <a href="inovacao_Escola">
-              <img src="img/inovacao/escola.jpg" class="d-block w-100 imgint" alt="Uma sala de aula com alunos usando máscara.">
+              <img src="img/inovacao/escola-ed.png" class="imgint" alt="Uma sala de aula com alunos usando máscara.">
             </a>
               <div class="card-body">
                 <h3 class="card-title">Escola</h3>
@@ -58,11 +58,11 @@
 
           </section>
 
-          <section class="col-6 ">
+          <section class="col-sm-12 col-md-12 col-lg-6 cd1">
 
-            <div class="card sombra zoom" style="width: 39rem;">
-            <a href="inovacao_Escola">
-              <img src="img/inovacao/trabalho.jpg" class="d-block w-100 imgint" alt="...">
+            <div class="maincard sombra zoom" style="width: 39rem;">
+            <a href="inovacao_Trabalho">
+              <img src="img/inovacao/trabalho-ed.png" class="imgint" alt="...">
             </a>
               <div class="card-body">
                 <h3 class="card-title">Trabalho</h3>
@@ -78,29 +78,29 @@
       <section class="container seg">
         <div class="row">
 
-          <section class="col-6 ">
+          <section class="col-sm-12 col-md-12 col-lg-6 cd1">
 
-            <div class="card sombra zoom" style="width: 39rem;">
-            <a href="inovacao_Escola">
-              <img src="img/inovacao/familia.png" class="d-block w-100 imgint" alt="...">
+            <div class="maincard sombra zoom" style="width: 39rem;">
+            <a href="inovacao_Familia">
+              <img src="img/inovacao/familia-ed.png" class="imgint" alt="...">
             </a>
               <div class="card-body">
-                <h3 class="card-title">Escola</h3>
-                <p class="card-text">Uma das áreas mais afetadas sem duvidas foram as escolas, com a paralização geral das escolas muitas escolas ficaram à deriva sem saber o que fazer, mas a solução foram aulas online. </p>
+                <h3 class="card-title">Família</h3>
+                <p class="card-text">Nos tempos difíceis a família sempre é a porta para melhor ajuda, nessa pandemia não foi diferente, para se tornar o novo normal mais aceitável a família é o principal pilar para esses tempos difíceis.</p>
               </div>
             </div>
 
           </section>
 
-          <section class="col-6">
+          <section class="col-sm-12 col-md-12 col-lg-6 cd1">
 
-            <div class="card sombra zoom" style="width: 39rem;">
-            <a href="inovacao_Escola">
-              <img src="img/inovacao/covid.jpg" class="d-block w-100 imgint" alt="...">
+            <div class="maincard sombra zoom" style="width: 39rem;">
+            <a href="inovacao_Tecnologia">
+              <img src="img/inovacao/tec-ed.png" class="imgint" alt="...">
             </a>
               <div class="card-body">
-                <h3 class="card-title">Trabalho</h3>
-                <p class="card-text">Por conta da pandemia muito comércios não conseguiram manter seus negócios por muito tempo e tiveram que fechar, mas os que se renovaram para trabalhar em segurança conseguiram driblar esse problema e inovar seus negócios.</p>                   
+                <h3 class="card-title">Tecnologia</h3>
+                <p class="card-text">Como toda crise mundial a humanidade usa essa oportunidade para evoluir e melhorar, com a pandemia não foi diferente com inovações para que o mundo não pare completamente, dando oportunidades que mudaram o mundo.</p>                   
               </div>
             </div>  
 
