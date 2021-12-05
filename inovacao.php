@@ -47,7 +47,7 @@
           <section class="col-sm-12 col-md-12 col-lg-6 cd1">
 
             <div class="maincard sombra zoom" style="width: 39rem;">
-            <a href="inovacao_Escola">
+            <a href="inovacao_Escola.php">
               <img src="img/inovacao/escola-ed.png" class="imgint" alt="Uma sala de aula com alunos usando máscara.">
             </a>
               <div class="card-body">
@@ -61,7 +61,7 @@
           <section class="col-sm-12 col-md-12 col-lg-6 cd1">
 
             <div class="maincard sombra zoom" style="width: 39rem;">
-            <a href="inovacao_Trabalho">
+            <a href="inovacao_Trabalho.php">
               <img src="img/inovacao/trabalho-ed.png" class="imgint" alt="...">
             </a>
               <div class="card-body">
@@ -81,7 +81,7 @@
           <section class="col-sm-12 col-md-12 col-lg-6 cd1">
 
             <div class="maincard sombra zoom" style="width: 39rem;">
-            <a href="inovacao_Familia">
+            <a href="inovacao_Familia.php">
               <img src="img/inovacao/familia-ed.png" class="imgint" alt="...">
             </a>
               <div class="card-body">
@@ -95,7 +95,7 @@
           <section class="col-sm-12 col-md-12 col-lg-6 cd1">
 
             <div class="maincard sombra zoom" style="width: 39rem;">
-            <a href="inovacao_Tecnologia">
+            <a href="inovacao_Tecnologia.php">
               <img src="img/inovacao/tec-ed.png" class="imgint" alt="...">
             </a>
               <div class="card-body">
