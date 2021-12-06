@@ -54,7 +54,7 @@
                         <p class="text-lora">Os sintomas mais frequentes podem incluir desde sinais leves da doença, como tosse persistente e febre persistente diária, até sinais de piora progressiva de outro sintoma relacionado à covid-19, além da presença de pneumonia sem sinais ou sintomas de gravidade</p>
                     </div>
                     <div class="card">
-                        <h2>Caso Grave</h2>
+                        <h2>Caso grave</h2>
                         <p class="text-lora">Considera-se a Síndrome Respiratória Aguda Grave. Para crianças, os principais sintomas incluem taquipneia , hipoxemia, desconforto respiratório, alteração da consciência, desidratação, dificuldade para se alimentar, lesão miocárdica, elevação de enzimas hepáticas, disfunção da coagulação, rabdomiólise, cianose central ou SpO2 &lt;90-92% em repouso e ar ambiente, letargia, convulsões, dificuldade de alimentação/recusa alimentar.</p>
                     </div>
                     <div class="card">
