@@ -88,7 +88,7 @@
                     </div>
                 </div>
                 <div class="text-about">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque earum cumque voluptates obcaecati delectus illum incidunt illo laudantium tenetur nisi. Quas commodi maiores dolorum enim porro vel reiciendis error amet!</p>
+                    <p>Meu nome é Caio Gabriel atualmente curso na Fatec São Roque sistemas para internet, trabalho em uma empresa de reciclagem, nunca trabalhei na área, mas busco um estágio para começar a entrar neste mundo.</p>
                 </div>
             </section>
 
