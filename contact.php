@@ -73,9 +73,11 @@
             </div>
         </section>
 
-        <div class="map-content my-5">
+        <section class="map-content my-5">
+            <h2 class="big-title">Venha nos conhecer pessoalmente</h2>
+            <p>Rua Marechal Deodoro da Fonseca, 132 - Centro, São Roque - SP, 18130-070</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.9879122680104!2d-47.13622688447634!3d-23.5329371664296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf0d54817a1725%3A0x3dcff522a27b9b96!2sFaculdade%20de%20Tecnologia%20de%20S%C3%A3o%20Roque!5e0!3m2!1spt-BR!2sbr!4v1638474162602!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
+        </section>
     </main>
     
 
