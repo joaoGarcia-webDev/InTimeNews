@@ -62,7 +62,7 @@
                     <span>Fonte: <a href="https://olhardigital.com.br/2021/08/19/coronavirus/covid-19-variante-alfa-beta-gama-e-delta-conheca-todas/">Olhar Digital - Entenda a variante Alfa, Beta, Gama e Delta</a></span>
                 </div>
                 <div class="card card-variant single-variant">
-                    <img src="img/just_example/virus.png" alt="Virus image">
+                    <img src="img/variant/virus.png" alt="imagem de um virus representando o virus da COVID-19">
                     <h2>Variante Ômicron</h2>
                     <small>B.1.1.529</small>
                     <p>O surgimento de uma variante no novo coronavírus confirmado em regiões da África preocupa especialistas internacionais de saúde. Batizada de Ômicron - letra grega correspondente à letra “o” do alfabeto</p>
@@ -71,7 +71,7 @@
                 </div>
             </section>
 
-            <aside class="aside-content col-12 col-lg-4 offset-lg-2">
+            <aside class="aside-content col-12 col-lg-4 offset-lg-2 justify-content-md-between justify-content-lg-start">
                 <div class="div-news col-md-5 col-lg-12">
                     <h3 class="bg-dark-blue">Ultimas notícias</h3>
                     <?php

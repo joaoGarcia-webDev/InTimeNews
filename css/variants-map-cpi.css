@@ -31,7 +31,6 @@
 /* ASIDE CUSTOM */
 .aside-content{
     display: flex;
-    flex-direction: column;
 }
 .aside-content .div-news{
     padding: 1em 1em;
@@ -154,9 +153,23 @@ MAP STYLE */
     font-weight: 700;
 }
 
+@media only screen and (min-width:991px){
+    .aside-content{
+        flex-direction: column;
+    }
+}
+/* MEDIA FOR - MD -  */
+@media only screen and (max-width:991px){
+    .variants-card .card img{
+        transform: translateX(-75px);
+    }
+}
 /* MEDIA FOR - SM -  */
 @media only screen and (max-width:767px){
     .variants-card .card img{
-        transform: translateX(-75px);
+        display: none;
+    }
+    .aside-content{
+        flex-direction: column;
     }
 }

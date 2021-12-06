@@ -31,7 +31,7 @@
                 </li>
 
                 <li class="nav-item ms-3 dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="socialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Area social</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="socialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Área social</a>
                     <ul class="dropdown-menu" aria-labelledby="socialDropdown">
                         <li><a class="dropdown-item <?php if($mainFileName == 'auto-mail'){echo 'disabled';}?>" href="auto-mail.php">Notícias Automáticas</a></li>
                         <li><a class="dropdown-item <?php if($mainFileName == 'contact'){echo 'disabled';}?>" href="contact.php">Contato</a></li>

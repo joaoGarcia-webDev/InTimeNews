@@ -41,7 +41,7 @@
         </div>
         <div class="col-11 col-md-4 mt-sm-5 row">
             <div class="col-sm-6 col-md-12">
-                <h5 class="fw-bold text-uppercase mb-2">Nossa area social</h5>
+                <h5 class="fw-bold text-uppercase mb-2">Nossa área social</h5>
                 <ul class="list-unstyled links-footer">
                     <li>
                         <a href="normas.php">Termos de uso</a>
