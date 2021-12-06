@@ -153,7 +153,7 @@
                     </div>
                 </div>
                 <div class="text-about">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque earum cumque voluptates obcaecati delectus illum incidunt illo laudantium tenetur nisi. Quas commodi maiores dolorum enim porro vel reiciendis error amet!</p>
+                    <p>Olá, eu sou o Guilherme Monteiro, sou estudante da FATEC São Roque no curso de Sistemas para internet, sou estágiário de desenvolvedor mobile, busco uma carreira de dev full stack.</p>
                 </div>
             </section>
            

@@ -38,7 +38,7 @@
         
                 
                 <section class="row col-lg-12 col-md-12 col-sm-12">
-                <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                   <a href="vacinas.php">
                     <section class="external-news">
                         <img class="img-fluid" src="img/imagem-informacoes/imagem-curiosidades.png" alt="Imagem vacinas">
@@ -51,7 +51,7 @@
                     </a>
                  </div>
 
-                 <div class="col-lg-4 col-md-4 col-sm-12">
+                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <a href="assintomaticos.php">
                     <section class="external-news">
                         <img class="img-fluid" src="img/imagem-informacoes/image-assintomaticos.jpg" alt="Imagem assintomaticos">
@@ -64,14 +64,14 @@
                     </a>
                  </div>
 
-                 <div class="col-lg-4 col-md-4 col-sm-12">
+                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <a href="sequelas.php">
                     <section class="external-news">
                         <img class="img-fluid" src="img/imagem-informacoes/img-tosse.png" alt="Imagem sequelas">
             
                     <div class="external-content texto-externo">
                             <h3>veja também</h3>
-                            <p>Saiba mais quais são as sequelas da Covid</p>
+                            <p>Saiba quais são as sequelas da Covid</p>
                         </div>
                     </section>
                     </a>

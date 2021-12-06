@@ -80,7 +80,7 @@
           </section>
           
 
-          <section class="col-lg-10 row mx-auto">
+          <section class="col-lg-10 col-md-10  mx-auto">
             <h2 class="mt-4 big-title">Sintomas persistentes menos comuns pós-COVID-19</h2>
             <ul class="text-lora">
               <li class="my-3">Dor no peito, palpitações, hipertensão e outros cardiovasculares</li>
