@@ -82,7 +82,7 @@
             <div class=" mt-5 row col-lg-12 col-md-12 col-sm-12 mx-auto news-externals cor">
               <section class="row mx-auto py-3  col-lg-12">
               <div class="mt-5  pb-5 separador mx-auto col-lg-8 col-md-10 col-sm-12">
-                  <img class="col-sm-12 col-lg-7 img-fluid float-start" src="img/imagem-informacoes/renan-calheiros-sm.png" alt="Imagem de Renan Calheiros">
+                  <img class="col-sm-12 col-lg-7 img-fluid float-start" src="img/cpi-covid/renam-calheiros-relatorio-cpi-covid.png" alt="Imagem de Renan Calheiros">
                   <div class=" col-lg-5 col-sm-12 mx-sm-auto  ms-2 row ">
                     <h1 class="ms-3 mt-2" >Cpi da Covid</h1>
                     <a class="ms-3 mt-2 text-lora "href="cpi-news.php?file=file-teste.txt">Relatório impede indiciamento de Bolsonaro.</a>
@@ -91,7 +91,7 @@
               </div>
 
               <div class="mt-5  pb-5  mx-auto col-lg-8 col-md-10 col-sm-12">
-                  <img class="col-sm-12 col-lg-7  img-fluid float-start" src="img/imagem-informacoes/brasil-taxa-mortes-sm.jpg" alt="Imagem de flores no cemitério">
+                  <img class="col-sm-12 col-lg-7  h-75 img-fluid float-start" src="img/cpi-covid/brasil-taxa-mortes.jpg" alt="Imagem de flores no cemitério">
                   <div class=" col-lg-5 col-sm-12 mx-sm-auto ms-2 row ">
                     <h1 class="ms-3 mt-2" >Pandemia</h1>
                     <a class="ms-3 mt-2 text-lora "href="cpi-news.php?file=diferent-new.txt">Brasil tem salto de 15% em taxa de mortes.</a>
