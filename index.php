@@ -132,7 +132,7 @@
             </div>
             <div class="side-pages col-12 col-lg-6">
                 <div class="single-page">
-                    <img src="img/just_example/virus.png" alt="Imagem de um virus representando o virus da COVID-19">
+                    <img src="img/variant/virus.png" alt="Imagem de um virus representando o virus da COVID-19">
                     <div class="text-content">
                         <a href="variants.php">
                             <h2>Variantes da COVID-19</h2>
