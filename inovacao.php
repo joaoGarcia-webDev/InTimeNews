@@ -13,7 +13,7 @@
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/main-page.css">
-    <link rel="stylesheet" href="css/tentativa2.css">
+    <link rel="stylesheet" href="css/inov-style.css">
   
   </head>
   
