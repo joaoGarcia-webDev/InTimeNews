@@ -63,9 +63,9 @@ nav .container-fluid a img.logo-img{
 nav .container-fluid .collapse .banner{
     max-height: 100px;
 }
-.nav-item .nav-link{
+.navbar-light .navbar-nav .nav-link{
     font-size: 1.2em;
-    color: #0B3954;
+    color: #C81D25;
     font-family: 'Cabin', sans-serif;
     font-weight: 600;
 }
