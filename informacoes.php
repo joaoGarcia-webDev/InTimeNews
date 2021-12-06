@@ -28,7 +28,7 @@
 
         <!--Section com conteúdo-->
         <section class="row col-lg-12 col-md-12 col-sm-12 ">
-            <article class="col-lg-6 col-md-6 col-sm-12">
+            <article class="col-lg-12 col-md-12 col-sm-12">
                 <h1 class="big-title">O que são as vacinas</h1>
                 <p class="text-lora">A pandemia da covid-19 transformou nossa forma de viver, trouxe a nós uma realidade de máscaras e álcool gel. Nesse tempo muitas pessoas foram atingidas pela doença que ao todo já contaminou mais de 260 milhões de pessoas e deixou mais de 5 milhões de mortos pelo mundo todo.
                 Mas a morte não é o único malefício que o vírus causa, ele também é capaz de deixar inúmeras sequelas que prejudicam a qualidade de vida pós infecção por muito tempo.
@@ -36,45 +36,46 @@
                 </p>
             </article>    
         
-                <aside class="col-lg-5 col-md-5 col-sm-12 ">
                 
-                    <a  href="vacinas.php">
+                <section class="row col-lg-12 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <a href="vacinas.php">
                     <section class="external-news">
-                        <img class="img-fluid" src="img/imagem-informacoes/imagem-curiosidades.png" alt="Imagem curiosidades">
+                        <img class="img-fluid" src="img/imagem-informacoes/imagem-curiosidades.png" alt="Imagem vacinas">
             
                     <div class="external-content texto-externo">
                             <h3>veja também</h3>
-                            <p>Saiba mais sobre vacinas</p>
+                            <p>Saiba mais vacinas contra a covid</p>
                         </div>
                     </section>
                     </a>
                  </div>
 
-                 <div >
-                    <a href="sequelas.php">
-                    <section class="external-news">
-                        <img class="img-fluid" src="img/imagem-informacoes/img-virus.png" alt="Imagem virus">
-            
-                    <div class="external-content texto-externo">
-                            <h3>veja também</h3>
-                            <p>Saiba mais sobre as sequelas da Covid-19</p>
-                        </div>
-                    </section>
-                    </a>
-                 </div>
-
-                 <div >
+                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <a href="assintomaticos.php">
                     <section class="external-news">
-                        <img class="img-fluid" src="img/imagem-informacoes/img-tosse.png" alt="Imagem curiosidades">
+                        <img class="img-fluid" src="img/imagem-informacoes/image-assintomaticos.jpg" alt="Imagem assintomaticos">
             
                     <div class="external-content texto-externo">
                             <h3>veja também</h3>
-                            <p>Saiba mais sobre assintomáticos</p>
+                            <p>Saiba mais sobre o que são assintomáticos</p>
                         </div>
                     </section>
                     </a>
-                </aside>    
+                 </div>
+
+                 <div class="col-lg-4 col-md-4 col-sm-12">
+                    <a href="sequelas.php">
+                    <section class="external-news">
+                        <img class="img-fluid" src="img/imagem-informacoes/img-tosse.png" alt="Imagem sequelas">
+            
+                    <div class="external-content texto-externo">
+                            <h3>veja também</h3>
+                            <p>Saiba mais quais são as sequelas da Covid</p>
+                        </div>
+                    </section>
+                    </a>
+   
                 </section>
 
         </main>
